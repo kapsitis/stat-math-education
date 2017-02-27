@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="www.dudajevagatve.lv" deleteMissingItems="true" createEmptyFolders="true" traceLevel="DETAILS">
+    <serverData>
+      <paths name="www.dudajevagatve.lv">
+        <serverdata>
+          <mappings>
+            <mapping deploy="schoolmap" local="$PROJECT_DIR$" web="/schoolmap" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
