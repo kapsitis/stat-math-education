@@ -1,0 +1,1 @@
+(1) Cēsu Pilsētas ģimnāzija un Cēsu Valsts ģimnāzija ir vienā adresē (Leona Paegles iela 1, Cēsis). Vai tā ir tā pati skola?

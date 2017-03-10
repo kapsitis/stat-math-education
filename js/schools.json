@@ -1,0 +1,5601 @@
+{
+  "schools": [
+    {
+      "name": "Jēkabpils pamatskola",                        
+      "lat": 56.5047628,
+      "lng": 25.8656245,
+      "female": 11,
+      "male": 2,
+      "participants": 13,
+      "avgPoints": "25.08",
+      "activity": 0.03110047846889952,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-1012902246-Jekabpils-pamatskola.pdf",
+      "activityStr": "3.11%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Škarstāne", "count":8},
+        {"teacherName": "Ilze Eglīte", "count":3},
+        {"teacherName": "Ļubova Gorpiņiča", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Jēkabpils 2. vidusskola",                        
+      "lat": 56.4940749,
+      "lng": 25.8586667,
+      "female": 10,
+      "male": 6,
+      "participants": 16,
+      "avgPoints": "20.25",
+      "activity": 0.03950617283950617,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-1013900258-Jekabpils-2-vidusskola.pdf",
+      "activityStr": "3.95%", 
+      "skolotaji": [
+        {"teacherName": "Irina Korabovska", "count":9},
+        {"teacherName": "Vanda Lovčinovska", "count":5},
+        {"teacherName": "Marina Voitenko", "count":1},
+        {"teacherName": "Natālija Zarkeviča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jēkabpils 3. vidusskola",                        
+      "lat": 56.5074832,
+      "lng": 25.8890629,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "10.80",
+      "activity": 0.013020833333333334,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-1013900259-Jekabpils-3-vidusskola.pdf",
+      "activityStr": "1.30%", 
+      "skolotaji": [
+        {"teacherName": "Ilona Bičole", "count":3},
+        {"teacherName": "Ināra Krūmiņa", "count":1},
+        {"teacherName": "Rita Kozlova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jēkabpils Valsts ģimnāzija",                        
+      "lat": 56.499426,
+      "lng": 25.8547692,
+      "female": 12,
+      "male": 7,
+      "participants": 19,
+      "avgPoints": "11.42",
+      "activity": 0.03653846153846154,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-1019900257-Jekabpils-Valsts-gimnazija.pdf",
+      "activityStr": "3.65%", 
+      "skolotaji": [
+        {"teacherName": "Sarmīte Vilcāne", "count":6},
+        {"teacherName": "Sandra Saksone", "count":5},
+        {"teacherName": "Ingrīda Feldmane", "count":3},
+        {"teacherName": "Rita Meža-Eriņa", "count":3},
+        {"teacherName": "Edīte Vārna", "count":1},
+        {"teacherName": "Leontīna Vizule", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras Pārgaujas sākumskola",                        
+      "lat": 57.527878,
+      "lng": 25.4279986,
+      "female": 1,
+      "male": 4,
+      "participants": 5,
+      "avgPoints": "29.20",
+      "activity": 0.025510204081632654,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2511902432-Valmieras-Pargaujas-sakumskola.pdf",
+      "activityStr": "2.55%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Kārkle", "count":3},
+        {"teacherName": "Anita Vējkrīgere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras sākumskola",                        
+      "lat": 57.5315691,
+      "lng": 25.4079615,
+      "female": 9,
+      "male": 4,
+      "participants": 13,
+      "avgPoints": "24.08",
+      "activity": 0.07222222222222222,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2511902507-Valmieras-sakumskola.pdf",
+      "activityStr": "7.22%", 
+      "skolotaji": [
+        {"teacherName": "Sanita Eglīte", "count":7},
+        {"teacherName": "Eva Lasmane", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras Viestura vidusskola",                        
+      "lat": 57.5503236,
+      "lng": 25.4332986,
+      "female": 18,
+      "male": 9,
+      "participants": 27,
+      "avgPoints": "18.81",
+      "activity": 0.05242718446601942,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2513900631-Valmieras-Viestura-vidusskola.pdf",
+      "activityStr": "5.24%", 
+      "skolotaji": [
+        {"teacherName": "Līga Liepa", "count":10},
+        {"teacherName": "Inese Pundure", "count":7},
+        {"teacherName": "Ginta Līrmane", "count":4},
+        {"teacherName": "Anda Rebinka", "count":3},
+        {"teacherName": "Irina Lazdiņa", "count":2},
+        {"teacherName": "Irina lazdiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras 5. vidusskola",                        
+      "lat": 57.5409448,
+      "lng": 25.4239596,
+      "female": 1,
+      "male": 3,
+      "participants": 4,
+      "avgPoints": "7.25",
+      "activity": 0.015209125475285171,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2513901081-Valmieras-5-vidusskola.pdf",
+      "activityStr": "1.52%", 
+      "skolotaji": [
+        {"teacherName": "Inese Lazdiņa", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras Pārgaujas ģimnāzija",                        
+      "lat": 57.5295327,
+      "lng": 25.4264445,
+      "female": 11,
+      "male": 10,
+      "participants": 21,
+      "avgPoints": "9.95",
+      "activity": 0.04046242774566474,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2516900630-Valmieras-Pargaujas-gimnazija.pdf",
+      "activityStr": "4.05%", 
+      "skolotaji": [
+        {"teacherName": "Ināra Veita", "count":13},
+        {"teacherName": "Ināra Bērziņa", "count":3},
+        {"teacherName": "Mētra Krišjāne", "count":3},
+        {"teacherName": "Ilze Melne", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Valmieras Valsts ģimnāzija",                        
+      "lat": 57.5326607,
+      "lng": 25.4086094,
+      "female": 7,
+      "male": 9,
+      "participants": 16,
+      "avgPoints": "12.00",
+      "activity": 0.03389830508474576,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2519902526-Valmieras-Valsts-gimnazija.pdf",
+      "activityStr": "3.39%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Pickaine", "count":6},
+        {"teacherName": "Zinta Skrastiņa", "count":5},
+        {"teacherName": "Nadežda Leitāne", "count":3},
+        {"teacherName": "Sandra Krauze", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils Saskaņas pamatskola",                        
+      "lat": 55.8691961,
+      "lng": 26.5131182,
+      "female": 9,
+      "male": 19,
+      "participants": 28,
+      "avgPoints": "22.93",
+      "activity": 0.10526315789473684,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2712901237-Daugavpils-Saskanas-pamatskola.pdf",
+      "activityStr": "10.53%", 
+      "skolotaji": [
+        {"teacherName": "Ludmila Uļinska", "count":14},
+        {"teacherName": "Santa Kulakova", "count":8},
+        {"teacherName": "Jeļizaveta Baranovska", "count":6},
+        {"teacherName": "Ina Caune", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils Vienības pamatskola",                        
+      "lat": 55.8703295,
+      "lng": 26.5196657,
+      "female": 2,
+      "male": 1,
+      "participants": 3,
+      "avgPoints": "35.33",
+      "activity": 0.012396694214876033,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2712902233-Daugavpils-Vienibas-pamatskola.pdf",
+      "activityStr": "1.24%", 
+      "skolotaji": [
+        {"teacherName": "Olga Novicka", "count":2},
+        {"teacherName": "Lilija Bužinska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 10. vidusskola",                        
+      "lat": 55.8734038,
+      "lng": 26.5406327,
+      "female": 4,
+      "male": 5,
+      "participants": 9,
+      "avgPoints": "17.56",
+      "activity": 0.018404907975460124,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713900714-Daugavpils-10-vidusskola.pdf",
+      "activityStr": "1.84%", 
+      "skolotaji": [
+        {"teacherName": "Olga Vansoviča", "count":5},
+        {"teacherName": "Svetlana Antoņeviča", "count":2},
+        {"teacherName": "Nataļja Rimoviča", "count":1},
+        {"teacherName": "Olga Snitko", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 3. vidusskola",                        
+      "lat": 55.8699413,
+      "lng": 26.5317367,
+      "female": 10,
+      "male": 10,
+      "participants": 20,
+      "avgPoints": "17.05",
+      "activity": 0.03766478342749529,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901037-Daugavpils-3-vidusskola.pdf",
+      "activityStr": "3.77%", 
+      "skolotaji": [
+        {"teacherName": "Žaneta Serpāne", "count":8},
+        {"teacherName": "Žanna Majevska", "count":6},
+        {"teacherName": "Marija Matosova", "count":3},
+        {"teacherName": "Jeļena Grinčišina", "count":2},
+        {"teacherName": "Olga Čebajeva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 13. vidusskola",                        
+      "lat": 55.8823601,
+      "lng": 26.5573691,
+      "female": 6,
+      "male": 6,
+      "participants": 12,
+      "avgPoints": "16.67",
+      "activity": 0.025210084033613446,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901135-Daugavpils-13-vidusskola.pdf",
+      "activityStr": "2.52%", 
+      "skolotaji": [
+        {"teacherName": "Anna Sambure", "count":4},
+        {"teacherName": "Vlada Jasinska", "count":4},
+        {"teacherName": "Aleksandrs Borisjonoks", "count":3},
+        {"teacherName": "Ludmila Pomjalova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 15. vidusskola",                        
+      "lat": 55.8836083,
+      "lng": 26.5548286,
+      "female": 13,
+      "male": 9,
+      "participants": 22,
+      "avgPoints": "16.14",
+      "activity": 0.04782608695652174,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901176-Daugavpils-15-vidusskola.pdf",
+      "activityStr": "4.78%", 
+      "skolotaji": [
+        {"teacherName": "Dina Vertašonoka", "count":6},
+        {"teacherName": "Ligija Petrovska", "count":6},
+        {"teacherName": "Antoņina Voronkova", "count":5},
+        {"teacherName": "Nataļja Grigorjeva", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils Krievu vidusskola - licejs",                        
+      "lat": 55.8780978,
+      "lng": 26.5483585,
+      "female": 37,
+      "male": 36,
+      "participants": 73,
+      "avgPoints": "22.74",
+      "activity": 0.15531914893617021,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901229-Daugavpils-Krievu-vidusskola---licejs.pdf",
+      "activityStr": "15.53%", 
+      "skolotaji": [
+        {"teacherName": "Alina Magomedova", "count":24},
+        {"teacherName": "Irēna Okseņuka", "count":21},
+        {"teacherName": "Irina Poļakova", "count":16},
+        {"teacherName": "Stanislav Didych", "count":15},
+        {"teacherName": "Ilona Mackeviča-Maņko", "count":14},
+        {"teacherName": "Iveta Zarāne", "count":11},
+        {"teacherName": "Rita Hrapane", "count":10},
+        {"teacherName": "Stanislv Didych", "count":9},
+        {"teacherName": "Olga Mikulova", "count":7},
+        {"teacherName": "Tatjana Alika", "count":7},
+        {"teacherName": "Svetlana Elksniņa", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 16. vidusskola",                        
+      "lat": 55.9043212,
+      "lng": 26.5302864,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "24.25",
+      "activity": 0.0091324200913242,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901231-Daugavpils-16-vidusskola.pdf",
+      "activityStr": "0.91%", 
+      "skolotaji": [
+        {"teacherName": "Regīna Urbanoviča", "count":2},
+        {"teacherName": "Irina Grodze", "count":1},
+        {"teacherName": "Marija Avguceviča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 17. vidusskola",                        
+      "lat": 55.8802423,
+      "lng": 26.5367942,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "39.00",
+      "activity": 0.0020964360587002098,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901235-Daugavpils-17-vidusskola.pdf",
+      "activityStr": "0.21%", 
+      "skolotaji": [
+        {"teacherName": "Lilija Puzāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 9. vidusskola",                        
+      "lat": 55.8690362,
+      "lng": 26.5335103,
+      "female": 8,
+      "male": 10,
+      "participants": 18,
+      "avgPoints": "17.56",
+      "activity": 0.04225352112676056,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901238-Daugavpils-9-vidusskola.pdf",
+      "activityStr": "4.23%", 
+      "skolotaji": [
+        {"teacherName": "Elvīra Ivanova", "count":6},
+        {"teacherName": "Helēna Kovale", "count":4},
+        {"teacherName": "Natālija Baranova", "count":3},
+        {"teacherName": "Larisa Vanceviča", "count":2},
+        {"teacherName": "Svetlana Miņina", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils 12. vidusskola",                        
+      "lat": 55.8712813,
+      "lng": 26.5467769,
+      "female": 2,
+      "male": 1,
+      "participants": 3,
+      "avgPoints": "30.67",
+      "activity": 0.00821917808219178,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713901240-Daugavpils-12-vidusskola.pdf",
+      "activityStr": "0.82%", 
+      "skolotaji": [
+        {"teacherName": "Irēna Puncule", "count":2},
+        {"teacherName": "Ludmila Koha", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils Centra vidusskola",                        
+      "lat": 55.8748658,
+      "lng": 26.5167301,
+      "female": 7,
+      "male": 7,
+      "participants": 14,
+      "avgPoints": "23.50",
+      "activity": 0.0374331550802139,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2713902243-Daugavpils-Centra-vidusskola.pdf",
+      "activityStr": "3.74%", 
+      "skolotaji": [
+        {"teacherName": "Svetlana Radionova", "count":6},
+        {"teacherName": "Elvīra Karavajeva", "count":5},
+        {"teacherName": "Jeļena Azareviča", "count":2},
+        {"teacherName": "Natālija Gagarina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "J.Pilsudska Daugavpils valsts poļu ģimnāzija",                        
+      "lat": 55.8710378,
+      "lng": 26.539423,
+      "female": 2,
+      "male": 5,
+      "participants": 7,
+      "avgPoints": "26.29",
+      "activity": 0.021875,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2716901232-J-Pilsudska-Daugavpils-v-polu-gimn-.pdf",
+      "activityStr": "2.19%", 
+      "skolotaji": [
+        {"teacherName": "Dace Ozerska", "count":4},
+        {"teacherName": "Jeļena Teļpuka", "count":3},
+        {"teacherName": "Irēna Ževčuka", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Daugavpils Valsts ģimnāzija",                        
+      "lat": 55.8702397,
+      "lng": 26.5205391,
+      "female": 9,
+      "male": 10,
+      "participants": 19,
+      "avgPoints": "20.37",
+      "activity": 0.061488673139158574,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2719902518-Daugavpils-Valsts-gimnazija.pdf",
+      "activityStr": "6.15%", 
+      "skolotaji": [
+        {"teacherName": "Svetlana Radionova", "count":9},
+        {"teacherName": "Svetlana Proščinko", "count":7},
+        {"teacherName": "Neļa Borisova", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 3. sākumskola",                        
+      "lat": 56.6547337,
+      "lng": 23.7242003,
+      "female": 18,
+      "male": 15,
+      "participants": 33,
+      "avgPoints": "15.94",
+      "activity": 0.14347826086956522,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2811902953-Jelgavas-3-sakumskola.pdf",
+      "activityStr": "14.35%", 
+      "skolotaji": [
+        {"teacherName": "Lūcija Cielava", "count":15},
+        {"teacherName": "Dzintra Zingule", "count":9},
+        {"teacherName": "Iveta Pērkona", "count":9}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 4. sākumskola",                        
+      "lat": 56.6392554,
+      "lng": 23.7186157,
+      "female": 23,
+      "male": 14,
+      "participants": 37,
+      "avgPoints": "25.16",
+      "activity": 0.11526479750778816,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2811902954-Jelgavas-4-sakumskola.pdf",
+      "activityStr": "11.53%", 
+      "skolotaji": [
+        {"teacherName": " Inga Neilande", "count":17},
+        {"teacherName": " Sarma Rone", "count":6},
+        {"teacherName": "Daiga Kravale", "count":5},
+        {"teacherName": " Daina Denjuščenkova", "count":4},
+        {"teacherName": "Daina Denjuščenkova", "count":3},
+        {"teacherName": "Antra Škinča", "count":1},
+        {"teacherName": " Antra Škinča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 2. pamatskola",                        
+      "lat": 56.6456906,
+      "lng": 23.7091885,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "24.75",
+      "activity": 0.011730205278592375,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2812900143-Jelgavas-2-pamatskola.pdf",
+      "activityStr": "1.17%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Vanaga", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 4. vidusskola",                        
+      "lat": 56.6625421,
+      "lng": 23.7573178,
+      "female": 16,
+      "male": 3,
+      "participants": 19,
+      "avgPoints": "18.00",
+      "activity": 0.02695035460992908,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2813900137-Jelgavas-4-vidusskola.pdf",
+      "activityStr": "2.70%", 
+      "skolotaji": [
+        {"teacherName": "Inta Zubova", "count":12},
+        {"teacherName": "Renāte Bogdanova", "count":3},
+        {"teacherName": "Ingrīda Ilmane", "count":1},
+        {"teacherName": "Ludmila Jaščenko", "count":1},
+        {"teacherName": "Sarmīte Polfandere", "count":1},
+        {"teacherName": "Vita Paula", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 5. vidusskola",                        
+      "lat": 56.6505092,
+      "lng": 23.6975115,
+      "female": 6,
+      "male": 5,
+      "participants": 11,
+      "avgPoints": "22.55",
+      "activity": 0.024498886414253896,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2813900138-Jelgavas-5-vidusskola.pdf",
+      "activityStr": "2.45%", 
+      "skolotaji": [
+        {"teacherName": "Aleksandrs Smirnovs", "count":9},
+        {"teacherName": "Jeļena Golmeistere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas 6. vidusskola",                        
+      "lat": 56.6704154,
+      "lng": 23.7500808,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "13.00",
+      "activity": 0.0026246719160104987,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2813900139-Jelgavas-6-vidusskola.pdf",
+      "activityStr": "0.26%", 
+      "skolotaji": [
+        {"teacherName": "Zinaida Panarada", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas Tehnoloģiju vidusskola",                        
+      "lat": 56.657139,
+      "lng": 23.7085994,
+      "female": 2,
+      "male": 5,
+      "participants": 7,
+      "avgPoints": "11.14",
+      "activity": 0.018970189701897018,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2813902959-Jelgavas-Tehnologiju-vidusskola.pdf",
+      "activityStr": "1.90%", 
+      "skolotaji": [
+        {"teacherName": "Antra Dunce", "count":5},
+        {"teacherName": "Dzintra Kancēviča", "count":1},
+        {"teacherName": "Dzintra Ozola", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas Spīdolas ģimnāzija",                        
+      "lat": 56.6474515,
+      "lng": 23.7210539,
+      "female": 22,
+      "male": 24,
+      "participants": 46,
+      "avgPoints": "9.15",
+      "activity": 0.09603340292275574,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2816900140-Jelgavas-Spidolas-gimnazija.pdf",
+      "activityStr": "9.60%", 
+      "skolotaji": [
+        {"teacherName": "Anita Indāre", "count":25},
+        {"teacherName": "Margita Jirgensone", "count":18},
+        {"teacherName": "Baiba Āboltiņa", "count":8}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas Valsts ģimnāzija",                        
+      "lat": 56.6439116,
+      "lng": 23.7223107,
+      "female": 7,
+      "male": 9,
+      "participants": 16,
+      "avgPoints": "10.94",
+      "activity": 0.023529411764705882,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2819902423-Jelgavas-Valsts-gimnazija.pdf",
+      "activityStr": "2.35%", 
+      "skolotaji": [
+        {"teacherName": "Līva Ozola", "count":8},
+        {"teacherName": "Jānis Dūrējs", "count":5},
+        {"teacherName": "Evija Slokenberga", "count":4},
+        {"teacherName": "Sandra Rubule", "count":2},
+        {"teacherName": "Ginta Ūlande", "count":1},
+        {"teacherName": "Liene Krieviņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jelgavas Mūzikas vidusskola",                        
+      "lat": 56.6575363,
+      "lng": 23.7194238,
+      "female": 2,
+      "male": 0,
+      "participants": 2,
+      "avgPoints": "13.50",
+      "activity": 0.06060606060606061,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2831301246-Jelgavas-Muzikas-vidusskola.pdf",
+      "activityStr": "6.06%", 
+      "skolotaji": [
+        {"teacherName": "Erna Liepiņa", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Sākumskola \"Taurenītis\"",                        
+      "lat": 56.9658621,
+      "lng": 23.7670525,
+      "female": 5,
+      "male": 7,
+      "participants": 12,
+      "avgPoints": "29.58",
+      "activity": 0.27906976744186046,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2911901383-Sakumskola-Taurenitis.pdf",
+      "activityStr": "27.91%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Vītiņa", "count":12}
+      ]      
+    }
+    ,
+    {
+      "name": "Jūrmalas sākumskola \"Atvase\"",                        
+      "lat": 56.9524034,
+      "lng": 23.6111153,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "28.40",
+      "activity": 0.041666666666666664,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2911901882-Jurmalas-sakumskola-Atvase.pdf",
+      "activityStr": "4.17%", 
+      "skolotaji": [
+        {"teacherName": "Dace Jansone", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Slokas pamatskola",                        
+      "lat": 56.9488415,
+      "lng": 23.612599,
+      "female": 5,
+      "male": 5,
+      "participants": 10,
+      "avgPoints": "8.70",
+      "activity": 0.056179775280898875,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2912901351-Slokas-pamatskola.pdf",
+      "activityStr": "5.62%", 
+      "skolotaji": [
+        {"teacherName": "Guna Višņevska", "count":6},
+        {"teacherName": "Anita Auziņa", "count":2},
+        {"teacherName": "Lāsma Sūniņa", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jūrmalas Alternatīvā skola",                        
+      "lat": 56.9721519,
+      "lng": 23.8501149,
+      "female": 9,
+      "male": 9,
+      "participants": 18,
+      "avgPoints": "24.61",
+      "activity": 0.1956521739130435,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2912901382-Jurmalas-Alternativa-skola.pdf",
+      "activityStr": "19.57%", 
+      "skolotaji": [
+        {"teacherName": "Marta Logina", "count":15},
+        {"teacherName": "Egils Blūms", "count":2},
+        {"teacherName": "Madara Skudra", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Latvijas Starptautiskā skola",                        
+      "lat": 56.9453721,
+      "lng": 23.9058423,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "32.00",
+      "activity": 0.005025125628140704,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2913801521-Latvijas-Starptautiska-skola.pdf",
+      "activityStr": "0.50%", 
+      "skolotaji": [
+        {"teacherName": "Aurora Risdon", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jūrmalas pilsētas Kauguru vidusskola",                        
+      "lat": 56.9615434,
+      "lng": 23.6123027,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "18.50",
+      "activity": 0.004545454545454545,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2913901344-Jurmalas-pilsetas-Kauguru-vidusskola.pdf",
+      "activityStr": "0.45%", 
+      "skolotaji": [
+        {"teacherName": "Vera Antonova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Pumpuru vidusskola",                        
+      "lat": 56.9610127,
+      "lng": 23.7362496,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "21.00",
+      "activity": 0.006153846153846154,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2913901346-Pumpuru-vidusskola.pdf",
+      "activityStr": "0.62%", 
+      "skolotaji": [
+        {"teacherName": "Anita Matuzāne", "count":1},
+        {"teacherName": "Velga Krastiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jūrmalas pilsētas Lielupes vidusskola",                        
+      "lat": 56.9815091,
+      "lng": 23.8625817,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "46.00",
+      "activity": 0.007246376811594203,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2913901347-Jurmalas-pilsetas-Lielupes-vidusskola.pdf",
+      "activityStr": "0.72%", 
+      "skolotaji": [
+        {"teacherName": "Dace straume", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Majoru vidusskola",                        
+      "lat": 56.9701039,
+      "lng": 23.8047256,
+      "female": 4,
+      "male": 6,
+      "participants": 10,
+      "avgPoints": "16.30",
+      "activity": 0.03367003367003367,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2913901352-Majoru-vidusskola.pdf",
+      "activityStr": "3.37%", 
+      "skolotaji": [
+        {"teacherName": "Zane Pilsneniece", "count":3},
+        {"teacherName": "Elita Laukaleja", "count":2},
+        {"teacherName": "Maija Brusbārde", "count":2},
+        {"teacherName": "Sandra Bruzgule", "count":2},
+        {"teacherName": "Ilze Ose", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jūrmalas Valsts ģimnāzija",                        
+      "lat": 56.9531126,
+      "lng": 23.6109434,
+      "female": 1,
+      "male": 3,
+      "participants": 4,
+      "avgPoints": "12.75",
+      "activity": 0.013245033112582781,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-2919902697-Jurmalas-Valsts-gimnazija.pdf",
+      "activityStr": "1.32%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Ķirse", "count":3},
+        {"teacherName": "Ingūna Jablonska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas Centra sākumskola",                        
+      "lat": 56.5096954,
+      "lng": 20.9998627,
+      "female": 2,
+      "male": 4,
+      "participants": 6,
+      "avgPoints": "35.50",
+      "activity": 0.032432432432432434,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3011902612-Liepajas-Centra-sakumskola.pdf",
+      "activityStr": "3.24%", 
+      "skolotaji": [
+        {"teacherName": "Anna Pauliņa", "count":4},
+        {"teacherName": "Inta Šablovska", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas Katoļu pamatskola",                        
+      "lat": 56.5058519,
+      "lng": 21.0070894,
+      "female": 3,
+      "male": 5,
+      "participants": 8,
+      "avgPoints": "16.25",
+      "activity": 0.10126582278481013,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3012800408-Liepajas-Katolu-pamatskola.pdf",
+      "activityStr": "10.13%", 
+      "skolotaji": [
+        {"teacherName": "Alina Gindra", "count":8}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas 8. vidusskola",                        
+      "lat": 56.4808872,
+      "lng": 21.0183913,
+      "female": 1,
+      "male": 6,
+      "participants": 7,
+      "avgPoints": "17.14",
+      "activity": 0.017994858611825194,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900924-Liepajas-8-vidusskola.pdf",
+      "activityStr": "1.80%", 
+      "skolotaji": [
+        {"teacherName": "Diāna Bugaja", "count":4},
+        {"teacherName": "Aleksandra Prina", "count":3},
+        {"teacherName": "Longīna Šuļska", "count":2},
+        {"teacherName": "Anna Tomase", "count":1},
+        {"teacherName": "Signe Petrevica", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "J. Čakstes Liepājas pilsētas 10. vidusskola",                        
+      "lat": 56.503955,
+      "lng": 21.0041038,
+      "female": 5,
+      "male": 5,
+      "participants": 10,
+      "avgPoints": "15.40",
+      "activity": 0.02127659574468085,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900925-J-Cakstes-Liepajas-10-vidusskola.pdf",
+      "activityStr": "2.13%", 
+      "skolotaji": [
+        {"teacherName": "Jolanta Klamere", "count":4},
+        {"teacherName": "Grigorijs Kravčuks", "count":2},
+        {"teacherName": "Gunta Sedleniece", "count":2},
+        {"teacherName": "Ilona Leitāne", "count":1},
+        {"teacherName": "Nelima Skudrovska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas pilsētas 12. vidusskola",                        
+      "lat": 56.502838,
+      "lng": 21.0066137,
+      "female": 11,
+      "male": 8,
+      "participants": 19,
+      "avgPoints": "13.42",
+      "activity": 0.05121293800539083,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900930-Liepajas-pilsetas-12-vidusskola.pdf",
+      "activityStr": "5.12%", 
+      "skolotaji": [
+        {"teacherName": "Kurdeko Tatjana", "count":8},
+        {"teacherName": "Bulkina Anna", "count":5},
+        {"teacherName": "Bortkuna Valerija", "count":3},
+        {"teacherName": "Mironova Jeļena", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas 15. vidusskola",                        
+      "lat": 56.5404245,
+      "lng": 21.004525,
+      "female": 12,
+      "male": 1,
+      "participants": 13,
+      "avgPoints": "12.08",
+      "activity": 0.020602218700475437,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900931-Liepajas-15-vidusskola.pdf",
+      "activityStr": "2.06%", 
+      "skolotaji": [
+        {"teacherName": "Anna Galiņa", "count":4},
+        {"teacherName": "Nadežda Jurčenko", "count":4},
+        {"teacherName": "Sandra Šulme", "count":4},
+        {"teacherName": "Līga Blumfelde", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Draudzīgā aicinājuma Liepājas pilsētas 5. vidusskola",                        
+      "lat": 56.5209664,
+      "lng": 21.0173474,
+      "female": 13,
+      "male": 6,
+      "participants": 19,
+      "avgPoints": "11.95",
+      "activity": 0.025065963060686015,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900932-DA-Liepajas-5-vidusskola.pdf",
+      "activityStr": "2.51%", 
+      "skolotaji": [
+        {"teacherName": "Laila Lejniece", "count":17},
+        {"teacherName": "Ineta Šnepe", "count":6},
+        {"teacherName": "Karina Atāla", "count":4},
+        {"teacherName": "Inta Korņējeva", "count":2},
+        {"teacherName": "Normunds Zīverts", "count":2},
+        {"teacherName": "Inta Tučina", "count":1},
+        {"teacherName": "Normunds Knitners", "count":1},
+        {"teacherName": "Sandra Šulme", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas Raiņa 6. vidusskola",                        
+      "lat": 56.497347,
+      "lng": 21.0160014,
+      "female": 6,
+      "male": 5,
+      "participants": 11,
+      "avgPoints": "14.09",
+      "activity": 0.032640949554896145,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900933-Liepajas-Raina-6-vidusskola.pdf",
+      "activityStr": "3.26%", 
+      "skolotaji": [
+        {"teacherName": "Zane Vāciete", "count":5},
+        {"teacherName": "Viola Narbuta", "count":4},
+        {"teacherName": "Grigorijs Kravčuks", "count":1},
+        {"teacherName": "Jolanta Klamere", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas 7. vidusskola",                        
+      "lat": 56.5344631,
+      "lng": 21.0081845,
+      "female": 13,
+      "male": 9,
+      "participants": 22,
+      "avgPoints": "15.95",
+      "activity": 0.04081632653061224,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900934-Liepajas-7-vidusskola.pdf",
+      "activityStr": "4.08%", 
+      "skolotaji": [
+        {"teacherName": "Anna Voitenko", "count":10},
+        {"teacherName": "Larisa Basakova", "count":8},
+        {"teacherName": "Andžela Sokova", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas A.Puškina 2. vidusskola",                        
+      "lat": 56.4908743,
+      "lng": 21.0018047,
+      "female": 9,
+      "male": 9,
+      "participants": 18,
+      "avgPoints": "19.33",
+      "activity": 0.039301310043668124,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3013900936-Liepajas-A-Puskina-2-vidusskola.pdf",
+      "activityStr": "3.93%", 
+      "skolotaji": [
+        {"teacherName": "Olga Maļkova", "count":8},
+        {"teacherName": "Irina Vīksna", "count":5},
+        {"teacherName": "Olga Maikova", "count":3},
+        {"teacherName": "Baluhina Olga", "count":1},
+        {"teacherName": "Olga Baluhina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Liepājas Valsts 1. ģimnāzija",                        
+      "lat": 56.5101535,
+      "lng": 21.0046875,
+      "female": 3,
+      "male": 5,
+      "participants": 8,
+      "avgPoints": "17.75",
+      "activity": 0.014625228519195612,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3019902788-Liepajas-Valsts-1-gimnazija.pdf",
+      "activityStr": "1.46%", 
+      "skolotaji": [
+        {"teacherName": "Evija Miķelsone", "count":5},
+        {"teacherName": "Artis Freimanis", "count":2},
+        {"teacherName": "Aira Mazure", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "PIKC Liepājas Valsts Tehnikums",                        
+      "lat": 56.5356024,
+      "lng": 21.0268029,
+      "female": 7,
+      "male": 4,
+      "participants": 11,
+      "avgPoints": "4.45",
+      "activity": 0.0071567989590110605,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3034002848-PIKC-Liepajas-Valsts-Tehnikums.pdf",
+      "activityStr": "0.72%", 
+      "skolotaji": [
+        {"teacherName": "Irēna Kopštāle", "count":5},
+        {"teacherName": "Vaira Baļķena", "count":3},
+        {"teacherName": "Anita Poriņa", "count":2},
+        {"teacherName": "Kristīna Tapiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes sākumskola",                        
+      "lat": 56.5049517,
+      "lng": 27.3383607,
+      "female": 1,
+      "male": 4,
+      "participants": 5,
+      "avgPoints": "38.60",
+      "activity": 0.03597122302158273,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3111903094-Rezeknes-sakumskola.pdf",
+      "activityStr": "3.60%", 
+      "skolotaji": [
+        {"teacherName": "Anna Bule", "count":3},
+        {"teacherName": "Mārīte Šveidere", "count":1},
+        {"teacherName": "Sandra Drelinga", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes Katoļu vidusskola",                        
+      "lat": 56.4996369,
+      "lng": 27.3380883,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "17.00",
+      "activity": 0.045454545454545456,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3113802708-Rezeknes-Katolu-vidusskola.pdf",
+      "activityStr": "4.55%", 
+      "skolotaji": [
+        {"teacherName": "Nadežda Vaļmispiļte", "count":4},
+        {"teacherName": "Diāna Zvjagina", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes 2. vidusskola",                        
+      "lat": 56.5053687,
+      "lng": 27.3335057,
+      "female": 14,
+      "male": 9,
+      "participants": 23,
+      "avgPoints": "17.09",
+      "activity": 0.06301369863013699,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3113900062-Rezeknes-2-vidusskola.pdf",
+      "activityStr": "6.30%", 
+      "skolotaji": [
+        {"teacherName": "Olga Aksakalova", "count":8},
+        {"teacherName": "Gaļina Rižakova", "count":7},
+        {"teacherName": "Gaļina Fedkina", "count":3},
+        {"teacherName": "Svetlana Meiere", "count":3},
+        {"teacherName": "Jeļena Narica", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes 3. vidusskola",                        
+      "lat": 56.5098256,
+      "lng": 27.3349685,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "18.60",
+      "activity": 0.017064846416382253,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3113900063-Rezeknes-3-vidusskola.pdf",
+      "activityStr": "1.71%", 
+      "skolotaji": [
+        {"teacherName": "Irina Vandiša-Bubko", "count":3},
+        {"teacherName": "Jevģēnija Puzirjova", "count":1},
+        {"teacherName": "Tatjana Kušakova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes 5. vidusskola",                        
+      "lat": 56.5267775,
+      "lng": 27.3482891,
+      "female": 4,
+      "male": 7,
+      "participants": 11,
+      "avgPoints": "18.64",
+      "activity": 0.03273809523809524,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3113900065-Rezeknes-5-vidusskola.pdf",
+      "activityStr": "3.27%", 
+      "skolotaji": [
+        {"teacherName": "Regīna Danilāne", "count":4},
+        {"teacherName": "Silvija Šidlovska", "count":4},
+        {"teacherName": "Ināra Metlāne", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes 6. vidusskola",                        
+      "lat": 56.5235568,
+      "lng": 27.344081,
+      "female": 5,
+      "male": 5,
+      "participants": 10,
+      "avgPoints": "15.70",
+      "activity": 0.02702702702702703,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3113900066-Rezeknes-6-vidusskola.pdf",
+      "activityStr": "2.70%", 
+      "skolotaji": [
+        {"teacherName": "Ludmila Saperina", "count":4},
+        {"teacherName": "Rita Karziņina", "count":3},
+        {"teacherName": "Ludmila Tihomirova", "count":2},
+        {"teacherName": "Natālija Borovika", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes valsts poļu ģimnāzija",                        
+      "lat": 56.5159858,
+      "lng": 27.3419173,
+      "female": 6,
+      "male": 7,
+      "participants": 13,
+      "avgPoints": "16.69",
+      "activity": 0.026584867075664622,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3116902163-Rezeknes-valsts-polu-gimnazija.pdf",
+      "activityStr": "2.66%", 
+      "skolotaji": [
+        {"teacherName": "Līga Abricka", "count":8},
+        {"teacherName": "Agrita Šķestere Kambala", "count":3},
+        {"teacherName": "Anda Ločmele", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rēzeknes Valsts 1. ģimnāzija",                        
+      "lat": 56.5039009,
+      "lng": 27.3393249,
+      "female": 2,
+      "male": 5,
+      "participants": 7,
+      "avgPoints": "8.57",
+      "activity": 0.016548463356973995,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3119902527-Rezeknes-Valsts-1-gimnazija.pdf",
+      "activityStr": "1.65%", 
+      "skolotaji": [
+        {"teacherName": "Jeļena Pikuma", "count":4},
+        {"teacherName": "Lucija Jermacāne", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils Centra sākumskola",                        
+      "lat": 57.3934091,
+      "lng": 21.5737917,
+      "female": 1,
+      "male": 3,
+      "participants": 4,
+      "avgPoints": "23.75",
+      "activity": 0.03418803418803419,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3211902422-Ventspils-Centra-sakumskola.pdf",
+      "activityStr": "3.42%", 
+      "skolotaji": [
+        {"teacherName": "Elīna Stupele", "count":3},
+        {"teacherName": "Egita Krūmiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils 1. pamatskola",                        
+      "lat": 57.3826807,
+      "lng": 21.5650166,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "29.00",
+      "activity": 0.010471204188481676,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3212900030-Ventspils-1-pamatskola.pdf",
+      "activityStr": "1.05%", 
+      "skolotaji": [
+        {"teacherName": "Guna Grīnvalde", "count":1},
+        {"teacherName": "Ingrīda Podniece", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils 2. vidusskola",                        
+      "lat": 57.3878629,
+      "lng": 21.5660909,
+      "female": 7,
+      "male": 12,
+      "participants": 19,
+      "avgPoints": "18.89",
+      "activity": 0.05263157894736842,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3213900033-Ventspils-2-vidusskola.pdf",
+      "activityStr": "5.26%", 
+      "skolotaji": [
+        {"teacherName": "Alla Kitajeva", "count":4},
+        {"teacherName": "Valentīna Juščenko", "count":4},
+        {"teacherName": "Ļubova Jeļisejeva", "count":4},
+        {"teacherName": "Anna Kočura", "count":3},
+        {"teacherName": "Svetlana Koļesņičenko", "count":3},
+        {"teacherName": "Juščenko Valentina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils 4. vidusskola",                        
+      "lat": 57.3941325,
+      "lng": 21.5568336,
+      "female": 5,
+      "male": 5,
+      "participants": 10,
+      "avgPoints": "15.30",
+      "activity": 0.021321961620469083,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3213900035-Ventspils-4-vidusskola.pdf",
+      "activityStr": "2.13%", 
+      "skolotaji": [
+        {"teacherName": "Santa Eglīte", "count":5},
+        {"teacherName": "Aiva Belte", "count":2},
+        {"teacherName": "Linda Grigorjeva", "count":2},
+        {"teacherName": "Inese Stepanova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils 5. vidusskola",                        
+      "lat": 57.4009075,
+      "lng": 21.6047881,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "10.33",
+      "activity": 0.02727272727272727,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3213900036-Ventspils-5-vidusskola.pdf",
+      "activityStr": "2.73%", 
+      "skolotaji": [
+        {"teacherName": "Diāna Samuiļenko", "count":2},
+        {"teacherName": "Ilga Vilimane", "count":2},
+        {"teacherName": "Dace Feldmane", "count":1},
+        {"teacherName": "Liāna Biezbārde", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils 6. vidusskola",                        
+      "lat": 57.3932431,
+      "lng": 21.5717056,
+      "female": 4,
+      "male": 2,
+      "participants": 6,
+      "avgPoints": "21.00",
+      "activity": 0.014150943396226415,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3213900037-Ventspils-6-vidusskola.pdf",
+      "activityStr": "1.42%", 
+      "skolotaji": [
+        {"teacherName": "Teresa Rediko", "count":3},
+        {"teacherName": "Juzefa Petroviča", "count":1},
+        {"teacherName": "Valentīna Jankovska", "count":1},
+        {"teacherName": "Vineta Trokša", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ventspils Valsts 1. ģimnāzija",                        
+      "lat": 57.3951156,
+      "lng": 21.5718813,
+      "female": 7,
+      "male": 10,
+      "participants": 17,
+      "avgPoints": "13.88",
+      "activity": 0.04607046070460705,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3219903101-Ventspils-Valsts-1-gimnazija.pdf",
+      "activityStr": "4.61%", 
+      "skolotaji": [
+        {"teacherName": "Ruta Dubra", "count":11},
+        {"teacherName": "Egita Krūmiņa", "count":3},
+        {"teacherName": "Lienīte Zorģe", "count":2},
+        {"teacherName": "Elīna Stupele", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Emīla Dārziņa mūzikas vidusskola",                        
+      "lat": 56.945436,
+      "lng": 24.0777485,
+      "female": 6,
+      "male": 2,
+      "participants": 8,
+      "avgPoints": "26.38",
+      "activity": 0.0449438202247191,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3331301249-Emila-Darzina-muzikas-vidusskola.pdf",
+      "activityStr": "4.49%", 
+      "skolotaji": [
+        {"teacherName": "Laila Kampe", "count":6},
+        {"teacherName": "Jolanta Lapiņa", "count":1},
+        {"teacherName": "Māra Kauliņa-Pērkona", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Doma kora skola",                        
+      "lat": 56.9444124,
+      "lng": 24.0771357,
+      "female": 5,
+      "male": 6,
+      "participants": 11,
+      "avgPoints": "21.45",
+      "activity": 0.07586206896551724,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3331301251-Rigas-Doma-kora-skola.pdf",
+      "activityStr": "7.59%", 
+      "skolotaji": [
+        {"teacherName": "Vita Kreicberga", "count":6},
+        {"teacherName": "Alda Trokša", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Uzņēmējdarbības tehniskā vidusskola",                        
+      "lat": 56.9668909,
+      "lng": 24.1812611,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "0.50",
+      "activity": 0.1111111111111111,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3331800661-Rigas-Uznemejdarbibas-tehniska-vidusskola.pdf",
+      "activityStr": "11.11%", 
+      "skolotaji": [
+        {"teacherName": "Revekka Heimane", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valda Zālīša sākumskola",                        
+      "lat": 56.9543512,
+      "lng": 24.1108476,
+      "female": 15,
+      "male": 19,
+      "participants": 34,
+      "avgPoints": "27.79",
+      "activity": 0.19653179190751446,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3411900787-Rigas-V-Zalisa-sakumskola.pdf",
+      "activityStr": "19.65%", 
+      "skolotaji": [
+        {"teacherName": "Laila Aigare", "count":12},
+        {"teacherName": "Sandra Mence", "count":9},
+        {"teacherName": "Elita Rītere", "count":8},
+        {"teacherName": "Andris Šuba", "count":6},
+        {"teacherName": "Ilgona Vulāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Centra daiļamatniecības pamatskola",                        
+      "lat": 56.9472125,
+      "lng": 24.114525,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "25.00",
+      "activity": 0.02,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3412900786-Rigas-Centra-dailamatniecibas-pamatskola.pdf",
+      "activityStr": "2.00%", 
+      "skolotaji": [
+        {"teacherName": "Līga Veismane", "count":3},
+        {"teacherName": "Inese Sikatere", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Pamatskola \"Rīdze\"",                        
+      "lat": 56.953616,
+      "lng": 24.1072318,
+      "female": 16,
+      "male": 15,
+      "participants": 31,
+      "avgPoints": "18.00",
+      "activity": 0.10580204778156997,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3412900804-Pamatskola-Ridze.pdf",
+      "activityStr": "10.58%", 
+      "skolotaji": [
+        {"teacherName": "Baiba Galiņa", "count":13},
+        {"teacherName": "Kristīne Eglīte", "count":11},
+        {"teacherName": "Dzintra Slavinska", "count":7}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Centra humanitārā vidusskola",                        
+      "lat": 56.9612931,
+      "lng": 24.1415251,
+      "female": 2,
+      "male": 1,
+      "participants": 3,
+      "avgPoints": "19.00",
+      "activity": 0.004524886877828055,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3413900790-Rigas-Centra-humanitara-vidusskola.pdf",
+      "activityStr": "0.45%", 
+      "skolotaji": [
+        {"teacherName": "Aleksandra Fjodorova", "count":1},
+        {"teacherName": "G.Mediņš", "count":1},
+        {"teacherName": "Sintija Šumska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 40. vidusskola",                        
+      "lat": 56.9542794,
+      "lng": 24.1219184,
+      "female": 24,
+      "male": 22,
+      "participants": 46,
+      "avgPoints": "19.07",
+      "activity": 0.0638002773925104,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3413900797-Rigas-40-vidusskola.pdf",
+      "activityStr": "6.38%", 
+      "skolotaji": [
+        {"teacherName": "Lilija Roldugina", "count":10},
+        {"teacherName": "Aleksandrs Stecurins", "count":9},
+        {"teacherName": "Nataļja Kozeļska", "count":8},
+        {"teacherName": "Valentīna Pāvule", "count":7},
+        {"teacherName": "Svetlana Saveiko", "count":6},
+        {"teacherName": "Oļegs Šleifmanis", "count":3},
+        {"teacherName": "Lukjančuka R.A.", "count":1},
+        {"teacherName": "Natalja Kozelska", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 22. vidusskola",                        
+      "lat": 56.9585103,
+      "lng": 24.1267668,
+      "female": 9,
+      "male": 4,
+      "participants": 13,
+      "avgPoints": "25.38",
+      "activity": 0.030303030303030304,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3413900799-Rigas-22-vidusskola.pdf",
+      "activityStr": "3.03%", 
+      "skolotaji": [
+        {"teacherName": "Tatjana Ščerbiņina", "count":4},
+        {"teacherName": "Gaļina Kožane", "count":3},
+        {"teacherName": "Marija Lapšina", "count":3},
+        {"teacherName": "Marina Trušina", "count":1},
+        {"teacherName": "Marks Gitermans", "count":1},
+        {"teacherName": "Tatjana Šerbinina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Natālijas Draudziņas vidusskola",                        
+      "lat": 56.9564995,
+      "lng": 24.1306741,
+      "female": 6,
+      "male": 7,
+      "participants": 13,
+      "avgPoints": "16.15",
+      "activity": 0.02927927927927928,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3413902866-Rigas-Natalijas-Draudzinas-vidusskola.pdf",
+      "activityStr": "2.93%", 
+      "skolotaji": [
+        {"teacherName": "Gundega Bigestāne", "count":4},
+        {"teacherName": "Maira Tuklere", "count":4},
+        {"teacherName": "Ilze Priedīte", "count":2},
+        {"teacherName": "Inita Barnalicka", "count":2},
+        {"teacherName": "Inese Liepiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valsts 1. ģimnāzija",                        
+      "lat": 56.952936,
+      "lng": 24.112265,
+      "female": 76,
+      "male": 147,
+      "participants": 223,
+      "avgPoints": "24.05",
+      "activity": 0.20919324577861162,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3419900793-Rigas-Valsts-1-gimnazija.pdf",
+      "activityStr": "20.92%", 
+      "skolotaji": [
+        {"teacherName": "Kristīne Isaka", "count":47},
+        {"teacherName": "Dace Andžāne", "count":38},
+        {"teacherName": "Dzintars Zicāns", "count":34},
+        {"teacherName": "Inese Lagzda", "count":32},
+        {"teacherName": "Anna Jansone", "count":26},
+        {"teacherName": "Dainis Kriķis", "count":19},
+        {"teacherName": "Aija Vasiļevska", "count":18},
+        {"teacherName": "Vita Brakovska", "count":17},
+        {"teacherName": "Regīna Simanovska", "count":14},
+        {"teacherName": "Kristīne Ševčenko", "count":11},
+        {"teacherName": "Karmena Liepiņa", "count":6},
+        {"teacherName": "Maija Balode", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valsts 3. ģimnāzija",                        
+      "lat": 56.9468695,
+      "lng": 24.1089843,
+      "female": 14,
+      "male": 8,
+      "participants": 22,
+      "avgPoints": "12.09",
+      "activity": 0.026378896882494004,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3419900794-Rigas-Valsts-3-gimnazija.pdf",
+      "activityStr": "2.64%", 
+      "skolotaji": [
+        {"teacherName": "Kristīne Birava", "count":9},
+        {"teacherName": "Austra Reihenova", "count":4},
+        {"teacherName": "Līga Mateusa", "count":4},
+        {"teacherName": "Alīna Miķe", "count":3},
+        {"teacherName": "Diāna Sviklāne", "count":1},
+        {"teacherName": "Ārija Puriņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Āgenskalna sākumskola",                        
+      "lat": 56.9495373,
+      "lng": 24.0508789,
+      "female": 8,
+      "male": 11,
+      "participants": 19,
+      "avgPoints": "26.21",
+      "activity": 0.1043956043956044,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3511900641-Agenskalna-sakumskola.pdf",
+      "activityStr": "10.44%", 
+      "skolotaji": [
+        {"teacherName": "Dace Celiņa", "count":14},
+        {"teacherName": "Judīte Rubina", "count":3},
+        {"teacherName": "Dace Celmiņa", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Starptautiskā skola",                        
+      "lat": 56.9573573,
+      "lng": 24.0799936,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "25.50",
+      "activity": 0.014184397163120567,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513803052-Rigas-Starptautiska-skola.pdf",
+      "activityStr": "1.42%", 
+      "skolotaji": [
+        {"teacherName": "Gream Fletcher", "count":1},
+        {"teacherName": "Tanya Wienand", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 34. vidusskola",                        
+      "lat": 56.9505358,
+      "lng": 24.0532671,
+      "female": 23,
+      "male": 23,
+      "participants": 46,
+      "avgPoints": "22.13",
+      "activity": 0.052571428571428575,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900765-Rigas-34-vidusskola.pdf",
+      "activityStr": "5.26%", 
+      "skolotaji": [
+        {"teacherName": "Inna Gļebova", "count":14},
+        {"teacherName": "Olga Trasko", "count":11},
+        {"teacherName": "Nadežda Koļeda", "count":7},
+        {"teacherName": "Marina Vasina", "count":6},
+        {"teacherName": "Raisa Vasiļevska", "count":4},
+        {"teacherName": "Svetlana Maļinova", "count":2},
+        {"teacherName": "Elena Kudackova", "count":1},
+        {"teacherName": "Natālija Mironova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Daugavgrīvas vidusskola",                        
+      "lat": 57.0384381,
+      "lng": 24.026448,
+      "female": 5,
+      "male": 3,
+      "participants": 8,
+      "avgPoints": "13.38",
+      "activity": 0.022284122562674095,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900766-Rigas-Daugavgrivas-vidusskola.pdf",
+      "activityStr": "2.23%", 
+      "skolotaji": [
+        {"teacherName": "Alīna Porahoņko", "count":5},
+        {"teacherName": "Ina Andruškiva", "count":2},
+        {"teacherName": "Svetlana Gorbunova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Anniņmuižas vidusskola",                        
+      "lat": 56.9625011,
+      "lng": 24.0243384,
+      "female": 5,
+      "male": 3,
+      "participants": 8,
+      "avgPoints": "19.00",
+      "activity": 0.014814814814814815,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900767-Rigas-Anninmuizas-vidusskola.pdf",
+      "activityStr": "1.48%", 
+      "skolotaji": [
+        {"teacherName": "Irina Baikova", "count":3},
+        {"teacherName": "Tatjana Guļajeva", "count":2},
+        {"teacherName": "Voropajevs Sergejs", "count":2},
+        {"teacherName": "Ludmila Obuhova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 41. vidusskola",                        
+      "lat": 56.9535227,
+      "lng": 24.0616865,
+      "female": 7,
+      "male": 0,
+      "participants": 7,
+      "avgPoints": "23.29",
+      "activity": 0.018276762402088774,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900768-Rigas-41-vidusskola.pdf",
+      "activityStr": "1.83%", 
+      "skolotaji": [
+        {"teacherName": "Agita Cirse", "count":5},
+        {"teacherName": "Inese Jermacāne", "count":1},
+        {"teacherName": "Rita Dīce", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Iļģuciema vidusskola",                        
+      "lat": 56.9711416,
+      "lng": 24.0570442,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "33.33",
+      "activity": 0.008403361344537815,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900770-Ilguciema-vidusskola.pdf",
+      "activityStr": "0.84%", 
+      "skolotaji": [
+        {"teacherName": "Merita Kirmuža-Veizāne", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 19. vidusskola",                        
+      "lat": 57.0362225,
+      "lng": 24.0462523,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "3.00",
+      "activity": 0.005291005291005291,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900771-Rigas-19-vidusskola.pdf",
+      "activityStr": "0.53%", 
+      "skolotaji": [
+        {"teacherName": "Aina Androsika", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 71. vidusskola",                        
+      "lat": 56.9626737,
+      "lng": 24.0523937,
+      "female": 8,
+      "male": 4,
+      "participants": 12,
+      "avgPoints": "16.00",
+      "activity": 0.021937842778793418,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900772-Rigas-71-vidusskola.pdf",
+      "activityStr": "2.19%", 
+      "skolotaji": [
+        {"teacherName": "Anželika Ceriņa", "count":4},
+        {"teacherName": "Tatjana Vasiljeva", "count":3},
+        {"teacherName": "Anžeika Ceriņa", "count":2},
+        {"teacherName": "Svetlana Tarvida", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Imantas vidusskola",                        
+      "lat": 56.9566462,
+      "lng": 23.9986188,
+      "female": 1,
+      "male": 9,
+      "participants": 10,
+      "avgPoints": "24.90",
+      "activity": 0.021052631578947368,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900773-Rigas-Imantas-vidusskola.pdf",
+      "activityStr": "2.11%", 
+      "skolotaji": [
+        {"teacherName": "Dace Muskare", "count":7},
+        {"teacherName": "Sintija Gile", "count":2},
+        {"teacherName": "Ruta Muskare", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 69. vidusskola",                        
+      "lat": 56.9554129,
+      "lng": 24.0255341,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "19.25",
+      "activity": 0.017467248908296942,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900774-Rigas-69-vidusskola.pdf",
+      "activityStr": "1.75%", 
+      "skolotaji": [
+        {"teacherName": "Daiga Akmentiņa", "count":2},
+        {"teacherName": "Zenta Graumane", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Ostvalda vidusskola",                        
+      "lat": 56.9659881,
+      "lng": 24.0153939,
+      "female": 3,
+      "male": 4,
+      "participants": 7,
+      "avgPoints": "22.57",
+      "activity": 0.011725293132328308,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900775-Rigas-Ostvalda-vidusskola.pdf",
+      "activityStr": "1.17%", 
+      "skolotaji": [
+        {"teacherName": "Irina Fomina", "count":3},
+        {"teacherName": "Anna Nužņenko", "count":2},
+        {"teacherName": "Fomina Irina", "count":1},
+        {"teacherName": "Irina Savina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 96. vidusskola",                        
+      "lat": 56.95997,
+      "lng": 24.0057388,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "29.33",
+      "activity": 0.0052173913043478265,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900776-Rigas-96-vidusskola.pdf",
+      "activityStr": "0.52%", 
+      "skolotaji": [
+        {"teacherName": "Gromova Nadežda", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 33. vidusskola",                        
+      "lat": 57.0337675,
+      "lng": 24.0525103,
+      "female": 9,
+      "male": 4,
+      "participants": 13,
+      "avgPoints": "15.46",
+      "activity": 0.025440313111545987,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3513900836-Rigas-33-vidusskola.pdf",
+      "activityStr": "2.54%", 
+      "skolotaji": [
+        {"teacherName": "Nataļja Kaļiņikova", "count":4},
+        {"teacherName": "Tatjana Kuskova", "count":4},
+        {"teacherName": "Ilgona Vulāne", "count":3},
+        {"teacherName": "Anna Strucka", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valsts vācu ģimnāzija",                        
+      "lat": 56.9468277,
+      "lng": 24.0630393,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "9.17",
+      "activity": 0.009404388714733543,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3519900642-Rigas-Valsts-vacu-gimnazija.pdf",
+      "activityStr": "0.94%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Zalāne", "count":2},
+        {"teacherName": "Gunita Reinvalde", "count":1},
+        {"teacherName": "Inga Riekstiņa", "count":1},
+        {"teacherName": "Inga Tumaševska-Baikova", "count":1},
+        {"teacherName": "Inguna Serda", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Pamatskola \"Harmonija\"",                        
+      "lat": 56.9489339,
+      "lng": 24.1272349,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "16.00",
+      "activity": 0.02702702702702703,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612800299-Pamatskola-Harmonija.pdf",
+      "activityStr": "2.70%", 
+      "skolotaji": [
+        {"teacherName": "Sigita Ļemantoviča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Privātā pamatskola \"Maksima\"",                        
+      "lat": 56.9086873,
+      "lng": 24.1982871,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "24.75",
+      "activity": 0.08695652173913043,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612801468-Privata-pamatskola-Maksima.pdf",
+      "activityStr": "8.70%", 
+      "skolotaji": [
+        {"teacherName": "Zagorska Svetlana", "count":2},
+        {"teacherName": "Svetlana Saveiko", "count":1},
+        {"teacherName": "Svetlana Zagorska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Privātā pamatskola \"RIMS-Rīga International meridian school\"",                        
+      "lat": 56.9239009,
+      "lng": 24.1709988,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "12.00",
+      "activity": 0.023255813953488372,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612802850-RIMS-Riga-International-meridian-school.pdf",
+      "activityStr": "2.33%", 
+      "skolotaji": [
+        {"teacherName": "Rūta Reisoglu", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "O.Kalpaka Rīgas Tautas daiļamatu pamatskola",                        
+      "lat": 56.9449792,
+      "lng": 24.131613,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "3.00",
+      "activity": 0.0033112582781456954,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612900688-O-Kalpaka-Rigas-Tautas-dailamatu-pamatskola.pdf",
+      "activityStr": "0.33%", 
+      "skolotaji": [
+        {"teacherName": "Vija Stepičeva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Andreja Pumpura Rīgas 11. pamatskola",                        
+      "lat": 56.9327541,
+      "lng": 24.1609336,
+      "female": 6,
+      "male": 12,
+      "participants": 18,
+      "avgPoints": "19.72",
+      "activity": 0.05642633228840126,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612900689-Andreja-Pumpura-Rigas-11-pamatskola.pdf",
+      "activityStr": "5.64%", 
+      "skolotaji": [
+        {"teacherName": "Inese Lude", "count":18},
+        {"teacherName": "Vija Rasmane", "count":5},
+        {"teacherName": "Dace Kontrimiene", "count":2},
+        {"teacherName": "Iveta Bergmane", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Pļavnieku pamatskola",                        
+      "lat": 56.9354447,
+      "lng": 24.2121836,
+      "female": 7,
+      "male": 4,
+      "participants": 11,
+      "avgPoints": "23.91",
+      "activity": 0.030136986301369864,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612902865-Rigas-Plavnieku-pamatskola.pdf",
+      "activityStr": "3.01%", 
+      "skolotaji": [
+        {"teacherName": "Diāna Karpušenko", "count":5},
+        {"teacherName": "Sofija Tīfentāle", "count":3},
+        {"teacherName": "Anna Buka", "count":1},
+        {"teacherName": "Anta Vīksna", "count":1},
+        {"teacherName": "Antra Vīksna", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Avotu pamatskola",                        
+      "lat": 56.9516194,
+      "lng": 24.137704,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "33.00",
+      "activity": 0.009433962264150943,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3612902961-Rigas-Avotu-pamatskola.pdf",
+      "activityStr": "0.94%", 
+      "skolotaji": [
+        {"teacherName": "Irēna Krūma", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Informācijas sistēmu menedžmenta augstskolas vidusskola \"PREMJERS\"",                        
+      "lat": 56.9382011,
+      "lng": 24.1587221,
+      "female": 3,
+      "male": 4,
+      "participants": 7,
+      "avgPoints": "17.00",
+      "activity": 0.05263157894736842,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613801080-ISMA-vidusskola-PREMJERS.pdf",
+      "activityStr": "5.26%", 
+      "skolotaji": [
+        {"teacherName": "Irina Kazakova", "count":5},
+        {"teacherName": "Elvra Sitņika", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 65. vidusskola",                        
+      "lat": 56.9118879,
+      "lng": 24.1908974,
+      "female": 5,
+      "male": 7,
+      "participants": 12,
+      "avgPoints": "19.25",
+      "activity": 0.0392156862745098,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900664-Rigas-65-vidusskola.pdf",
+      "activityStr": "3.92%", 
+      "skolotaji": [
+        {"teacherName": "Marita Bobrova", "count":7},
+        {"teacherName": "Anatolijs Kurmeļovs", "count":3},
+        {"teacherName": "Irina Tarasova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 72. vidusskola",                        
+      "lat": 56.9018274,
+      "lng": 24.2071331,
+      "female": 17,
+      "male": 16,
+      "participants": 33,
+      "avgPoints": "16.21",
+      "activity": 0.040293040293040296,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900670-Rigas-72-vidusskola.pdf",
+      "activityStr": "4.03%", 
+      "skolotaji": [
+        {"teacherName": "Irina Morusa", "count":15},
+        {"teacherName": "Irina Iriščenko", "count":9},
+        {"teacherName": "Tatjana Šamšina", "count":2},
+        {"teacherName": "Terēza Manture", "count":2},
+        {"teacherName": "Valentīna Smirnova", "count":2},
+        {"teacherName": "Eleonora Romanovska", "count":1},
+        {"teacherName": "Viktorija Moļeva", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 88. vidusskola",                        
+      "lat": 56.9435392,
+      "lng": 24.2010854,
+      "female": 6,
+      "male": 8,
+      "participants": 14,
+      "avgPoints": "17.21",
+      "activity": 0.01645123384253819,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900672-Rigas-88-vidusskola.pdf",
+      "activityStr": "1.65%", 
+      "skolotaji": [
+        {"teacherName": "Gavšina Romualda", "count":6},
+        {"teacherName": "Marčenko Margarita", "count":4},
+        {"teacherName": "Margarita Marčenko", "count":2},
+        {"teacherName": "Kovaļčuka Jelena", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Kristīgā vidusskola",                        
+      "lat": 56.9539857,
+      "lng": 24.1510782,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "17.00",
+      "activity": 0.006802721088435374,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900676-Rigas-Kristiga-vidusskola.pdf",
+      "activityStr": "0.68%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Andersone", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 25. vidusskola",                        
+      "lat": 56.9113256,
+      "lng": 24.1824533,
+      "female": 4,
+      "male": 8,
+      "participants": 12,
+      "avgPoints": "14.58",
+      "activity": 0.021015761821366025,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900678-Rigas-25-vidusskola.pdf",
+      "activityStr": "2.10%", 
+      "skolotaji": [
+        {"teacherName": "Inta Ungure", "count":5},
+        {"teacherName": "Maija Gailīte", "count":5},
+        {"teacherName": "Gita Šulce", "count":1},
+        {"teacherName": "Sandra Deksne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 92. vidusskola",                        
+      "lat": 56.9414067,
+      "lng": 24.2139924,
+      "female": 2,
+      "male": 5,
+      "participants": 7,
+      "avgPoints": "16.86",
+      "activity": 0.012658227848101266,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900679-Rigas-92-vidusskola.pdf",
+      "activityStr": "1.27%", 
+      "skolotaji": [
+        {"teacherName": "Larisa Ustinova", "count":3},
+        {"teacherName": "Lidija Beļajeva", "count":2},
+        {"teacherName": "Andrejs Cibulis", "count":1},
+        {"teacherName": "Tatjana Beļakova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Ķengaraga vidusskola",                        
+      "lat": 56.9196803,
+      "lng": 24.1724715,
+      "female": 2,
+      "male": 4,
+      "participants": 6,
+      "avgPoints": "17.83",
+      "activity": 0.01366742596810934,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900680-Rigas-Kengaraga-vidusskola.pdf",
+      "activityStr": "1.37%", 
+      "skolotaji": [
+        {"teacherName": "Areta Šemeļa", "count":2},
+        {"teacherName": "Krievāne Nataļja", "count":2},
+        {"teacherName": "Jeļizarova Natālija", "count":1},
+        {"teacherName": "Volkovickaja Jeļena", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 86. vidusskola",                        
+      "lat": 56.936207,
+      "lng": 24.1964283,
+      "female": 5,
+      "male": 6,
+      "participants": 11,
+      "avgPoints": "19.18",
+      "activity": 0.024886877828054297,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900683-Rigas-86-vidusskola.pdf",
+      "activityStr": "2.49%", 
+      "skolotaji": [
+        {"teacherName": "Diāna Krutova", "count":4},
+        {"teacherName": "Nataļja Savva", "count":4},
+        {"teacherName": "Svetlana Zilpauša", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 6. vidusskola",                        
+      "lat": 56.9586627,
+      "lng": 24.1411789,
+      "female": 4,
+      "male": 0,
+      "participants": 4,
+      "avgPoints": "18.25",
+      "activity": 0.0064,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613900684-Rigas-6-vidusskola.pdf",
+      "activityStr": "0.64%", 
+      "skolotaji": [
+        {"teacherName": "Inese Minkeviča", "count":2},
+        {"teacherName": "Baiba Zupāne", "count":1},
+        {"teacherName": "Saiva Vilne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Lietuviešu vidusskola",                        
+      "lat": 56.9094673,
+      "lng": 24.1935618,
+      "female": 10,
+      "male": 9,
+      "participants": 19,
+      "avgPoints": "20.05",
+      "activity": 0.07392996108949416,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613901263-Rigas-Lietuviesu-vidusskola.pdf",
+      "activityStr": "7.39%", 
+      "skolotaji": [
+        {"teacherName": "Edīte Teterovska", "count":10},
+        {"teacherName": "Gita Puriņa", "count":6},
+        {"teacherName": "Rima Kalniete", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "J.G.Herdera Rīgas Grīziņkalna vidusskola",                        
+      "lat": 56.958181,
+      "lng": 24.1510952,
+      "female": 4,
+      "male": 5,
+      "participants": 9,
+      "avgPoints": "13.78",
+      "activity": 0.022004889975550123,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3613903047-J-G-Herdera-Rigas-Grizinkalna-vidusskola.pdf",
+      "activityStr": "2.20%", 
+      "skolotaji": [
+        {"teacherName": "Olga Lucika", "count":8},
+        {"teacherName": "Tatjana Kuļikova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valda Avotiņa pamatskola - attīstības centrs",                        
+      "lat": 56.9186041,
+      "lng": 24.181257,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "17.00",
+      "activity": 0.006944444444444444,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3624900694-Rigas-Valda-Avotina-pamatskola.pdf",
+      "activityStr": "0.69%", 
+      "skolotaji": [
+        {"teacherName": "Milda Dirnēna", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mežciema pamatskola",                        
+      "lat": 56.96172,
+      "lng": 24.2374792,
+      "female": 4,
+      "male": 0,
+      "participants": 4,
+      "avgPoints": "25.75",
+      "activity": 0.011834319526627219,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3712900760-Mezciema-pamatskola.pdf",
+      "activityStr": "1.18%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Ridūze", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Privātā vidusskola \"Laisma\"",                        
+      "lat": 56.9646983,
+      "lng": 24.1226043,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "22.50",
+      "activity": 0.03773584905660377,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713801461-Privata-vidusskola-Laisma.pdf",
+      "activityStr": "3.77%", 
+      "skolotaji": [
+        {"teacherName": "Vlada Petrova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 84. vidusskola",                        
+      "lat": 56.950509,
+      "lng": 24.2075015,
+      "female": 8,
+      "male": 12,
+      "participants": 20,
+      "avgPoints": "19.55",
+      "activity": 0.032948929159802305,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900735-Rigas-84-vidusskola.pdf",
+      "activityStr": "3.29%", 
+      "skolotaji": [
+        {"teacherName": "Sandra Nagle", "count":8},
+        {"teacherName": "Dace Taujinska", "count":5},
+        {"teacherName": "Diāna Orbidāne", "count":3},
+        {"teacherName": "Santa Judeika", "count":2},
+        {"teacherName": "Ilona Gulbe", "count":1},
+        {"teacherName": "Taujinska Dace", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Franču licejs",                        
+      "lat": 56.9669377,
+      "lng": 24.1374467,
+      "female": 13,
+      "male": 9,
+      "participants": 22,
+      "avgPoints": "16.36",
+      "activity": 0.04021937842778794,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900740-Rigas-Francu-licejs.pdf",
+      "activityStr": "4.02%", 
+      "skolotaji": [
+        {"teacherName": "Liene Andersone", "count":9},
+        {"teacherName": "Dace Bērziņa", "count":6},
+        {"teacherName": "Rita Caunīte", "count":5},
+        {"teacherName": "Māra Dibranča", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Hanzas vidusskola",                        
+      "lat": 56.9659128,
+      "lng": 24.1200454,
+      "female": 3,
+      "male": 8,
+      "participants": 11,
+      "avgPoints": "20.27",
+      "activity": 0.017915309446254073,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900741-Rigas-Hanzas-vidusskola.pdf",
+      "activityStr": "1.79%", 
+      "skolotaji": [
+        {"teacherName": "Ieva Margarita Ozola", "count":5},
+        {"teacherName": "Baiba Apsīte", "count":3},
+        {"teacherName": "Ilze Bodniece", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 45. vidusskola",                        
+      "lat": 56.9796129,
+      "lng": 24.1740674,
+      "female": 14,
+      "male": 7,
+      "participants": 21,
+      "avgPoints": "11.81",
+      "activity": 0.045951859956236324,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900742-Rigas-45-vidusskola.pdf",
+      "activityStr": "4.60%", 
+      "skolotaji": [
+        {"teacherName": "Anita Upeniece", "count":9},
+        {"teacherName": "Irisa Hofmane", "count":6},
+        {"teacherName": "Inga Karakone", "count":5},
+        {"teacherName": "Alda Gaile", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Teikas vidusskola",                        
+      "lat": 56.9765136,
+      "lng": 24.1850262,
+      "female": 5,
+      "male": 4,
+      "participants": 9,
+      "avgPoints": "24.33",
+      "activity": 0.01164294954721863,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900746-Rigas-Teikas-vidusskola.pdf",
+      "activityStr": "1.16%", 
+      "skolotaji": [
+        {"teacherName": "Daiga Medne", "count":5},
+        {"teacherName": "Inga Ducena", "count":2},
+        {"teacherName": "Daina Stone", "count":1},
+        {"teacherName": "Ilva Puhova", "count":1},
+        {"teacherName": "Kristīne Salnāja", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Purvciema vidusskola",                        
+      "lat": 56.9515111,
+      "lng": 24.1932042,
+      "female": 14,
+      "male": 12,
+      "participants": 26,
+      "avgPoints": "18.19",
+      "activity": 0.028169014084507043,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900749-Rigas-Purvciema-vidusskola.pdf",
+      "activityStr": "2.82%", 
+      "skolotaji": [
+        {"teacherName": "Jeļena Blagodarnaja", "count":10},
+        {"teacherName": "Ludmila Kosigina", "count":9},
+        {"teacherName": "Vera Aleksandrova", "count":4},
+        {"teacherName": "Žanna Katkovska", "count":2},
+        {"teacherName": "Galina Kuharenko", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 49. vidusskola",                        
+      "lat": 56.9614036,
+      "lng": 24.1215254,
+      "female": 16,
+      "male": 12,
+      "participants": 28,
+      "avgPoints": "20.71",
+      "activity": 0.05063291139240506,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900751-Rigas-49-vidusskola.pdf",
+      "activityStr": "5.06%", 
+      "skolotaji": [
+        {"teacherName": "Dzintra Krastiņa", "count":6},
+        {"teacherName": "Gunta Stepīte", "count":6},
+        {"teacherName": "Maija Zaķe", "count":6},
+        {"teacherName": "Velga Vītola", "count":5},
+        {"teacherName": "Antra Barvika", "count":2},
+        {"teacherName": "Karīna Freiberga", "count":2},
+        {"teacherName": "Vita Vilka", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 89. vidusskola",                        
+      "lat": 56.9621852,
+      "lng": 24.2371003,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "23.00",
+      "activity": 0.0028169014084507044,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900752-Rigas-89-vidusskola.pdf",
+      "activityStr": "0.28%", 
+      "skolotaji": [
+        {"teacherName": "Eduards Hakels", "count":1},
+        {"teacherName": "Natālija Sergejeva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 80. vidusskola",                        
+      "lat": 56.9582889,
+      "lng": 24.2027939,
+      "female": 2,
+      "male": 0,
+      "participants": 2,
+      "avgPoints": "22.00",
+      "activity": 0.004081632653061225,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900753-Rigas-80-vidusskola.pdf",
+      "activityStr": "0.41%", 
+      "skolotaji": [
+        {"teacherName": "Gerasimska Marina", "count":1},
+        {"teacherName": "Marina Gerasimska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Š.Dubnova Rīgas Ebreju vidusskola",                        
+      "lat": 56.968341,
+      "lng": 24.1357742,
+      "female": 3,
+      "male": 0,
+      "participants": 3,
+      "avgPoints": "15.33",
+      "activity": 0.0196078431372549,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900754-Dubnova-Rigas-Ebreju-vidusskola.pdf",
+      "activityStr": "1.96%", 
+      "skolotaji": [
+        {"teacherName": "J.Vinčugova", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 63. vidusskola",                        
+      "lat": 56.9907451,
+      "lng": 24.2384679,
+      "female": 4,
+      "male": 2,
+      "participants": 6,
+      "avgPoints": "19.50",
+      "activity": 0.012578616352201259,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900755-Rigas-63-vidusskola.pdf",
+      "activityStr": "1.26%", 
+      "skolotaji": [
+        {"teacherName": "Jeļena Bardo", "count":5},
+        {"teacherName": "Irina Filipenkova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 64. vidusskola",                        
+      "lat": 56.9611003,
+      "lng": 24.1848343,
+      "female": 16,
+      "male": 20,
+      "participants": 36,
+      "avgPoints": "18.42",
+      "activity": 0.05164992826398852,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900756-Rigas-64-vidusskola.pdf",
+      "activityStr": "5.16%", 
+      "skolotaji": [
+        {"teacherName": "Zane Kaibe", "count":10},
+        {"teacherName": "Agnija A. Rubļevska", "count":9},
+        {"teacherName": "Sandra Simanoviča", "count":8},
+        {"teacherName": "Maruta Avotiņa", "count":4},
+        {"teacherName": "Baiba Rudzīte", "count":2},
+        {"teacherName": "Elīna Frīdmane", "count":2},
+        {"teacherName": "Liene Timbra", "count":2},
+        {"teacherName": "Ilze Ose", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Juglas vidusskola",                        
+      "lat": 56.9810493,
+      "lng": 24.2457608,
+      "female": 4,
+      "male": 4,
+      "participants": 8,
+      "avgPoints": "25.25",
+      "activity": 0.011142061281337047,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900757-Rigas-Juglas-vidusskola.pdf",
+      "activityStr": "1.11%", 
+      "skolotaji": [
+        {"teacherName": "Ināra Putāne", "count":4},
+        {"teacherName": "Ina Svilāne", "count":2},
+        {"teacherName": "Aiva Ošiņa", "count":1},
+        {"teacherName": "Jete Gudeta", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Itas Kozakēvičas poļu vidusskola",                        
+      "lat": 56.9564567,
+      "lng": 24.1779877,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "15.33",
+      "activity": 0.013953488372093023,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3713900789-Rigas-Itas-Kozakevicas-polu-vidusskola.pdf",
+      "activityStr": "1.40%", 
+      "skolotaji": [
+        {"teacherName": "Vanda Jeļinska-Platace", "count":2},
+        {"teacherName": "Anna Arente", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Klasiskā ģimnāzija",                        
+      "lat": 56.9536125,
+      "lng": 24.1817228,
+      "female": 20,
+      "male": 16,
+      "participants": 36,
+      "avgPoints": "21.03",
+      "activity": 0.024456521739130436,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3716900736-Rigas-Klasiska-gimnazija.pdf",
+      "activityStr": "2.45%", 
+      "skolotaji": [
+        {"teacherName": "Elīna Kaļnobricka", "count":5},
+        {"teacherName": "Gaļina Gļebova", "count":5},
+        {"teacherName": "Laima Tukāne", "count":5},
+        {"teacherName": "Ņina Suima", "count":5},
+        {"teacherName": "Irina Muhina", "count":4},
+        {"teacherName": "Ludmila Devajeva", "count":4},
+        {"teacherName": "Valentīna Paradoviča", "count":4},
+        {"teacherName": "Tatjana Karpova", "count":3},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Pārdaugavas pamatskola",                        
+      "lat": 56.9123194,
+      "lng": 24.0971577,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "25.00",
+      "activity": 0.012711864406779662,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3812900704-Rigas-Pardaugavas-pamatskola.pdf",
+      "activityStr": "1.27%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Ņesterenko", "count":2},
+        {"teacherName": "Vladimirs Ņesterenko", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Friča Brīvzemnieka pamatskola",                        
+      "lat": 56.935719,
+      "lng": 24.0748695,
+      "female": 3,
+      "male": 7,
+      "participants": 10,
+      "avgPoints": "22.40",
+      "activity": 0.06097560975609756,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3812900716-Frica-Brivzemnieka-pamatskola.pdf",
+      "activityStr": "6.10%", 
+      "skolotaji": [
+        {"teacherName": "Biruta Sniķere", "count":6},
+        {"teacherName": "Biruta Venckus", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Igauņu pamatskola",                        
+      "lat": 56.9143877,
+      "lng": 24.081659,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "29.00",
+      "activity": 0.009708737864077669,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3812902864-Rigas-Igaunu-pamatskola.pdf",
+      "activityStr": "0.97%", 
+      "skolotaji": [
+        {"teacherName": "Helēna Rāzna", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas vispārizglītojošā privātā vidusskola \"Evrika\"",                        
+      "lat": 56.9466636,
+      "lng": 24.016798,
+      "female": 1,
+      "male": 4,
+      "participants": 5,
+      "avgPoints": "38.60",
+      "activity": 0.04310344827586207,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813800960-Privata-vidusskola-Evrika.pdf",
+      "activityStr": "4.31%", 
+      "skolotaji": [
+        {"teacherName": "Inna Ragozina", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Mūzikas internātvidusskola",                        
+      "lat": 56.930649,
+      "lng": 24.0258809,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "12.00",
+      "activity": 0.013333333333333334,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813900701-Rigas-Muzikas-internatvidusskola.pdf",
+      "activityStr": "1.33%", 
+      "skolotaji": [
+        {"teacherName": "Zinta Šķirmante", "count":2},
+        {"teacherName": "Indra Beitika", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 94. vidusskola",                        
+      "lat": 56.8989364,
+      "lng": 24.0937247,
+      "female": 6,
+      "male": 4,
+      "participants": 10,
+      "avgPoints": "23.30",
+      "activity": 0.027548209366391185,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813900723-Rigas-94-vidusskola.pdf",
+      "activityStr": "2.75%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Podāne", "count":5},
+        {"teacherName": "Inguna Sniķersproģe", "count":4},
+        {"teacherName": "Inga Aurmane", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 53. vidusskola",                        
+      "lat": 56.9416857,
+      "lng": 24.0694571,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "30.00",
+      "activity": 0.006666666666666667,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813900725-Rigas-53-vidusskola.pdf",
+      "activityStr": "0.67%", 
+      "skolotaji": [
+        {"teacherName": "Inna Čulkova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 95. vidusskola",                        
+      "lat": 56.9038019,
+      "lng": 24.0829838,
+      "female": 9,
+      "male": 5,
+      "participants": 14,
+      "avgPoints": "13.07",
+      "activity": 0.019858156028368795,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813900727-Rigas-95-vidusskola.pdf",
+      "activityStr": "1.99%", 
+      "skolotaji": [
+        {"teacherName": "Alla Voropajeva", "count":6},
+        {"teacherName": "Tatjana Petuhova", "count":6},
+        {"teacherName": "Nataļja Koļcova", "count":1},
+        {"teacherName": "Tatjana Bikova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 47. vidusskola",                        
+      "lat": 56.915989,
+      "lng": 24.1029651,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "16.00",
+      "activity": 0.0029411764705882353,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3813900728-Rigas-47-vidusskola.pdf",
+      "activityStr": "0.29%", 
+      "skolotaji": [
+        {"teacherName": "Signe Vovere", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Angļu ģimnāzija",                        
+      "lat": 56.9252274,
+      "lng": 24.0727784,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "19.40",
+      "activity": 0.004911591355599214,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3816900699-Rigas-Anglu-gimnazija.pdf",
+      "activityStr": "0.49%", 
+      "skolotaji": [
+        {"teacherName": "Ruta Štromane", "count":3},
+        {"teacherName": "Agrita Stalniece", "count":1},
+        {"teacherName": "Inese Jakubova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ziemeļvalstu ģimnāzija",                        
+      "lat": 56.9464495,
+      "lng": 24.0201836,
+      "female": 1,
+      "male": 5,
+      "participants": 6,
+      "avgPoints": "18.17",
+      "activity": 0.006696428571428571,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3816900700-Ziemelvalstu-gimnazija.pdf",
+      "activityStr": "0.67%", 
+      "skolotaji": [
+        {"teacherName": "Iveta Neilande", "count":5},
+        {"teacherName": "Gunta Petersone", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Zolitūdes ģimnāzija",                        
+      "lat": 56.9464227,
+      "lng": 24.006986,
+      "female": 30,
+      "male": 34,
+      "participants": 64,
+      "avgPoints": "22.95",
+      "activity": 0.043567052416609936,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3816900724-Rigas-Zolitudes-gimnazija.pdf",
+      "activityStr": "4.36%", 
+      "skolotaji": [
+        {"teacherName": "Zoja Novikova", "count":18},
+        {"teacherName": "Lidija Gaidamanova", "count":13},
+        {"teacherName": "Olga Sheremet", "count":12},
+        {"teacherName": "Nadežda Rjabiņina", "count":9},
+        {"teacherName": "A.Ņestrojeva", "count":7},
+        {"teacherName": "Jevgeņija Gaiķena", "count":4},
+        {"teacherName": "Marina Guseva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Āgenskalna Valsts ģimnāzija",                        
+      "lat": 56.9414792,
+      "lng": 24.0731558,
+      "female": 24,
+      "male": 31,
+      "participants": 55,
+      "avgPoints": "15.27",
+      "activity": 0.06918238993710692,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3819900703-Agenskalna-Valsts-gimnazija.pdf",
+      "activityStr": "6.92%", 
+      "skolotaji": [
+        {"teacherName": "Ņina Juste", "count":14},
+        {"teacherName": "Kristīne Liepiņa", "count":11},
+        {"teacherName": "Aivars Ančupāns", "count":10},
+        {"teacherName": "Lolita Žilvinska", "count":9},
+        {"teacherName": "Līga Plauča", "count":6},
+        {"teacherName": "Vizbulīte Jubase", "count":4},
+        {"teacherName": "Aija Plēsuma", "count":3},
+        {"teacherName": "Inga Upeniece", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "RTU inženierzinātņu vidusskola",                        
+      "lat": 56.954169,
+      "lng": 24.1033827,
+      "female": 8,
+      "male": 10,
+      "participants": 18,
+      "avgPoints": "15.83",
+      "activity": 0.3,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913803014-RTU-inzenierzinatnu-vidusskola.pdf",
+      "activityStr": "30.00%", 
+      "skolotaji": [
+        {"teacherName": "Inguna Granta", "count":18}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 13. vidusskola",                        
+      "lat": 56.9621446,
+      "lng": 24.105411,
+      "female": 24,
+      "male": 26,
+      "participants": 50,
+      "avgPoints": "17.98",
+      "activity": 0.11086474501108648,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900817-Rigas-13-vidusskola.pdf",
+      "activityStr": "11.09%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Česnokova", "count":35},
+        {"teacherName": "Nataļja Mosolova", "count":8},
+        {"teacherName": "Tatjana Matrosova", "count":5},
+        {"teacherName": "Liāna Dembovska", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Rīnūžu vidusskola",                        
+      "lat": 57.0384824,
+      "lng": 24.0937318,
+      "female": 18,
+      "male": 11,
+      "participants": 29,
+      "avgPoints": "13.03",
+      "activity": 0.06791569086651054,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900818-Rigas-Rinuzhu-vidusskola.pdf",
+      "activityStr": "6.79%", 
+      "skolotaji": [
+        {"teacherName": "Olga Kostenko", "count":12},
+        {"teacherName": "Olga Sibiļova", "count":9},
+        {"teacherName": "Irēna Miezīte", "count":5},
+        {"teacherName": "Nataļja Rassohina", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Jāņa Poruka vidusskola",                        
+      "lat": 56.9838207,
+      "lng": 24.1577807,
+      "female": 2,
+      "male": 4,
+      "participants": 6,
+      "avgPoints": "18.17",
+      "activity": 0.022304832713754646,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900820-Rigas-Jana-Poruka-vidusskola.pdf",
+      "activityStr": "2.23%", 
+      "skolotaji": [
+        {"teacherName": "Inga Balode", "count":4},
+        {"teacherName": "Arta Rubule", "count":1},
+        {"teacherName": "Indra Ostrovska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Puškina licejs",                        
+      "lat": 56.9987887,
+      "lng": 24.1247081,
+      "female": 6,
+      "male": 10,
+      "participants": 16,
+      "avgPoints": "21.06",
+      "activity": 0.0350109409190372,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900821-Puskina-licejs.pdf",
+      "activityStr": "3.50%", 
+      "skolotaji": [
+        {"teacherName": "Tatjana Ščogoļeva", "count":8},
+        {"teacherName": "Irēna Kozlovska", "count":3},
+        {"teacherName": "Jeļena Kuļbanoviča", "count":3},
+        {"teacherName": "Irina Kravčenko", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 10. vidusskola",                        
+      "lat": 56.9615592,
+      "lng": 24.1104501,
+      "female": 24,
+      "male": 28,
+      "participants": 52,
+      "avgPoints": "17.19",
+      "activity": 0.0947176684881603,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900824-Rigas-10-vidusskola.pdf",
+      "activityStr": "9.47%", 
+      "skolotaji": [
+        {"teacherName": "Tamāra Aleksandrova", "count":17},
+        {"teacherName": "Vera Solovjova", "count":12},
+        {"teacherName": "Jeļena Kurdjumova", "count":7},
+        {"teacherName": "Tamāra Jeršova", "count":7},
+        {"teacherName": "Valentīna Kapteine", "count":7},
+        {"teacherName": "Jelena Kurdjumova", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 31. vidusskola",                        
+      "lat": 57.0318049,
+      "lng": 24.1027579,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "33.00",
+      "activity": 0.014749262536873156,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900826-Rigas-31-vidusskola.pdf",
+      "activityStr": "1.47%", 
+      "skolotaji": [
+        {"teacherName": "Baiba Bolgzda", "count":4},
+        {"teacherName": "Maruta Gražanska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas 46. vidusskola",                        
+      "lat": 57.035274,
+      "lng": 24.1115004,
+      "female": 4,
+      "male": 2,
+      "participants": 6,
+      "avgPoints": "15.83",
+      "activity": 0.01812688821752266,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913900827-Rigas-46-vidusskola.pdf",
+      "activityStr": "1.81%", 
+      "skolotaji": [
+        {"teacherName": "Evgenia Adrukovich", "count":3},
+        {"teacherName": "Alīna Goļeševa", "count":2},
+        {"teacherName": "Olga Treimane", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Kultūru vidusskola",                        
+      "lat": 56.9704466,
+      "lng": 24.1067067,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "28.00",
+      "activity": 0.008316008316008316,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3913901617-Rigas-Kulturu-vidusskola.pdf",
+      "activityStr": "0.83%", 
+      "skolotaji": [
+        {"teacherName": "Rasma Ločmele", "count":2},
+        {"teacherName": "Zane Oše", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rīgas Valsts 2. ģimnāzija",                        
+      "lat": 56.954254,
+      "lng": 24.106374,
+      "female": 43,
+      "male": 30,
+      "participants": 73,
+      "avgPoints": "11.25",
+      "activity": 0.09012345679012346,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-3919902869-Rigas-Valsts-2-gimnazija.pdf",
+      "activityStr": "9.01%", 
+      "skolotaji": [
+        {"teacherName": "Daina Briņķe", "count":15},
+        {"teacherName": "Diāna Ruļuka-Paša", "count":15},
+        {"teacherName": "Ruta Pelce", "count":9},
+        {"teacherName": "Ināra Roziņa", "count":8},
+        {"teacherName": "Tatjana Strigaļova", "count":8},
+        {"teacherName": "Kaiva Treija", "count":7},
+        {"teacherName": "Laura Freija", "count":5},
+        {"teacherName": "Aldis Bomis", "count":3},
+        {"teacherName": "Guntis Vasiļevskis", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Talsu sākumskola",                        
+      "lat": 57.2402029,
+      "lng": 22.5915223,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "27.00",
+      "activity": 0.02857142857142857,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4111900592-Talsu-sakumskola.pdf",
+      "activityStr": "2.86%", 
+      "skolotaji": [
+        {"teacherName": "Inguna Paleja", "count":2},
+        {"teacherName": "Ligija Bieriņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Grobiņas sākumskola",                        
+      "lat": 56.5360594,
+      "lng": 21.1682832,
+      "female": 7,
+      "male": 3,
+      "participants": 10,
+      "avgPoints": "24.30",
+      "activity": 0.08771929824561403,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4111903081-Grobinas-sakumskola.pdf",
+      "activityStr": "8.77%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Vītola", "count":6},
+        {"teacherName": "Inese Ķepale", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Kolkas pamatskola",                        
+      "lat": 57.7424439,
+      "lng": 22.588184,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "26.00",
+      "activity": 0.029411764705882353,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112900615-Kolkas-pamatskola.pdf",
+      "activityStr": "2.94%", 
+      "skolotaji": [
+        {"teacherName": "Dace Tindenovska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kalētu pamatskola",                        
+      "lat": 56.3601009,
+      "lng": 21.4736538,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "21.50",
+      "activity": 0.0851063829787234,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901018-Kaletu-pamatskola.pdf",
+      "activityStr": "8.51%", 
+      "skolotaji": [
+        {"teacherName": "Agrita Otaņķe", "count":2},
+        {"teacherName": "Agra Jērica", "count":1},
+        {"teacherName": "Inga Sedola", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Māteru Jura Kazdangas pamatskola",                        
+      "lat": 56.7326289,
+      "lng": 21.7328059,
+      "female": 3,
+      "male": 0,
+      "participants": 3,
+      "avgPoints": "27.00",
+      "activity": 0.041666666666666664,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901019-Materu-Jura-Kazdangas-pamatskola.pdf",
+      "activityStr": "4.17%", 
+      "skolotaji": [
+        {"teacherName": "Valda Rudīte", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Kapsēdes pamatskola",                        
+      "lat": 56.58624,
+      "lng": 21.1391329,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "3.00",
+      "activity": 0.03571428571428571,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901021-Kapsedes-pamatskola.pdf",
+      "activityStr": "3.57%", 
+      "skolotaji": [
+        {"teacherName": "Sandra Ostele", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rudes pamatskola",                        
+      "lat": 56.3762619,
+      "lng": 21.094945,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "21.33",
+      "activity": 0.1111111111111111,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901024-Rudes-pamatskola.pdf",
+      "activityStr": "11.11%", 
+      "skolotaji": [
+        {"teacherName": "Dace Kalēja", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "A. Spāģa Dunalkas pamatskola",                        
+      "lat": 56.6628198,
+      "lng": 21.3014383,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "19.00",
+      "activity": 0.047619047619047616,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901029-A-Spaga-Dunalkas-pamatskola.pdf",
+      "activityStr": "4.76%", 
+      "skolotaji": [
+        {"teacherName": "Līga Šeidlere-Šuste", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Bārtas pamatskola",                        
+      "lat": 56.3808769,
+      "lng": 21.3007518,
+      "female": 2,
+      "male": 0,
+      "participants": 2,
+      "avgPoints": "3.00",
+      "activity": 0.08,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901030-Bartas-pamatskola.pdf",
+      "activityStr": "8.00%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Kāle", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Krotes Kronvalda Ata pamatskola",                        
+      "lat": 56.54317,
+      "lng": 21.5473509,
+      "female": 2,
+      "male": 1,
+      "participants": 3,
+      "avgPoints": "20.67",
+      "activity": 0.0625,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901033-Krotes-Kronvalda-Ata-pamatskola.pdf",
+      "activityStr": "6.25%", 
+      "skolotaji": [
+        {"teacherName": "Dzidra Šterna", "count":1},
+        {"teacherName": "Gunita Lācīte", "count":1},
+        {"teacherName": "Mārīte Laugale", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Sikšņu pamatskola",                        
+      "lat": 56.263551,
+      "lng": 21.2535769,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "20.50",
+      "activity": 0.0625,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4112901043-Siksnu-pamatskola.pdf",
+      "activityStr": "6.25%", 
+      "skolotaji": [
+        {"teacherName": "Agrita Brizga", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Talsu Kristīgā vidusskola",                        
+      "lat": 57.2458526,
+      "lng": 22.5869392,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "31.00",
+      "activity": 0.005376344086021506,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113801678-Talsu-Kristiga-vidusskola.pdf",
+      "activityStr": "0.54%", 
+      "skolotaji": [
+        {"teacherName": "Sigita Rathena", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Saldus 1. vidusskola",                        
+      "lat": 56.6695465,
+      "lng": 22.4896599,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "27.00",
+      "activity": 0.004405286343612335,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900155-Saldus-1-vidusskola.pdf",
+      "activityStr": "0.44%", 
+      "skolotaji": [
+        {"teacherName": "Egita Zariņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Rojas vidusskola",                        
+      "lat": 57.5017918,
+      "lng": 22.8061293,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "19.00",
+      "activity": 0.008771929824561403,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900619-Rojas-vidusskola.pdf",
+      "activityStr": "0.88%", 
+      "skolotaji": [
+        {"teacherName": "Virgīnija Mūrniece", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Dundagas vidusskola",                        
+      "lat": 57.5071941,
+      "lng": 22.3482753,
+      "female": 3,
+      "male": 0,
+      "participants": 3,
+      "avgPoints": "19.67",
+      "activity": 0.014354066985645933,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900621-Dundagas-vidusskola.pdf",
+      "activityStr": "1.44%", 
+      "skolotaji": [
+        {"teacherName": "Inese Ķiršakmene", "count":2},
+        {"teacherName": "Sintija Kronberga", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mērsraga vidusskola",                        
+      "lat": 57.3446824,
+      "lng": 23.1108786,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "14.67",
+      "activity": 0.02564102564102564,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900624-Mersraga-vidusskola.pdf",
+      "activityStr": "2.56%", 
+      "skolotaji": [
+        {"teacherName": "Inga Kauliņa", "count":2},
+        {"teacherName": "Sintija Grīnberga", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ata Kronvalda Durbes vidusskola",                        
+      "lat": 56.5873896,
+      "lng": 21.37154,
+      "female": 9,
+      "male": 3,
+      "participants": 12,
+      "avgPoints": "14.67",
+      "activity": 0.12244897959183673,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900995-Ata-Kronvalda-Durbes-vidusskola.pdf",
+      "activityStr": "12.24%", 
+      "skolotaji": [
+        {"teacherName": "Žanna Kļava", "count":8},
+        {"teacherName": "Ineta Untule", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Nīcas vidusskola",                        
+      "lat": 56.3457787,
+      "lng": 21.0726914,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "24.17",
+      "activity": 0.045454545454545456,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113900998-Nicas-vidusskola.pdf",
+      "activityStr": "4.55%", 
+      "skolotaji": [
+        {"teacherName": "Ingrīda Dejus", "count":4},
+        {"teacherName": "Sarm'te Čirkše", "count":1},
+        {"teacherName": "Sarmīte Čirkše", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Priekules vidusskola",                        
+      "lat": 56.4405307,
+      "lng": 21.5833998,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "5.00",
+      "activity": 0.028735632183908046,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113901000-Priekules-vidusskola.pdf",
+      "activityStr": "2.87%", 
+      "skolotaji": [
+        
+      ]      
+    }
+    ,
+    {
+      "name": "Aizputes vidusskola",                        
+      "lat": 56.720246,
+      "lng": 21.6102556,
+      "female": 8,
+      "male": 5,
+      "participants": 13,
+      "avgPoints": "13.23",
+      "activity": 0.04100946372239748,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113901044-Aizputes-vidusskola.pdf",
+      "activityStr": "4.10%", 
+      "skolotaji": [
+        {"teacherName": "Agnese Šuste", "count":10},
+        {"teacherName": "Daiga Tīmane", "count":7},
+        {"teacherName": "Dace Šmite", "count":4},
+        {"teacherName": "Gunta Elbere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Brocēnu vidusskola",                        
+      "lat": 56.6826202,
+      "lng": 22.5623601,
+      "female": 4,
+      "male": 5,
+      "participants": 9,
+      "avgPoints": "12.33",
+      "activity": 0.024390243902439025,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113901049-Brocenu-vidusskola.pdf",
+      "activityStr": "2.44%", 
+      "skolotaji": [
+        {"teacherName": "Maija Golubeva", "count":4},
+        {"teacherName": "Svetlana Tarasova", "count":4},
+        {"teacherName": "Oksana Visocka", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kuldīgas 2. vidusskola",                        
+      "lat": 56.9628024,
+      "lng": 21.9836814,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "5.00",
+      "activity": 0.0035335689045936395,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113901191-Kuldigas-2-vidusskola.pdf",
+      "activityStr": "0.35%", 
+      "skolotaji": [
+        {"teacherName": "Pēteris Kairišs", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kuldīgas Centra vidusskola",                        
+      "lat": 56.9663587,
+      "lng": 21.9652453,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "10.00",
+      "activity": 0.002352941176470588,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4113901192-Kuldigas-Centra-vidusskola.pdf",
+      "activityStr": "0.24%", 
+      "skolotaji": [
+        {"teacherName": "Santa Lapiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Grobiņas ģimnāzija",                        
+      "lat": 56.5364403,
+      "lng": 21.1672443,
+      "female": 15,
+      "male": 9,
+      "participants": 24,
+      "avgPoints": "6.62",
+      "activity": 0.08921933085501858,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4116902610-Grobinas-gimnazija.pdf",
+      "activityStr": "8.92%", 
+      "skolotaji": [
+        {"teacherName": "Anita Poriņa", "count":8},
+        {"teacherName": "Ilze Kāle", "count":7},
+        {"teacherName": "Brigita Pelēķe", "count":6},
+        {"teacherName": "Irēna Roze", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Talsu Valsts ģimnāzija",                        
+      "lat": 57.2401813,
+      "lng": 22.5915475,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "8.33",
+      "activity": 0.011494252873563218,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4119902544-Talsu-Valsts-gimnazija.pdf",
+      "activityStr": "1.15%", 
+      "skolotaji": [
+        {"teacherName": "Ligija Bieriņa", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Preiļu 1. pamatskola",                        
+      "lat": 56.291061,
+      "lng": 26.722417,
+      "female": 10,
+      "male": 2,
+      "participants": 12,
+      "avgPoints": "19.50",
+      "activity": 0.04597701149425287,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900356-Preilu-1-pamatskola.pdf",
+      "activityStr": "4.60%", 
+      "skolotaji": [
+        {"teacherName": "Inga Buka", "count":4},
+        {"teacherName": "Mairita Grišule", "count":4},
+        {"teacherName": "Ilona Isajeva", "count":3},
+        {"teacherName": "Anna Dzidra Bernāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jersikas pamatskola",                        
+      "lat": 56.2540446,
+      "lng": 26.2023121,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "15.00",
+      "activity": 0.05555555555555555,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900365-Jersikas-pamatskola.pdf",
+      "activityStr": "5.56%", 
+      "skolotaji": [
+        {"teacherName": "Marina Konovalova", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunsilavas pamatskola",                        
+      "lat": 56.3902168,
+      "lng": 26.15907,
+      "female": 3,
+      "male": 4,
+      "participants": 7,
+      "avgPoints": "23.86",
+      "activity": 0.10144927536231885,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900366-Jaunsilavas-pamatskola.pdf",
+      "activityStr": "10.14%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Švirksta", "count":7}
+      ]      
+    }
+    ,
+    {
+      "name": "Rožupes pamatskola",                        
+      "lat": 56.3403921,
+      "lng": 26.3434718,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "11.00",
+      "activity": 0.02564102564102564,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900368-Rozupes-pamatskola.pdf",
+      "activityStr": "2.56%", 
+      "skolotaji": [
+        {"teacherName": "Marija Šūpulniece", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Salas pamatskola",                        
+      "lat": 56.4228339,
+      "lng": 26.677002,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "15.17",
+      "activity": 0.24,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900370-Salas-pamatskola.pdf",
+      "activityStr": "24.00%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Madalāne", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Mežvidu pamatskola",                        
+      "lat": 56.6935209,
+      "lng": 27.533016,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "26.00",
+      "activity": 0.030303030303030304,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900463-Mezvidu-pamatskola.pdf",
+      "activityStr": "3.03%", 
+      "skolotaji": [
+        {"teacherName": "Vita Krišāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kalupes pamatskola",                        
+      "lat": 56.0976424,
+      "lng": 26.5474255,
+      "female": 3,
+      "male": 0,
+      "participants": 3,
+      "avgPoints": "20.33",
+      "activity": 0.08823529411764706,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900502-Kalupes-pamatskola.pdf",
+      "activityStr": "8.82%", 
+      "skolotaji": [
+        {"teacherName": "Tatjana Romanceviča", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Krāslavas pamatskola",                        
+      "lat": 55.9014483,
+      "lng": 27.1606986,
+      "female": 1,
+      "male": 3,
+      "participants": 4,
+      "avgPoints": "23.50",
+      "activity": 0.01834862385321101,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900553-Kraslavas-pamatskola.pdf",
+      "activityStr": "1.83%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Pelnika", "count":3},
+        {"teacherName": "Jeļena Japiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Andzeļu pamatskola",                        
+      "lat": 56.1681979,
+      "lng": 27.5524079,
+      "female": 2,
+      "male": 0,
+      "participants": 2,
+      "avgPoints": "19.00",
+      "activity": 0.08333333333333333,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900567-Andzelu-pamatskola.pdf",
+      "activityStr": "8.33%", 
+      "skolotaji": [
+        {"teacherName": "Larisa Bartuša", "count":1},
+        {"teacherName": "Vladislavs Bartušs", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Andrupenes pamatskola",                        
+      "lat": 56.1881256,
+      "lng": 27.3982623,
+      "female": 1,
+      "male": 3,
+      "participants": 4,
+      "avgPoints": "15.50",
+      "activity": 0.10810810810810811,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212900568-Andrupenes-pamatskola.pdf",
+      "activityStr": "10.81%", 
+      "skolotaji": [
+        {"teacherName": "Anna Jubele", "count":3},
+        {"teacherName": "Anita Kiselevska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Dekšāru pamatskola",                        
+      "lat": 56.5721482,
+      "lng": 26.8019799,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "45.00",
+      "activity": 0.022222222222222223,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212901166-Deksaru-pamatskola.pdf",
+      "activityStr": "2.22%", 
+      "skolotaji": [
+        {"teacherName": "Mārīte Nagle", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Balvu pamatskola",                        
+      "lat": 57.1302928,
+      "lng": 27.2622349,
+      "female": 9,
+      "male": 2,
+      "participants": 11,
+      "avgPoints": "26.73",
+      "activity": 0.043137254901960784,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212901935-Balvu-pamatskola.pdf",
+      "activityStr": "4.31%", 
+      "skolotaji": [
+        {"teacherName": "Ineta Gargurne", "count":9},
+        {"teacherName": "Sarmīte Ivanova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Gaigalavas pamatskola",                        
+      "lat": 56.724539,
+      "lng": 27.085844,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "47.00",
+      "activity": 0.017857142857142856,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4212902240-Gaigalavas-pamatskola.pdf",
+      "activityStr": "1.79%", 
+      "skolotaji": [
+        {"teacherName": "Ināra Ūzula", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Viļānu vidusskola",                        
+      "lat": 56.5514199,
+      "lng": 26.9250599,
+      "female": 9,
+      "male": 2,
+      "participants": 11,
+      "avgPoints": "13.73",
+      "activity": 0.03197674418604651,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900184-Vilanu-vidusskola.pdf",
+      "activityStr": "3.20%", 
+      "skolotaji": [
+        {"teacherName": "Aina Mozule", "count":3},
+        {"teacherName": "Nellija Guda", "count":3},
+        {"teacherName": "Pēteris Tretjuks", "count":2},
+        {"teacherName": "Valentīna Aksjonova", "count":2},
+        {"teacherName": "Sergejs Bistrovs", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Līvānu 1. vidusskola",                        
+      "lat": 56.3581365,
+      "lng": 26.1729719,
+      "female": 5,
+      "male": 12,
+      "participants": 17,
+      "avgPoints": "21.71",
+      "activity": 0.04927536231884058,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900374-Livanu-1-vidusskola.pdf",
+      "activityStr": "4.93%", 
+      "skolotaji": [
+        {"teacherName": "Elga Sarnoviča", "count":6},
+        {"teacherName": "Elita Vaivode", "count":6},
+        {"teacherName": "Marija Raginska", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Rudzātu vidusskola",                        
+      "lat": 56.4164067,
+      "lng": 26.4560315,
+      "female": 3,
+      "male": 5,
+      "participants": 8,
+      "avgPoints": "22.00",
+      "activity": 0.12307692307692308,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900378-Rudzatu-vidusskola.pdf",
+      "activityStr": "12.31%", 
+      "skolotaji": [
+        {"teacherName": "Veneranda Spriņģe", "count":8},
+        {"teacherName": "Katrīna Grigorjeva", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Riebiņu vidusskola",                        
+      "lat": 56.3337983,
+      "lng": 26.788771,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "8.50",
+      "activity": 0.011904761904761904,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900379-Riebinu-vidusskola.pdf",
+      "activityStr": "1.19%", 
+      "skolotaji": [
+        {"teacherName": "Alla Solovjova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Aglonas internātvidusskola",                        
+      "lat": 56.1652033,
+      "lng": 26.9907516,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "32.00",
+      "activity": 0.015625,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900380-Aglonas-internatvidusskola.pdf",
+      "activityStr": "1.56%", 
+      "skolotaji": [
+        {"teacherName": "Silvija Skrupska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Aglonas vidusskola",                        
+      "lat": 56.1351156,
+      "lng": 26.9975067,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "17.80",
+      "activity": 0.04950495049504951,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900381-Aglonas-vidusskola.pdf",
+      "activityStr": "4.95%", 
+      "skolotaji": [
+        {"teacherName": "Ruta Giluče", "count":3},
+        {"teacherName": "Elēna Čaupjonoka", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Preiļu 2. vidusskola",                        
+      "lat": 56.2882239,
+      "lng": 26.724945,
+      "female": 5,
+      "male": 3,
+      "participants": 8,
+      "avgPoints": "14.75",
+      "activity": 0.055944055944055944,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900386-Preilu-2-vidusskola.pdf",
+      "activityStr": "5.59%", 
+      "skolotaji": [
+        {"teacherName": "Masļakova Aleksandra", "count":6},
+        {"teacherName": "Tatjana Svetlova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Līvānu 2. vidusskola",                        
+      "lat": 56.3608502,
+      "lng": 26.1722691,
+      "female": 4,
+      "male": 2,
+      "participants": 6,
+      "avgPoints": "4.50",
+      "activity": 0.03636363636363636,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900387-Livanu-2-vidusskola.pdf",
+      "activityStr": "3.64%", 
+      "skolotaji": [
+        {"teacherName": "Tamāra Haritonova", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Rekavas vidusskola",                        
+      "lat": 57.0412148,
+      "lng": 27.6186035,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "12.60",
+      "activity": 0.05,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900437-Rekavas-vidusskola.pdf",
+      "activityStr": "5.00%", 
+      "skolotaji": [
+        {"teacherName": "Ingūna Kaņepe", "count":4},
+        {"teacherName": "Klavdija Ivļeva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ciblas vidusskola",                        
+      "lat": 56.552413,
+      "lng": 27.8862269,
+      "female": 3,
+      "male": 0,
+      "participants": 3,
+      "avgPoints": "19.67",
+      "activity": 0.03488372093023256,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900473-Ciblas-vidusskola.pdf",
+      "activityStr": "3.49%", 
+      "skolotaji": [
+        {"teacherName": "Renāte Mikaskina", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Ludzas 2. vidusskola",                        
+      "lat": 56.5392097,
+      "lng": 27.7175153,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "9.00",
+      "activity": 0.0034482758620689655,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900475-Ludzas-2-vidusskola.pdf",
+      "activityStr": "0.34%", 
+      "skolotaji": [
+        {"teacherName": "Angelīna Zakirzjanova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ilūkstes 1. vidusskola",                        
+      "lat": 55.9831237,
+      "lng": 26.2879266,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "14.50",
+      "activity": 0.02185792349726776,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900513-Ilukstes-1-vidusskola.pdf",
+      "activityStr": "2.19%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Vaitkune", "count":3},
+        {"teacherName": "Biruta Gičevska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Špoģu vidusskola",                        
+      "lat": 56.0744286,
+      "lng": 26.7347805,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "13.67",
+      "activity": 0.014018691588785047,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900514-Spogu-vidusskola.pdf",
+      "activityStr": "1.40%", 
+      "skolotaji": [
+        {"teacherName": "Daina Akote", "count":2},
+        {"teacherName": "Lilija Tipāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ezernieku vidusskola",                        
+      "lat": 56.1837989,
+      "lng": 27.644152,
+      "female": 4,
+      "male": 1,
+      "participants": 5,
+      "avgPoints": "15.80",
+      "activity": 0.05102040816326531,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900572-Ezernieku-vidusskola.pdf",
+      "activityStr": "5.10%", 
+      "skolotaji": [
+        {"teacherName": "Anna Osipova", "count":4},
+        {"teacherName": "Irēna Dārzniece", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Dagdas vidusskola",                        
+      "lat": 56.097702,
+      "lng": 27.5331499,
+      "female": 12,
+      "male": 7,
+      "participants": 19,
+      "avgPoints": "13.42",
+      "activity": 0.07251908396946564,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4213900573-Dagdas-vidusskola.pdf",
+      "activityStr": "7.25%", 
+      "skolotaji": [
+        {"teacherName": "Aija Babre", "count":7},
+        {"teacherName": "Rita Azina", "count":5},
+        {"teacherName": "Irēna Maļkeviča", "count":4},
+        {"teacherName": "Anna Jubele", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Ludzas pilsētas ģimnāzija",                        
+      "lat": 56.5412163,
+      "lng": 27.7168659,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "9.50",
+      "activity": 0.0037313432835820895,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4216900471-Ludzas-pilsetas-gimnazija.pdf",
+      "activityStr": "0.37%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Abricka", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Preiļu Valsts ģimnāzija",                        
+      "lat": 56.2974426,
+      "lng": 26.7247916,
+      "female": 7,
+      "male": 1,
+      "participants": 8,
+      "avgPoints": "8.25",
+      "activity": 0.04790419161676647,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4219900382-Preilu-Valsts-gimnazija.pdf",
+      "activityStr": "4.79%", 
+      "skolotaji": [
+        {"teacherName": "Ineta Ivanova", "count":5},
+        {"teacherName": "Katrīna Tarasova", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Balvu Valsts ģimnāzija",                        
+      "lat": 57.1326281,
+      "lng": 27.2772702,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "9.40",
+      "activity": 0.017421602787456445,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4219900434-Balvu-Valsts-gimnazija.pdf",
+      "activityStr": "1.74%", 
+      "skolotaji": [
+        {"teacherName": "Lucija Boldāne", "count":2},
+        {"teacherName": "Anita Kamendere", "count":1},
+        {"teacherName": "Lūcija Baldāne", "count":1},
+        {"teacherName": "Rita Kluce", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Krāslavas Valsts ģimnāzija",                        
+      "lat": 55.9009261,
+      "lng": 27.1701615,
+      "female": 9,
+      "male": 7,
+      "participants": 16,
+      "avgPoints": "9.62",
+      "activity": 0.09302325581395349,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4219902694-Kraslavas-Valsts-gimnazija.pdf",
+      "activityStr": "9.30%", 
+      "skolotaji": [
+        {"teacherName": "Liene Andžāne", "count":11},
+        {"teacherName": "Anna Juškeviča", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Privātā sākumskola \"Vinnijs\"",                        
+      "lat": 56.9532132,
+      "lng": 23.9492141,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "23.67",
+      "activity": 0.25,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4311802759-Privata-sakumskola-Vinnijs.pdf",
+      "activityStr": "25.00%", 
+      "skolotaji": [
+        {"teacherName": "Līga Daukste", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Ogres sākumskola",                        
+      "lat": 56.822021,
+      "lng": 24.60575,
+      "female": 9,
+      "male": 2,
+      "participants": 11,
+      "avgPoints": "25.82",
+      "activity": 0.048672566371681415,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4311900200-Ogres-sakumskola.pdf",
+      "activityStr": "4.87%", 
+      "skolotaji": [
+        {"teacherName": "Sandra Kalniņa", "count":7},
+        {"teacherName": "Lana Ķirse", "count":2},
+        {"teacherName": "Māra Banka", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Laurenču sākumskola",                        
+      "lat": 57.1401556,
+      "lng": 24.8187432,
+      "female": 0,
+      "male": 5,
+      "participants": 5,
+      "avgPoints": "16.20",
+      "activity": 0.06172839506172839,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4311902928-Laurencu-sakumskola.pdf",
+      "activityStr": "6.17%", 
+      "skolotaji": [
+        {"teacherName": "Anita Stakova", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Ogresgala pamatskola",                        
+      "lat": 56.805713,
+      "lng": 24.7297121,
+      "female": 1,
+      "male": 4,
+      "participants": 5,
+      "avgPoints": "13.80",
+      "activity": 0.060240963855421686,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312900194-Ogresgala-pamatskola.pdf",
+      "activityStr": "6.02%", 
+      "skolotaji": [
+        {"teacherName": "Vera Krilovska", "count":3},
+        {"teacherName": "Inese Frīdenberga", "count":1},
+        {"teacherName": "Zanda Puķāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Tīnūžu pamatskola",                        
+      "lat": 56.868497,
+      "lng": 24.5668382,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "32.00",
+      "activity": 0.01020408163265306,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312900199-Tinuzu-pamatskola.pdf",
+      "activityStr": "1.02%", 
+      "skolotaji": [
+        {"teacherName": "Aija Bluķe", "count":1},
+        {"teacherName": "Ineta Mosāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Lapmežciema pamatskola",                        
+      "lat": 57.0005715,
+      "lng": 23.5145467,
+      "female": 6,
+      "male": 3,
+      "participants": 9,
+      "avgPoints": "15.44",
+      "activity": 0.11688311688311688,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312900208-Lapmezciema-pamatskola.pdf",
+      "activityStr": "11.69%", 
+      "skolotaji": [
+        {"teacherName": "Lolita Jansone", "count":7},
+        {"teacherName": "Zaiga Kauķe", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Smārdes pamatskola",                        
+      "lat": 56.949661,
+      "lng": 23.3371119,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "43.00",
+      "activity": 0.011235955056179775,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312900209-Smardes-pamatskola.pdf",
+      "activityStr": "1.12%", 
+      "skolotaji": [
+        {"teacherName": "Ieva Krūmiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Tukuma E.Birznieka-Upīša 1. pamatskola",                        
+      "lat": 56.9642441,
+      "lng": 23.1515367,
+      "female": 4,
+      "male": 5,
+      "participants": 9,
+      "avgPoints": "17.22",
+      "activity": 0.04918032786885246,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312900232-Tukuma-E-B-Upisa-1-pamatskola.pdf",
+      "activityStr": "4.92%", 
+      "skolotaji": [
+        {"teacherName": "Sarmīte Krūmiņa", "count":5},
+        {"teacherName": "Ilga Jēgere", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Baldones Mūzikas pamatskola",                        
+      "lat": 56.7479959,
+      "lng": 24.3999557,
+      "female": 2,
+      "male": 0,
+      "participants": 2,
+      "avgPoints": "25.00",
+      "activity": 0.02702702702702703,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901006-Baldones-Muzikas-pamatskola.pdf",
+      "activityStr": "2.70%", 
+      "skolotaji": [
+        {"teacherName": "Ija Poriete", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Siguldas 1. pamatskola",                        
+      "lat": 57.1539295,
+      "lng": 24.8821617,
+      "female": 4,
+      "male": 4,
+      "participants": 8,
+      "avgPoints": "17.25",
+      "activity": 0.03125,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901089-Siguldas-1-pamatskola.pdf",
+      "activityStr": "3.12%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Mārtinsone", "count":3},
+        {"teacherName": "Vanda Priedīte", "count":3},
+        {"teacherName": "Lidija Kalniņa", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Allažu pamatskola",                        
+      "lat": 57.0522239,
+      "lng": 24.798799,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "10.60",
+      "activity": 0.078125,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901109-Allazu-pamatskola.pdf",
+      "activityStr": "7.81%", 
+      "skolotaji": [
+        {"teacherName": "Dzidra Rugaine", "count":3},
+        {"teacherName": "Aina Keplere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Carnikavas pamatskola",                        
+      "lat": 57.1288874,
+      "lng": 24.2718144,
+      "female": 4,
+      "male": 6,
+      "participants": 10,
+      "avgPoints": "28.40",
+      "activity": 0.05405405405405406,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901110-Carnikavas-pamatskola.pdf",
+      "activityStr": "5.41%", 
+      "skolotaji": [
+        {"teacherName": "Žaneta Kovaļevska", "count":5},
+        {"teacherName": "Pārsla Rumpe", "count":4},
+        {"teacherName": "Dzelme Kosīte", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mārupes pamatskola",                        
+      "lat": 56.8851126,
+      "lng": 24.0644573,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "20.00",
+      "activity": 0.011494252873563218,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901121-Marupes-pamatskola.pdf",
+      "activityStr": "1.15%", 
+      "skolotaji": [
+        {"teacherName": "Edīte Dāvidsone", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Inčukalna pamatskola",                        
+      "lat": 57.1013022,
+      "lng": 24.6820327,
+      "female": 4,
+      "male": 2,
+      "participants": 6,
+      "avgPoints": "25.50",
+      "activity": 0.05357142857142857,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312901339-Incukalna-pamatskola.pdf",
+      "activityStr": "5.36%", 
+      "skolotaji": [
+        {"teacherName": "Alma Deņisova", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Tukuma 2. pamatskola",                        
+      "lat": 56.9681513,
+      "lng": 23.147451,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "28.00",
+      "activity": 0.003703703703703704,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312902393-Tukuma-2-pamatskola.pdf",
+      "activityStr": "0.37%", 
+      "skolotaji": [
+        {"teacherName": "Agrita Apine", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunmārupes pamatskola",                        
+      "lat": 56.879251,
+      "lng": 23.949052,
+      "female": 0,
+      "male": 6,
+      "participants": 6,
+      "avgPoints": "18.00",
+      "activity": 0.021505376344086023,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4312903031-Jaunmarupes-pamatskola.pdf",
+      "activityStr": "2.15%", 
+      "skolotaji": [
+        {"teacherName": "Inga Melngaile", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Privātā vidusskola Ādažu Brīvā Valdorfa skola",                        
+      "lat": 57.0765002,
+      "lng": 24.326625,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "13.00",
+      "activity": 0.004975124378109453,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313800383-Adazu-Briva-Valdorfa-skola.pdf",
+      "activityStr": "0.50%", 
+      "skolotaji": [
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Suntažu vidusskola",                        
+      "lat": 56.9035392,
+      "lng": 24.9258629,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "39.00",
+      "activity": 0.005714285714285714,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900187-Suntazu-vidusskola.pdf",
+      "activityStr": "0.57%", 
+      "skolotaji": [
+        {"teacherName": "Lolita Villere", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ogres 1. vidusskola",                        
+      "lat": 56.8172376,
+      "lng": 24.6102325,
+      "female": 8,
+      "male": 10,
+      "participants": 18,
+      "avgPoints": "19.56",
+      "activity": 0.02269861286254729,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900189-Ogres-1-vidusskola.pdf",
+      "activityStr": "2.27%", 
+      "skolotaji": [
+        {"teacherName": "Edīte Vigule", "count":7},
+        {"teacherName": "Inta Ungure", "count":4},
+        {"teacherName": "Vita Brauna", "count":3},
+        {"teacherName": "Inta Laicāne", "count":2},
+        {"teacherName": "Anita Kalnciema", "count":1},
+        {"teacherName": "Ārija Bardovska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ikšķiles vidusskola",                        
+      "lat": 56.8358992,
+      "lng": 24.4939957,
+      "female": 7,
+      "male": 9,
+      "participants": 16,
+      "avgPoints": "21.12",
+      "activity": 0.028985507246376812,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900190-Ikskiles-vidusskola.pdf",
+      "activityStr": "2.90%", 
+      "skolotaji": [
+        {"teacherName": "Inga Kumeliņa", "count":7},
+        {"teacherName": "Līga Strauss", "count":7},
+        {"teacherName": "Tatjana Kaskeviča", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Ķeguma komercnovirziena vidusskola",                        
+      "lat": 56.7470782,
+      "lng": 24.7140596,
+      "female": 3,
+      "male": 2,
+      "participants": 5,
+      "avgPoints": "17.20",
+      "activity": 0.025906735751295335,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900201-Keguma-komercnovirziena-vidusskola.pdf",
+      "activityStr": "2.59%", 
+      "skolotaji": [
+        {"teacherName": "Anita Lošaka", "count":2},
+        {"teacherName": "Ligita Briede", "count":2},
+        {"teacherName": "Arnis Rudiņš", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunpils vidusskola",                        
+      "lat": 56.72998,
+      "lng": 23.0165879,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "23.00",
+      "activity": 0.012578616352201259,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900207-Jaunpils-vidusskola.pdf",
+      "activityStr": "1.26%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Kāle", "count":1},
+        {"teacherName": "Irēna Liepiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Tukuma 2. vidusskola",                        
+      "lat": 56.9719691,
+      "lng": 23.1567231,
+      "female": 10,
+      "male": 12,
+      "participants": 22,
+      "avgPoints": "16.95",
+      "activity": 0.04536082474226804,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900224-Tukuma-2-vidusskola.pdf",
+      "activityStr": "4.54%", 
+      "skolotaji": [
+        {"teacherName": "Sanita Birzniece", "count":9},
+        {"teacherName": "Krista Zubova", "count":6},
+        {"teacherName": "Marita Trušina", "count":6},
+        {"teacherName": "Zita Štrausa", "count":6},
+        {"teacherName": "Ilze Grigore", "count":2},
+        {"teacherName": "Olga Antule", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Engures vidusskola",                        
+      "lat": 57.1627504,
+      "lng": 23.2222934,
+      "female": 7,
+      "male": 3,
+      "participants": 10,
+      "avgPoints": "15.80",
+      "activity": 0.057803468208092484,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313900228-Engures-vidusskola.pdf",
+      "activityStr": "5.78%", 
+      "skolotaji": [
+        {"teacherName": "Mārīte Bērziņa", "count":6},
+        {"teacherName": "Skaidrīte Vilciņa", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Salaspils novada pašvaldības iestāde \"Salaspils 1. vidusskola\"",                        
+      "lat": 56.8561845,
+      "lng": 24.3407873,
+      "female": 6,
+      "male": 8,
+      "participants": 14,
+      "avgPoints": "32.21",
+      "activity": 0.02531645569620253,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901008-Salaspils-1-vidusskola.pdf",
+      "activityStr": "2.53%", 
+      "skolotaji": [
+        {"teacherName": "Aiga Priedniece", "count":7},
+        {"teacherName": "Zanda Nelsone", "count":6},
+        {"teacherName": "Linda Krastiņa", "count":4},
+        {"teacherName": "Ieva Pudža", "count":2},
+        {"teacherName": "Ruta Ilgaža", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Ķekavas vidusskola",                        
+      "lat": 56.826761,
+      "lng": 24.2305198,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "26.25",
+      "activity": 0.006359300476947536,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901079-Kekavas-vidusskola.pdf",
+      "activityStr": "0.64%", 
+      "skolotaji": [
+        {"teacherName": "Zinaida Vasiļjeva", "count":3},
+        {"teacherName": "Laila Pētersone", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mārupes vidusskola",                        
+      "lat": 56.9187391,
+      "lng": 24.0364815,
+      "female": 8,
+      "male": 3,
+      "participants": 11,
+      "avgPoints": "13.64",
+      "activity": 0.015873015873015872,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901090-Marupes-vidusskola.pdf",
+      "activityStr": "1.59%", 
+      "skolotaji": [
+        {"teacherName": "Aleksandrs Vorobjovs", "count":7},
+        {"teacherName": "Gundega Dzene", "count":3},
+        {"teacherName": "Elita Voiciša", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Salaspils novada pašvaldības iestāde \"Salaspils 2. vidusskola\"",                        
+      "lat": 56.8562735,
+      "lng": 24.3344772,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "5.50",
+      "activity": 0.003898635477582846,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901092-Salaspils-2-vidusskola.pdf",
+      "activityStr": "0.39%", 
+      "skolotaji": [
+        {"teacherName": "Jekaterina Semenkova-Lauce", "count":1},
+        {"teacherName": "Trofimova Irina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Saulkrastu vidusskola",                        
+      "lat": 57.2612823,
+      "lng": 24.4142869,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "3.00",
+      "activity": 0.0043859649122807015,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901093-Saulkrastu-vidusskola.pdf",
+      "activityStr": "0.44%", 
+      "skolotaji": [
+        {"teacherName": "Oksana Vanaga", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Babītes vidusskola",                        
+      "lat": 56.9425203,
+      "lng": 23.912461,
+      "female": 5,
+      "male": 7,
+      "participants": 12,
+      "avgPoints": "24.17",
+      "activity": 0.0216998191681736,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901118-Babites-vidusskola.pdf",
+      "activityStr": "2.17%", 
+      "skolotaji": [
+        {"teacherName": "Iveta Mežgaile", "count":4},
+        {"teacherName": "Ligita Baleviča", "count":4},
+        {"teacherName": "Džineta Tērauda", "count":2},
+        {"teacherName": "Santa Veidele", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Zvejniekciema vidusskola",                        
+      "lat": 57.3180079,
+      "lng": 24.4172605,
+      "female": 5,
+      "male": 9,
+      "participants": 14,
+      "avgPoints": "10.79",
+      "activity": 0.07954545454545454,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901120-Zvejniekciema-vidusskola.pdf",
+      "activityStr": "7.95%", 
+      "skolotaji": [
+        {"teacherName": "Aleksandra Ivanova", "count":10},
+        {"teacherName": "Aina Strupiša", "count":3},
+        {"teacherName": "Valentīna Bērziņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Olaines 1. vidusskola",                        
+      "lat": 56.7879013,
+      "lng": 23.9418755,
+      "female": 5,
+      "male": 7,
+      "participants": 12,
+      "avgPoints": "22.92",
+      "activity": 0.0213903743315508,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901122-Olaines-1-vidusskola.pdf",
+      "activityStr": "2.14%", 
+      "skolotaji": [
+        {"teacherName": "Silvija Garoza", "count":6},
+        {"teacherName": "Sandra Vilsone", "count":3},
+        {"teacherName": "Evelīna Stepiņa", "count":1},
+        {"teacherName": "Kārlis Zalpēters", "count":1},
+        {"teacherName": "Ruta Ličāgina", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Olaines 2. vidusskola",                        
+      "lat": 56.7823458,
+      "lng": 23.9347976,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "26.00",
+      "activity": 0.004098360655737705,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901129-Olaines-2-vidusskola.pdf",
+      "activityStr": "0.41%", 
+      "skolotaji": [
+        {"teacherName": "Irima Macanova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Ādažu vidusskola",                        
+      "lat": 57.0786181,
+      "lng": 24.3394031,
+      "female": 8,
+      "male": 13,
+      "participants": 21,
+      "avgPoints": "23.38",
+      "activity": 0.025210084033613446,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901280-Adazu-vidusskola.pdf",
+      "activityStr": "2.52%", 
+      "skolotaji": [
+        {"teacherName": "Ingrīda Veilande", "count":9},
+        {"teacherName": "Vita Reinbooma", "count":7},
+        {"teacherName": "Linda Klauša", "count":4},
+        {"teacherName": "Anna Šiškoviča", "count":3},
+        {"teacherName": "Eva Jākobsone", "count":3},
+        {"teacherName": "Ināra Mīčule", "count":2},
+        {"teacherName": "Dagnija Ķikāne", "count":1},
+        {"teacherName": "Sarma Jēkabsone", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunogres vidusskola",                        
+      "lat": 56.8245756,
+      "lng": 24.5940731,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "11.80",
+      "activity": 0.013123359580052493,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901327-Jaunogres-vidusskola.pdf",
+      "activityStr": "1.31%", 
+      "skolotaji": [
+        {"teacherName": "Argentina Grigorjana", "count":4},
+        {"teacherName": "Ludmila Karaseva", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Limbažu 3. vidusskola",                        
+      "lat": 57.5062751,
+      "lng": 24.7102902,
+      "female": 17,
+      "male": 4,
+      "participants": 21,
+      "avgPoints": "11.86",
+      "activity": 0.06158357771260997,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313901881-Limbazu-3-vidusskola.pdf",
+      "activityStr": "6.16%", 
+      "skolotaji": [
+        {"teacherName": "Solvita Rozenberga", "count":8},
+        {"teacherName": "Māra Ieleja", "count":7},
+        {"teacherName": "Inese Plūme", "count":4},
+        {"teacherName": "Daiga Darviņa", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Baložu vidusskola",                        
+      "lat": 56.8771046,
+      "lng": 24.1168209,
+      "female": 0,
+      "male": 4,
+      "participants": 4,
+      "avgPoints": "14.50",
+      "activity": 0.010752688172043012,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313902363-Balozu-vidusskola.pdf",
+      "activityStr": "1.08%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Kurme", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Garkalnes Mākslu un vispārizglītojošā vidusskola",                        
+      "lat": 57.0468079,
+      "lng": 24.4238805,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "34.00",
+      "activity": 0.006024096385542169,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313902768-Garkalnes-Makslu-un-visp-vidusskola.pdf",
+      "activityStr": "0.60%", 
+      "skolotaji": [
+        {"teacherName": "Baiba Roznaja", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Siguldas pilsētas vidusskola",                        
+      "lat": 57.1581889,
+      "lng": 24.8573935,
+      "female": 29,
+      "male": 20,
+      "participants": 49,
+      "avgPoints": "18.69",
+      "activity": 0.1040339702760085,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313902863-Siguldas-pilsetas-vidusskola.pdf",
+      "activityStr": "10.40%", 
+      "skolotaji": [
+        {"teacherName": "Liene Cērpa", "count":21},
+        {"teacherName": "Inta Ozoliņa", "count":14},
+        {"teacherName": "Ņina Balode", "count":8},
+        {"teacherName": "Miropija Ņeznajeva", "count":5},
+        {"teacherName": "Laila Zinberga", "count":1},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mālpils novada vidusskola",                        
+      "lat": 57.0051336,
+      "lng": 24.9575332,
+      "female": 8,
+      "male": 8,
+      "participants": 16,
+      "avgPoints": "13.38",
+      "activity": 0.07048458149779736,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4313902967-Malpils-novada-vidusskola.pdf",
+      "activityStr": "7.05%", 
+      "skolotaji": [
+        {"teacherName": "Svetlana Blokina", "count":10},
+        {"teacherName": "Valda Zviedre", "count":4},
+        {"teacherName": "Lidija Stašāne", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Limbažu novada ģimnāzija",                        
+      "lat": 57.5074826,
+      "lng": 24.7127426,
+      "female": 2,
+      "male": 1,
+      "participants": 3,
+      "avgPoints": "9.67",
+      "activity": 0.012048192771084338,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4316901395-Limbazu-novada-gimnazija.pdf",
+      "activityStr": "1.20%", 
+      "skolotaji": [
+        {"teacherName": "Ērika Baune", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Tukuma Raiņa ģimnāzija",                        
+      "lat": 56.9682275,
+      "lng": 23.1480907,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "8.75",
+      "activity": 0.013986013986013986,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4316902392-Tukuma-Raina-gimnazija.pdf",
+      "activityStr": "1.40%", 
+      "skolotaji": [
+        {"teacherName": "Diāna Zurģe", "count":3},
+        {"teacherName": "Zinaīda Holsta", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Siguldas Valsts ģimnāzija",                        
+      "lat": 57.1599184,
+      "lng": 24.8641302,
+      "female": 44,
+      "male": 31,
+      "participants": 75,
+      "avgPoints": "15.32",
+      "activity": 0.17162471395881007,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4319901124-Siguldas-Valsts-gimnazija.pdf",
+      "activityStr": "17.16%", 
+      "skolotaji": [
+        {"teacherName": "Daiga Jēkabsone", "count":33},
+        {"teacherName": "Indra Upīte-Dambīte", "count":18},
+        {"teacherName": "Laila Zinberga", "count":17},
+        {"teacherName": "Pēteris Zariņš", "count":5},
+        {"teacherName": "Saiva Vītola", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Ogres Valsts ģimnāzija",                        
+      "lat": 56.8218216,
+      "lng": 24.606422,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "11.75",
+      "activity": 0.009111617312072893,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4319901137-Ogres-Valsts-gimnazija.pdf",
+      "activityStr": "0.91%", 
+      "skolotaji": [
+        {"teacherName": "Inga Linkuma", "count":2},
+        {"teacherName": "Irina Bogdanova", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Alūksnes pilsētas sākumskola",                        
+      "lat": 57.4208591,
+      "lng": 27.0430172,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "44.00",
+      "activity": 0.015503875968992248,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4411900920-Aluksnes-pilsetas-sakumskola.pdf",
+      "activityStr": "1.55%", 
+      "skolotaji": [
+        {"teacherName": "Modra Liepiņa", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Cēsu pilsētas Pastariņa sākumskola",                        
+      "lat": 57.3131127,
+      "lng": 25.2782997,
+      "female": 5,
+      "male": 1,
+      "participants": 6,
+      "avgPoints": "17.83",
+      "activity": 0.08108108108108109,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4411901845-Cesu-pilsetas-Pastarina-sakumskola.pdf",
+      "activityStr": "8.11%", 
+      "skolotaji": [
+        {"teacherName": "Lidija Vilnīte", "count":3},
+        {"teacherName": "Māris Šķēle", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Bērzaunes pamatskola",                        
+      "lat": 56.8122855,
+      "lng": 26.0320376,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "2.00",
+      "activity": 0.018867924528301886,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900125-Berzaunes-pamatskola.pdf",
+      "activityStr": "1.89%", 
+      "skolotaji": [
+        {"teacherName": "Solveiga Purviņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Cēsu 1. pamatskola",                        
+      "lat": 57.3087778,
+      "lng": 25.2618472,
+      "female": 6,
+      "male": 8,
+      "participants": 14,
+      "avgPoints": "17.36",
+      "activity": 0.06930693069306931,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900314-Cesu-1-pamatskola.pdf",
+      "activityStr": "6.93%", 
+      "skolotaji": [
+        {"teacherName": "Selga Lukjanska", "count":9},
+        {"teacherName": "Ilze Būre", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Straupes pamatskola",                        
+      "lat": 57.3543854,
+      "lng": 24.9515468,
+      "female": 6,
+      "male": 4,
+      "participants": 10,
+      "avgPoints": "16.60",
+      "activity": 0.19230769230769232,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900315-Straupes-pamatskola.pdf",
+      "activityStr": "19.23%", 
+      "skolotaji": [
+        {"teacherName": "Zane Berga", "count":10}
+      ]      
+    }
+    ,
+    {
+      "name": "Amatas pamatskola",                        
+      "lat": 57.0432476,
+      "lng": 23.1330573,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "18.00",
+      "activity": 0.04081632653061224,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900328-Amatas-pamatskola.pdf",
+      "activityStr": "4.08%", 
+      "skolotaji": [
+        {"teacherName": "Laila Ločmele", "count":1},
+        {"teacherName": "Santa Briede", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Cēsu 2. pamatskola",                        
+      "lat": 57.3092422,
+      "lng": 25.2459094,
+      "female": 6,
+      "male": 4,
+      "participants": 10,
+      "avgPoints": "21.70",
+      "activity": 0.04672897196261682,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900331-Cesu-2-pamatskola.pdf",
+      "activityStr": "4.67%", 
+      "skolotaji": [
+        {"teacherName": "Ingrīda Brizga", "count":10},
+        {"teacherName": "Gita Vītoliņa", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Rubenes pamatskola",                        
+      "lat": 57.4677912,
+      "lng": 25.2564558,
+      "female": 1,
+      "male": 2,
+      "participants": 3,
+      "avgPoints": "19.67",
+      "activity": 0.046875,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900637-Rubenes-pamatskola.pdf",
+      "activityStr": "4.69%", 
+      "skolotaji": [
+        {"teacherName": "Ņina Ādamsone", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "J.Endzelīna Kauguru pamatskola",                        
+      "lat": 57.4934549,
+      "lng": 25.4494429,
+      "female": 1,
+      "male": 5,
+      "participants": 6,
+      "avgPoints": "21.83",
+      "activity": 0.09375,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900640-J-Endzelina-Kauguru-pamatskola.pdf",
+      "activityStr": "9.38%", 
+      "skolotaji": [
+        {"teacherName": "Edīte Puķīte", "count":6}
+      ]      
+    }
+    ,
+    {
+      "name": "Rencēnu pamatskola",                        
+      "lat": 57.733462,
+      "lng": 25.4293194,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "18.00",
+      "activity": 0.041666666666666664,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900645-Rencenu-pamatskola.pdf",
+      "activityStr": "4.17%", 
+      "skolotaji": [
+        {"teacherName": "Ināra Krieva", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Bejas pamatskola",                        
+      "lat": 57.4075669,
+      "lng": 27.2368769,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "30.00",
+      "activity": 0.046511627906976744,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900909-Bejas-pamatskola.pdf",
+      "activityStr": "4.65%", 
+      "skolotaji": [
+        {"teacherName": "Sarmīte Stebere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunlaicenes pamatskola",                        
+      "lat": 57.5252999,
+      "lng": 26.870934,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "7.00",
+      "activity": 0.038461538461538464,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412900918-Jaunlaicenes-pamatskola.pdf",
+      "activityStr": "3.85%", 
+      "skolotaji": [
+        {"teacherName": "Dina Kaktiņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kārķu pamatskola",                        
+      "lat": 57.8147259,
+      "lng": 25.6079729,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "13.00",
+      "activity": 0.038461538461538464,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412901217-Karku-pamatskola.pdf",
+      "activityStr": "3.85%", 
+      "skolotaji": [
+        {"teacherName": "Ieva Cīrule", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Palsmanes pamatskola",                        
+      "lat": 57.389912,
+      "lng": 26.183327,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "6.00",
+      "activity": 0.016666666666666666,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412901218-Palsmanes-pamatskola.pdf",
+      "activityStr": "1.67%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Pikse", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Grundzāles pamatskola",                        
+      "lat": 57.4566267,
+      "lng": 26.2664765,
+      "female": 2,
+      "male": 2,
+      "participants": 4,
+      "avgPoints": "24.50",
+      "activity": 0.09302325581395349,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412901221-Grundzales-pamatskola.pdf",
+      "activityStr": "9.30%", 
+      "skolotaji": [
+        {"teacherName": "Dzintra Bormane", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Ēveles pamatskola",                        
+      "lat": 57.694132,
+      "lng": 25.5604319,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "28.00",
+      "activity": 0.041666666666666664,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412901320-Eveles-pamatskola.pdf",
+      "activityStr": "4.17%", 
+      "skolotaji": [
+        {"teacherName": "Ija Rozīte", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Valkas pamatskola",                        
+      "lat": 57.7808475,
+      "lng": 26.0152992,
+      "female": 1,
+      "male": 1,
+      "participants": 2,
+      "avgPoints": "37.50",
+      "activity": 0.009433962264150943,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4412902396-Valkas-pamatskola.pdf",
+      "activityStr": "0.94%", 
+      "skolotaji": [
+        {"teacherName": "Anna Meļķe", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Andreja Eglīša Ļaudonas vidusskola",                        
+      "lat": 56.70381,
+      "lng": 26.1968124,
+      "female": 7,
+      "male": 6,
+      "participants": 13,
+      "avgPoints": "9.08",
+      "activity": 0.1111111111111111,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900129-A-Eglisa-Laudonas-vidusskola.pdf",
+      "activityStr": "11.11%", 
+      "skolotaji": [
+        {"teacherName": "Antra Punovska", "count":9},
+        {"teacherName": "Anna Iesalniece", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Stalbes vidusskola",                        
+      "lat": 57.3735104,
+      "lng": 25.0320851,
+      "female": 8,
+      "male": 6,
+      "participants": 14,
+      "avgPoints": "5.50",
+      "activity": 0.15053763440860216,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900334-Stalbes-vidusskola.pdf",
+      "activityStr": "15.05%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Paegle", "count":9},
+        {"teacherName": "Māra Buša", "count":5}
+      ]      
+    }
+    ,
+    {
+      "name": "Priekuļu vidusskola",                        
+      "lat": 57.3134536,
+      "lng": 25.3613937,
+      "female": 15,
+      "male": 12,
+      "participants": 27,
+      "avgPoints": "11.41",
+      "activity": 0.10112359550561797,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900336-Priekulu-vidusskola.pdf",
+      "activityStr": "10.11%", 
+      "skolotaji": [
+        {"teacherName": "Inga Ruskule", "count":17},
+        {"teacherName": "Laila Bērziņa", "count":7},
+        {"teacherName": "Alda Daukšte", "count":2},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Līgatnes novada vidusskola",                        
+      "lat": 57.2346533,
+      "lng": 25.0344965,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "38.00",
+      "activity": 0.007042253521126761,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900337-Ligatnes-novada-vidusskola.pdf",
+      "activityStr": "0.70%", 
+      "skolotaji": [
+        {"teacherName": "Daiga Meistere", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Smiltenes Centra vidusskola",                        
+      "lat": 57.4236557,
+      "lng": 25.9111454,
+      "female": 7,
+      "male": 8,
+      "participants": 15,
+      "avgPoints": "14.07",
+      "activity": 0.056179775280898875,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900897-Smiltenes-Centra-vidusskola.pdf",
+      "activityStr": "5.62%", 
+      "skolotaji": [
+        {"teacherName": "Ilga Ozoliņa", "count":6},
+        {"teacherName": "Ilma Reimane", "count":5},
+        {"teacherName": "Diāna Kokarēviča", "count":3},
+        {"teacherName": "Dace Ciekure", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Gulbenes 2. vidusskola",                        
+      "lat": 57.1750867,
+      "lng": 26.7550627,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "20.00",
+      "activity": 0.01529051987767584,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900966-Gulbenes-2-vidusskola.pdf",
+      "activityStr": "1.53%", 
+      "skolotaji": [
+        {"teacherName": "Dace Freimane", "count":2},
+        {"teacherName": "Līga Cāne", "count":2},
+        {"teacherName": "Māra Babule", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Gulbenes vidusskola",                        
+      "lat": 57.1711694,
+      "lng": 26.7688843,
+      "female": 4,
+      "male": 0,
+      "participants": 4,
+      "avgPoints": "23.50",
+      "activity": 0.014652014652014652,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413900967-Gulbenes-vidusskola.pdf",
+      "activityStr": "1.47%", 
+      "skolotaji": [
+        {"teacherName": "Sandra Aņisimova", "count":2},
+        {"teacherName": "Diāna Aumeistere", "count":1},
+        {"teacherName": "Dzintra Kokoreviča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Mazsalacas vidusskola",                        
+      "lat": 57.8623995,
+      "lng": 25.0365996,
+      "female": 12,
+      "male": 6,
+      "participants": 18,
+      "avgPoints": "8.50",
+      "activity": 0.1111111111111111,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413901013-Mazsalacas-vidusskola.pdf",
+      "activityStr": "11.11%", 
+      "skolotaji": [
+        {"teacherName": "Kristaps Svīķis", "count":6},
+        {"teacherName": "Daiga Urbanoviča", "count":4},
+        {"teacherName": "Marija Bērziņa", "count":4},
+        {"teacherName": "Nadežda Leitāne", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Strenču novada vidusskola",                        
+      "lat": 57.6266919,
+      "lng": 25.6825175,
+      "female": 0,
+      "male": 3,
+      "participants": 3,
+      "avgPoints": "28.67",
+      "activity": 0.02027027027027027,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413902791-Strencu-novada-vidusskola.pdf",
+      "activityStr": "2.03%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Jansone", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Cēsu Pilsētas vidusskola",                        
+      "lat": 57.3073599,
+      "lng": 25.2795981,
+      "female": 13,
+      "male": 10,
+      "participants": 23,
+      "avgPoints": "17.39",
+      "activity": 0.04781704781704782,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4413903078-Cesu-Pilsetas-vidusskola.pdf",
+      "activityStr": "4.78%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Neimane", "count":11},
+        {"teacherName": "Lidija Lisovska", "count":9},
+        {"teacherName": "Aiva Zirne", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Smiltenes ģimnāzija",                        
+      "lat": 57.4252611,
+      "lng": 25.9176691,
+      "female": 7,
+      "male": 1,
+      "participants": 8,
+      "avgPoints": "7.25",
+      "activity": 0.0392156862745098,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4416901205-Smiltenes-gimnazija.pdf",
+      "activityStr": "3.92%", 
+      "skolotaji": [
+        {"teacherName": "Ārija Viļuma", "count":7},
+        {"teacherName": "Vera Rācene", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Valkas ģimnāzija",                        
+      "lat": 57.7746659,
+      "lng": 26.0147362,
+      "female": 2,
+      "male": 5,
+      "participants": 7,
+      "avgPoints": "12.14",
+      "activity": 0.03365384615384615,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4416902397-Valkas-gimnazija.pdf",
+      "activityStr": "3.37%", 
+      "skolotaji": [
+        {"teacherName": "Viola Levina", "count":4},
+        {"teacherName": "Inta Krieviņa", "count":3}
+      ]      
+    }
+    ,
+    {
+      "name": "Draudzīgā Aicinājuma Cēsu Valsts ģimnāzija",                        
+      "lat": 57.3060155,
+      "lng": 25.2738537,
+      "female": 14,
+      "male": 16,
+      "participants": 30,
+      "avgPoints": "9.77",
+      "activity": 0.11235955056179775,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4419900342-DA-Cesu-Valsts-gimnazija.pdf",
+      "activityStr": "11.24%", 
+      "skolotaji": [
+        {"teacherName": "Inese Boze", "count":11},
+        {"teacherName": "Vaira Buža", "count":10},
+        {"teacherName": "Sanita Baijere", "count":9}
+      ]      
+    }
+    ,
+    {
+      "name": "Ernsta Glika Alūksnes Valsts ģimnāzija",                        
+      "lat": 57.4232705,
+      "lng": 27.0388189,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "9.00",
+      "activity": 0.0030303030303030303,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4419900900-E-Glika-Aluksnes-Valsts-gimnazija.pdf",
+      "activityStr": "0.30%", 
+      "skolotaji": [
+        {"teacherName": "Irene Bērziņa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Madonas Valsts ģimnāzija",                        
+      "lat": 56.8576362,
+      "lng": 26.2266878,
+      "female": 12,
+      "male": 8,
+      "participants": 20,
+      "avgPoints": "9.05",
+      "activity": 0.08032128514056225,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4419902408-Madonas-Valsts-gimnazija.pdf",
+      "activityStr": "8.03%", 
+      "skolotaji": [
+        {"teacherName": "Anita Vabule", "count":13},
+        {"teacherName": "Solita Medene", "count":5},
+        {"teacherName": "Aija Sīle", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Cēsu Valsts ģimnāzija",                        
+      "lat": 57.3073599,
+      "lng": 25.2785981,
+      "female": 34,
+      "male": 30,
+      "participants": 64,
+      "avgPoints": "17.67",
+      "activity": 0.1763085399449036,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4419902648-Cesu-Valsts-gimnazija.pdf",
+      "activityStr": "17.63%", 
+      "skolotaji": [
+        {"teacherName": "Agrita Bartušēvica", "count":27},
+        {"teacherName": "Anita Slaidiņa", "count":23},
+        {"teacherName": "Laila Ruķe", "count":13},
+        {"teacherName": "", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Gulbenes novada valsts ģimnāzija",                        
+      "lat": 57.1715255,
+      "lng": 26.7674053,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "13.17",
+      "activity": 0.03225806451612903,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4419902731-Gulbenes-novada-valsts-gimnazija.pdf",
+      "activityStr": "3.23%", 
+      "skolotaji": [
+        {"teacherName": "Inguna Ludborža", "count":4},
+        {"teacherName": "Aiga Vagule", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Aizkraukles pilsētas sākumskola",                        
+      "lat": 56.6000437,
+      "lng": 25.2431604,
+      "female": 2,
+      "male": 3,
+      "participants": 5,
+      "avgPoints": "27.80",
+      "activity": 0.043478260869565216,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4511900990-Aizkraukles-pilsetas-sakumskola.pdf",
+      "activityStr": "4.35%", 
+      "skolotaji": [
+        {"teacherName": "Ligita Pontāga", "count":4},
+        {"teacherName": "Aija Biukšāne", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Bauskas sākumskola",                        
+      "lat": 56.4052943,
+      "lng": 24.1832766,
+      "female": 4,
+      "male": 8,
+      "participants": 12,
+      "avgPoints": "30.33",
+      "activity": 0.08759124087591241,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4511902871-Bauskas-sakumskola.pdf",
+      "activityStr": "8.76%", 
+      "skolotaji": [
+        {"teacherName": "Andrejs Cibulis", "count":7},
+        {"teacherName": "Santa Nākmane", "count":4},
+        {"teacherName": "Johanna Adakovska", "count":3},
+        {"teacherName": "Linuta Ģerģe", "count":2},
+        {"teacherName": "Līga Kirilko", "count":2},
+        {"teacherName": "Anita Feldmane", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Aizupes pamatskola",                        
+      "lat": 56.652129,
+      "lng": 23.6293629,
+      "female": 0,
+      "male": 2,
+      "participants": 2,
+      "avgPoints": "33.00",
+      "activity": 0.016260162601626018,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4512900847-Aizupes-pamatskola.pdf",
+      "activityStr": "1.63%", 
+      "skolotaji": [
+        {"teacherName": "Vija Ozola", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Penkules pamatskola",                        
+      "lat": 56.4927218,
+      "lng": 23.2101472,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "11.00",
+      "activity": 0.02040816326530612,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4512900878-Penkules-pamatskola.pdf",
+      "activityStr": "2.04%", 
+      "skolotaji": [
+        {"teacherName": "Sanita Dombrovska", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Viesītes vidusskola",                        
+      "lat": 56.3456695,
+      "lng": 25.552508,
+      "female": 5,
+      "male": 2,
+      "participants": 7,
+      "avgPoints": "19.29",
+      "activity": 0.03571428571428571,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900262-Viesites-vidusskola.pdf",
+      "activityStr": "3.57%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Martuženoka", "count":5},
+        {"teacherName": "Ausma Brūvere", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Ozolnieku vidusskola",                        
+      "lat": 56.6939885,
+      "lng": 23.7633787,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "15.50",
+      "activity": 0.010309278350515464,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900856-Ozolnieku-vidusskola.pdf",
+      "activityStr": "1.03%", 
+      "skolotaji": [
+        {"teacherName": "Inna Galviņa", "count":1},
+        {"teacherName": "Sarmīte Čerņajeva", "count":1},
+        {"teacherName": "Sigita Krauze", "count":1},
+        {"teacherName": "Velta Vaivode", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Auces vidusskola",                        
+      "lat": 56.4565536,
+      "lng": 22.8969922,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "1.00",
+      "activity": 0.0029498525073746312,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900885-Auces-vidusskola.pdf",
+      "activityStr": "0.29%", 
+      "skolotaji": [
+        {"teacherName": "Aija Veide", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Dobeles 1. vidusskola",                        
+      "lat": 56.6196854,
+      "lng": 23.2741203,
+      "female": 10,
+      "male": 2,
+      "participants": 12,
+      "avgPoints": "26.67",
+      "activity": 0.023762376237623763,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900890-Dobeles-1-vidusskola.pdf",
+      "activityStr": "2.38%", 
+      "skolotaji": [
+        {"teacherName": "Margita Gudzovska", "count":12},
+        {"teacherName": "Agnese Šuste", "count":10}
+      ]      
+    }
+    ,
+    {
+      "name": "Neretas Jāņa Jaunsudrabiņa vidusskola",                        
+      "lat": 56.2001376,
+      "lng": 25.3118351,
+      "female": 3,
+      "male": 1,
+      "participants": 4,
+      "avgPoints": "17.00",
+      "activity": 0.03361344537815126,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900971-Neretas-J-Jaunsudrabina-vidusskola.pdf",
+      "activityStr": "3.36%", 
+      "skolotaji": [
+        {"teacherName": "Inta Vasariņa", "count":4}
+      ]      
+    }
+    ,
+    {
+      "name": "Andreja Upīša Skrīveru vidusskola",                        
+      "lat": 56.6481434,
+      "lng": 25.1194286,
+      "female": 6,
+      "male": 4,
+      "participants": 10,
+      "avgPoints": "17.50",
+      "activity": 0.04219409282700422,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513900975-A-Upisa-Skriveru-vidusskola.pdf",
+      "activityStr": "4.22%", 
+      "skolotaji": [
+        {"teacherName": "Raisa Skrimble", "count":3},
+        {"teacherName": "Sintija Rūze", "count":3},
+        {"teacherName": "Ilze Gaņina", "count":2},
+        {"teacherName": "Ināra Dika", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Jaunjelgavas vidusskola",                        
+      "lat": 56.6099819,
+      "lng": 25.0837332,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "34.00",
+      "activity": 0.007518796992481203,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901040-Jaunjelgavas-vidusskola.pdf",
+      "activityStr": "0.75%", 
+      "skolotaji": [
+        {"teacherName": "Valentīna Rimare", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Vecumnieku vidusskola",                        
+      "lat": 56.6069227,
+      "lng": 24.5208149,
+      "female": 3,
+      "male": 4,
+      "participants": 7,
+      "avgPoints": "18.43",
+      "activity": 0.030973451327433628,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901290-Vecumnieku-vidusskola.pdf",
+      "activityStr": "3.10%", 
+      "skolotaji": [
+        {"teacherName": "Agita Seglicka", "count":3},
+        {"teacherName": "Natālija Čudare", "count":2},
+        {"teacherName": "Rudīte Dambeniece", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Iecavas vidusskola",                        
+      "lat": 56.5994785,
+      "lng": 24.2135586,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "46.00",
+      "activity": 0.0021141649048625794,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901291-Iecavas-vidusskola.pdf",
+      "activityStr": "0.21%", 
+      "skolotaji": [
+        {"teacherName": "Ilze Štrausa", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Uzvaras vidusskola",                        
+      "lat": 56.3195403,
+      "lng": 24.2605891,
+      "female": 6,
+      "male": 1,
+      "participants": 7,
+      "avgPoints": "27.29",
+      "activity": 0.06422018348623854,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901292-Uzvaras-vidusskola.pdf",
+      "activityStr": "6.42%", 
+      "skolotaji": [
+        {"teacherName": "Valda Bičkova", "count":7}
+      ]      
+    }
+    ,
+    {
+      "name": "Misas vidusskola",                        
+      "lat": 56.586306,
+      "lng": 24.4011879,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "8.00",
+      "activity": 0.00980392156862745,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901293-Misas-vidusskola.pdf",
+      "activityStr": "0.98%", 
+      "skolotaji": [
+        {"teacherName": "Zenta Gasjune", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Ilmāra Gaiša Kokneses vidusskola",                        
+      "lat": 56.6445458,
+      "lng": 25.4247587,
+      "female": 0,
+      "male": 1,
+      "participants": 1,
+      "avgPoints": "30.00",
+      "activity": 0.00392156862745098,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513901334-I-Gaisa-Kokneses-vidusskola.pdf",
+      "activityStr": "0.39%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Konstantinoviča", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Kalnciema pagasta vidusskola",                        
+      "lat": 56.8021697,
+      "lng": 23.6103028,
+      "female": 1,
+      "male": 0,
+      "participants": 1,
+      "avgPoints": "14.00",
+      "activity": 0.009708737864077669,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4513902499-Kalnciema-pagasta-vidusskola.pdf",
+      "activityStr": "0.97%", 
+      "skolotaji": [
+        {"teacherName": "Irina Vingre", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Aizkraukles novada ģimnāzija",                        
+      "lat": 56.6000113,
+      "lng": 25.2608326,
+      "female": 3,
+      "male": 3,
+      "participants": 6,
+      "avgPoints": "15.33",
+      "activity": 0.020066889632107024,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4516900970-Aizkraukles-novada-gimnazija.pdf",
+      "activityStr": "2.01%", 
+      "skolotaji": [
+        {"teacherName": "Gunta Ozoliņa", "count":3},
+        {"teacherName": "Inese Pikšteine", "count":1},
+        {"teacherName": "Ligita Pontāga", "count":1},
+        {"teacherName": "Ludmila Belogrudova", "count":1}
+      ]      
+    }
+    ,
+    {
+      "name": "Pļaviņu novada ģimnāzija",                        
+      "lat": 56.6187859,
+      "lng": 25.738764,
+      "female": 11,
+      "male": 8,
+      "participants": 19,
+      "avgPoints": "10.68",
+      "activity": 0.04398148148148148,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4516902770-Plavinu-novada-gimnazija.pdf",
+      "activityStr": "4.40%", 
+      "skolotaji": [
+        {"teacherName": "Ira Ņikiforova", "count":7},
+        {"teacherName": "Ilze Luksa", "count":6},
+        {"teacherName": "Anita Seikovska", "count":4},
+        {"teacherName": "Vija Miķelsone", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Bauskas Valsts ģimnāzija",                        
+      "lat": 56.4057673,
+      "lng": 24.1835439,
+      "female": 3,
+      "male": 4,
+      "participants": 7,
+      "avgPoints": "16.00",
+      "activity": 0.020895522388059702,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4519901296-Bauskas-Valsts-gimnazija.pdf",
+      "activityStr": "2.09%", 
+      "skolotaji": [
+        {"teacherName": "Andrejs Cibulis", "count":7},
+        {"teacherName": "Gunta Dzene", "count":3},
+        {"teacherName": "Lilita Krastiņa", "count":2},
+        {"teacherName": "Vaira Karpiča", "count":2}
+      ]      
+    }
+    ,
+    {
+      "name": "Dobeles Valsts ģimnāzija",                        
+      "lat": 56.6196256,
+      "lng": 23.274643,
+      "female": 14,
+      "male": 5,
+      "participants": 19,
+      "avgPoints": "14.16",
+      "activity": 0.05555555555555555,
+      "url": "http://www.demografija.lv/amo2016/amo43-parskats-4519902412-Dobeles-Valsts-gimnazija.pdf",
+      "activityStr": "5.56%", 
+      "skolotaji": [
+        {"teacherName": "Agnese Šuste", "count":19},
+        {"teacherName": "Jolanta Šaknere", "count":8},
+        {"teacherName": "Aiva Rituma", "count":7},
+        {"teacherName": "Daina Glušaka", "count":4}
+      ]      
+    }
+]
+}

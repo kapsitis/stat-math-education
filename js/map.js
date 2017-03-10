@@ -1,98 +1,123 @@
 // When the user clicks the marker, an info window opens.
 // The maximum width of the info window is set to 200 pixels.
 
-var data = {
-    schools: [
-        {
-            "name": "Rīgas Valsts 1.ģimnāzija",
-            "lat": 56.952936,
-            "lng": 24.112265,
-            "message": '<div id="content">' +
-            '<div id="siteNotice">' +
-            '</div>' +
-            '<h2 id="firstHeading" class="firstHeading">Rīgas Valsts 1.ģimnāzija</h2>' +
-            '<div id="bodyContent">' +
-            '<p>223 darbi (147F, 76M)<br/>' +
-            'Vid.punkti: 24.05; Dalība: 20.92%</p>' +
-            '<p>Sk. <a href="http://r1g.edu.lv/v/index/">' +
-            'http://r1g.edu.lv/v/index/</a></p>' +
-            '</div>' +
-            '</div>'
-        },
-        {
-            "name": "Madonas Valsts ģimnāzija",
-            "lat": 56.8576362,
-            "lng": 26.2266878,
-            "message": '<div id="content">' +
-            '<div id="siteNotice">' +
-            '</div>' +
-            '<h2 id="firstHeading" class="firstHeading">Madonas Valsts ģimnāzija</h2>' +
-            '<div id="bodyContent">' +
-            '<p>20 darbi (12F, 8M)<br/>' +
-            'Vid.punkti: 9.05; Dalība: 8.03%</p>' +
-            '<p>Sk. <a href="http://www.madvg.lv/">' +
-            'http://www.madvg.lv/</a></p>' +
-            '</div>' +
-            '</div>'
-        },
-        {
-            "name": "Andreja Eglīša Ļaudonas vidusskola",
-            "lat": 56.70381,
-            "lng": 26.1968124,
-            "message": '<div id="content">' +
-            '<div id="siteNotice">' +
-            '</div>' +
-            '<h2 id="firstHeading" class="firstHeading">Andreja Eglīša Ļaudonas vidusskola</h2>' +
-            '<div id="bodyContent">' +
-            '<p>13 darbi (7F, 6M)<br/>' +
-            'Vid.punkti: 9.08; Dalība: 11.11%</p>' +
-            '<p>Sk. <a href="http://www.laudona.lv/vidusskola">' +
-            'http://www.laudona.lv/vidusskola</a></p>' +
-            '</div>' +
-            '</div>'
-        },
-        {
-            "name": "Bērzaunes pamatskola",
-            "lat": 56.8122855,
-            "lng": 26.0320376,
-            "message": '<div id="content">' +
-            '<div id="siteNotice">' +
-            '</div>' +
-            '<h2 id="firstHeading" class="firstHeading">Bērzaunes pamatskola</h2>' +
-            '<div id="bodyContent">' +
-            '<p>1 darbs (1M)<br/>' +
-            'Vid.punkti: 2; Dalība: 1.89%</p>' +
-            '<p>Sk. <a href="http://www.berzaunesskola.lv/">' +
-            'http://www.berzaunesskola.lv/</a></p>' +
-            '</div>' +
-            '</div>'
+
+function loadJSON(callback) {
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', 'js/schools.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but
+            // simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
         }
-    ]
-};
+    };
+    xobj.send(null);
+}
+
+
+//var myJson = require('./schools.json');
 
 function initMap() {
-    var theCenter = {lat: 56.9527866, lng: 24.1103476};
+    var theCenter = {"lat": 56.952936, "lng": 24.112265 };
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 8,
         center: theCenter
     });
 
-    var infowindow = new google.maps.InfoWindow();
-    var marker;
-    var i;
-    for (i = 0; i < data.schools.length; i++) {
-        marker = new google.maps.Marker({
-            position: {lat: data.schools[i].lat, lng: data.schools[i].lng},
-            map: map,
-            title: data.schools[i].name
-        });
 
-        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-            return function() {
-                infowindow.setContent(data.schools[i].message);
-                infowindow.open(map, marker);
+    loadJSON(function(response) {
+        var myJson = JSON.parse(response);
+        var infowindow = new google.maps.InfoWindow();
+        var marker;
+        var i;
+        for (i = 0; i < myJson.schools.length; i++) {
+            //var pinColor = "FFFF00"
+            //var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+            //    new google.maps.Size(21, 34),
+            //    new google.maps.Point(0,0),
+            //    new google.maps.Point(10, 34));
+
+            marker = new google.maps.Marker({
+                position: {lat: myJson.schools[i].lat, lng: myJson.schools[i].lng},
+                map: map,
+                title: myJson.schools[i].name
+            });
+
+            //if (myJson.schools[i].activity < 0.02) {
+            //    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/purple-dot.png')
+            //} else if (myJson.schools[i].activity < 0.04) {
+            //    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
+            //} else if (myJson.schools[i].activity < 0.06) {
+            //    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')
+            //} else if (myJson.schools[i].activity < 0.10) {
+            //    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/yellow-dot.png')
+            //} else {
+            //    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
+            //}
+
+            if (myJson.schools[i].participants <= 2) {
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/purple-dot.png')
+            } else if (myJson.schools[i].participants <= 5) {
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
+            } else if (myJson.schools[i].participants <= 10) {
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')
+            } else if (myJson.schools[i].participants <= 20) {
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/yellow-dot.png')
+            } else {
+                marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
             }
-        })(marker, i));
 
-    }
+
+
+            google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                return function () {
+
+                    var teacherStr = "";
+                    var j;
+                    for (j = 0; j < myJson.schools[i].skolotaji.length; j++) {
+                        if (j > 0) {
+                            teacherStr += "<br/>";
+                        }
+                        if (myJson.schools[i].skolotaji[j].teacherName == "") {
+                            teacherStr += "<i>nav norādīts</i>" + ": " + myJson.schools[i].skolotaji[j].count;
+                        } else {
+                            teacherStr += myJson.schools[i].skolotaji[j].teacherName + ": " + myJson.schools[i].skolotaji[j].count;
+                        }
+                    }
+
+                    infowindow.setContent(
+                        '<div id="content">' +
+                        '<div id="siteNotice">' +
+                        '</div>' +
+                        '<h2 id="firstHeading" class="firstHeading">' +
+                        myJson.schools[i].name +
+                        '</h2>' +
+                        '<div id="bodyContent">' +
+                        '<p>' +
+                        ((myJson.schools[i].participants > 1) ?
+                            ("" + myJson.schools[i].participants + " darbi (") :
+                            ("" + myJson.schools[i].participants + " darbs (")) +
+                        "" + myJson.schools[i].female + "F, " + myJson.schools[i].male + "M)" +
+                        '<br/>' +
+                        'Vid.punkti: ' +
+                        myJson.schools[i].avgPoints +
+                        '; Dalība: ' +
+                        myJson.schools[i].activityStr +
+                        '</p><u>Cik darbos norādīti skolotāji:</u><br/>' +
+                        teacherStr +
+                        '<p><a href="' +
+                        myJson.schools[i].url +
+                        '">Pilns pārskats</a></p>' +
+                        '</div>' +
+                        '</div>'
+                    );
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+
+        }
+    });
 }
