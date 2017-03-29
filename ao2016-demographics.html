@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width,
 initial-scale=1"/>
-    <title>Hello World!</title>
+    <title>Ao2016 demogrāfija</title>
     <link rel="stylesheet" href="/mathexam/css/bootstrap.css"/>
     <link rel="stylesheet" href="/mathexam/mycss/style1.css"/>
     <script src="http://fb.me/react-0.13.0.js"></script>
@@ -18,7 +18,37 @@ initial-scale=1"/>
     <![endif]-->
     <script src="/mathexam/dist_myjs/menu.js">
     </script>
-</head>
+
+    <style>
+        body {
+            /*
+            font: 10px sans-serif;
+            */
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .bar {
+            fill: steelblue;
+        }
+
+        .x.axis path {
+            display: none;
+        }
+
+        rect.bumbum {
+            fill: silver;
+            fill-opacity: 0.0;
+            stroke: black;
+            stroke-width: 1;
+            z-index: 10;
+        }
+    </style>
 <body onload="initBody();">
 
 
@@ -33,14 +63,19 @@ initial-scale=1"/>
 <div class="container" id="theContent">
 
 
+
     <h1>Ao2016 dalībnieku demogrāfija</h1>
+
+    <p><b style="color:red">Svarīgi:</b> 2017.gadā atklātā olimpiāde notiks 23.aprīlī, Rīgā, Liepājā un Daugavpilī. Lai organizatori varētu savlaicīgi
+    ieplānot telpas, lūdzam reģistrēties līdz 3.aprīlim - <a href="http://nms.lu.lv/amo-infografika/">Informācija
+        par 2017.gada atklāto matemātikas olimpiādi</a>.</p>
 
     <h2>Skolu urbanizācija</h2>
 
     <p><a href="http://visc.gov.lv/vispizglitiba/eksameni/statistika/2016/">Centralizēto eksāmenu datos</a> (sk.
         hipersaiti "Centralizēto eksāmenu rezultātu datu fails XLSX") un arī
         <a href="https://viis.lv/Pages/Institutions/Search.aspx">VIIS
-        informācijas sistēmā</a> vispārizglītojošās skolas iedala 4 kategorijās pēc to urbanizācijas veida:</p>
+            informācijas sistēmā</a> vispārizglītojošās skolas iedala 4 kategorijās pēc to urbanizācijas veida:</p>
 
     <ol>
         <li>Skolas Rīgā</li>
@@ -49,8 +84,8 @@ initial-scale=1"/>
         <li>Skolas laukos</li>
     </ol>
 
-    <p>Vecākajās klasēs daudzi skolēni dod priekšroku pilsētu skolām; tas izmaina arī olimpiāžu
-        dalībnieku īpatsvarus - vecākajās klasēs ir mazāk skolēnu no lauku vidusskolām.
+    <p>Vecākajās klasēs olimpiāžu dalībnieku ir mazāk, toties lielāks viņu īpatsvars mācās lielajās pilsētās.
+        Lai uzzinātu skaitļus, novietojiet peles kursoru virs attiecīgās klases joslas.
     </p>
 
 
@@ -58,29 +93,50 @@ initial-scale=1"/>
          xmlns="http://www.w3.org/2000/svg">
     </svg>
 
-
-    <p>Pieaugot klasei, protams, pieaug arī vispārizglītojošo skolu skolēnu procents, kuri
-        mācās pilsētās.<br />
-        <b>Jautājums lasītājam:</b> Vai matemātikas olimpiāžu dalībnieku vidū pilsētnieku
-        procents aug straujāk nekā visiem skolēniem kopumā?
-    </p>
-
     <h2>Dalībnieku dzimums</h2>
+
+    <p>Olimpiādes reģistrācijā dzimums nav jānorāda. Te minētais ir neformāls novērtējums atkarībā no dalībnieku
+    vārdiem un to galotnēm. Lai uzzinātu skaitļus, novietojiet peles kursoru virs attiecīgās klases joslas.</p>
 
     <svg width="720" height="375" id="gbg"
          xmlns="http://www.w3.org/2000/svg">
     </svg>
 
-    <h2>Reģistrācijā norādītā valoda</h2>
 
-    <p>TBD</p>
+    <h2>Skolas (vai reģistrācijā norādītā) valoda</h2>
 
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="ao2016-municipality-by-grade.js"></script>
-    <script src="ao2016-gender-by-grade.js"></script>
+    <p>Olimpiādes darbus šobrīd var rakstīt latviski vai krieviski.
+        Olimpiādes protokolā darba valoda netiek rakstīta.
+        Šajā novērtējumā skolas ar latviešu mācību valodu
+        pieskaitījām darbiem latviešu valodā, skolas ar krievu mācību valodu - darbiem krievu valodā (kaut arī
+        praksē iespējami izņēmumi). Skolām ar jauktu mācību valodu
+        (<a href="http://www.izm.gov.lv/lv/publikacijas-un-statistika/statistika-par-izglitibu/statistika-par-visparejo-izglitibu/2015-2016-m-g">2015./2016.g. pārskatā</a>
+        "Vispārizglītojošo skolu kontaktinformācija" norādīta "LK") kā arī skolām ar citu mācību valodu (poļu un angļu)
+        izmantojām valodu, kas norādīta reģistrācijā. Ja skolēns reģistrējoties nav norādījis valodu,
+        pierakstām to valodu, ar kuru reģistrējušies vairums citu skolēnu, kurus mācījis tas pats
+        skolotājs no attiecīgās skolas.
+    </p>
+
+    <p>Tumšzilie trijstūrīši norāda, kāda ir izglītojamo proporcija skolās ar krievu mācību valodu no
+        visu attiecīgās klases skolēnu skaita (sal.
+        <a href="http://izm.gov.lv/lv/publikacijas-un-statistika/statistika-par-izglitibu/statistika-par-visparejo-izglitibu/2015-2016-m-g">2015./2016.g. pārskatu</a> -
+        "Izglītojamo skaita sadalījums pēc mācību valodas vispārizglītojošās dienas mācību programmās 2015./2016.m.g.").
+        Dažās klasēs dalība olimpiādē diezgan precīzi atbilst valodu
+    proporcijai valstī, citās klasēs (7.kl., 8.kl.) olimpiādes aktivitāte abām mācību valodām var
+        jūtami atšķirties uz vienu vai otru pusi.</p>
+
+    <svg width="720" height="375" id="lbg"
+         xmlns="http://www.w3.org/2000/svg">
+    </svg>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+    <script src="ao2016-municipality-by-grade-horiz.js"></script>
+    <script src="ao2016-gender-by-grade-horiz.js"></script>
+    <script src="ao2016-language-by-grade-horiz.js"></script>
+
 </div>
 
-<script src="/mathexam/js/jquery-3.1.1.min.js"></script>
-<script src="/mathexam/js/bootstrap.js"></script>
 </body>
 </html>

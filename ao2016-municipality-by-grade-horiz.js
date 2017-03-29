@@ -5,7 +5,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
     height = svg1Box.attr("height") - margin.top - margin.bottom;
 
 var y = d3.scale.ordinal()
-    .rangeRoundBands([height, 0], .1);
+    .rangeRoundBands([height, 0], .2);
 
 var x = d3.scale.linear()
     .rangeRound([0, width]);
@@ -73,6 +73,41 @@ d3.csv("ao2016-municipality-by-grade.csv", function(error, data) {
         .attr("x", function(d) { return x(d.y0); })
         .attr("width", function(d) { return x(d.y1) - x(d.y0); })
         .style("fill", function(d) { return color(d.name); });
+
+    for (var i = 0; i < data.length; i++) {
+        svg.append("rect")
+            .attr("class", "bumbum")
+            .attr("transform", "translate(0," + y(data[i].State) + ")")
+            .attr("height", y.rangeBand())
+            .attr("x", 0)
+            .attr("width", x(data[i].total))
+            .append("title")
+            .text("Rīga: " + data[i]["Rīga"] +
+                ", Lielpilsētas: " + data[i]["8 lielās pilsētas"]
+                + ", Citas pilsētas: " + data[i]["Citas pilsētas"]
+                + ", Lauki: " + data[i]["Lauki"]);
+    }
+
+    for (var i = 1; i <= 7; i++) {
+        if (i < 6) {
+            svg.append("line")
+                .attr("x1", x(x.ticks(7)[i]))
+                .attr("y1", 0)
+                .attr("x2", x(x.ticks(7)[i]))
+                .attr("y2", height)
+                .attr("style", "stroke:rgb(139,0,0);stroke-width:1;stroke-dasharray: 10 5;");
+        } else {
+            svg.append("line")
+                .attr("x1", x(x.ticks(7)[i]))
+                .attr("y1", height/3)
+                .attr("x2", x(x.ticks(7)[i]))
+                .attr("y2", height)
+                .attr("style", "stroke:rgb(139,0,0);stroke-width:1;stroke-dasharray: 10 5;");
+
+        }
+    }
+
+
 
     var legend = svg.selectAll(".legend")
         .data(color.domain().slice().reverse())

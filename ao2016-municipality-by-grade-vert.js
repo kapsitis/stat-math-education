@@ -19,6 +19,14 @@ var z = d3.scaleOrdinal()
     .range(["#98abc5", "#7b6888", "#a05d56", "#ff8c00"]);
 
 
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-10, 0])
+    .html(function(d) {
+        return "<strong>Frequency:</strong> <span style='color:red'>" + 123 + "</span>";
+    });
+
+
 d3.csv("ao2016-municipality-by-grade.csv", function(d, i, columns) {
     for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
     d.total = t;
@@ -33,6 +41,7 @@ d3.csv("ao2016-municipality-by-grade.csv", function(d, i, columns) {
     y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
     z.domain(keys);
 
+
     g.append("g")
         .selectAll("g")
         .data(d3.stack().keys(keys)(data))
@@ -44,7 +53,9 @@ d3.csv("ao2016-municipality-by-grade.csv", function(d, i, columns) {
         .attr("x", function(d) { return x(d.data.State); })
         .attr("y", function(d) { return y(d[1]); })
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-        .attr("width", x.bandwidth());
+        .attr("width", x.bandwidth())
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
 
     g.append("g")
         .attr("class", "axis")
