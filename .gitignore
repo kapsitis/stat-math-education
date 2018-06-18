@@ -1,1 +1,3 @@
 *.bak
+**/.Rhistory
+lv-shapes/*.png
