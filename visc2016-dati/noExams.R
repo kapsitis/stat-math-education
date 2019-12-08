@@ -3,8 +3,8 @@
 # fizikas, kjiimijas un biologijas eksaamenus
 ###
 
-
-setwd("c:/Users/kapsitis/WebstormProjects/schoolmap/visc2016-dati/")
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#setwd("c:/Users/kapsitis/WebstormProjects/schoolmap/visc2016-dati/")
 # Ielasa VISC datus kaa dataframe
 # Datus (!visi0_dati.xlsx) savaac no VISC maajaslapas:
 # http://visc.gov.lv/vispizglitiba/eksameni/statistika/2016/

@@ -1,3 +1,6 @@
 *.bak
 **/.Rhistory
 lv-shapes/*.png
+*.pyc
+.project
+.pydevproject
