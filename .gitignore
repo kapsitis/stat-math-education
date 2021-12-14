@@ -4,3 +4,6 @@ lv-shapes/*.png
 *.pyc
 .project
 .pydevproject
+.Rproj.user
+rsu-smoking-dataset/*.png
+rsu-smoking-dataset/*.sav
