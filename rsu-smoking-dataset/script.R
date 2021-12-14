@@ -62,4 +62,12 @@ fivenum(df$Vecums[df$Dzimums == 2])
 # library("memisc")
 #df <- data.frame(as.data.set(spss.system.file("Smekesana.sav")))
 
+p <- ggplot(df, aes(x=Vecums, y=Tiezime)) + 
+  geom_point() + 
+  theme_bw()
+
+p
+
+
+
 

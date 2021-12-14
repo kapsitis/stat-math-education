@@ -7,3 +7,5 @@ lv-shapes/*.png
 .Rproj.user
 rsu-smoking-dataset/*.png
 rsu-smoking-dataset/*.sav
+.RData
+rsu-smoking-dataset/report-main.docx

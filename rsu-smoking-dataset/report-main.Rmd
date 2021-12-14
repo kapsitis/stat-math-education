@@ -1,0 +1,140 @@
+---
+title: "Patstāvīgie uzdevumi -- Atrisinājumi"
+author: "RSU"
+date: "2021-12-14"
+output: word_document
+---
+
+## Pazīmju ielasīšana un definēšana
+
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(haven)
+library(ggplot2)
+library(Cairo)
+
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+setwd("/Users/kalvis.apsitis/workspace/statistics-r/rsu-smoking-dataset/")
+
+
+df <- read_sav("Smekesana.sav")
+df$Valoda <- as.factor(df$Valoda)
+df$Dzimums <- as.factor(df$Dzimums)
+df$Attiecibas <- as.factor(df$Attiecibas)
+df$PastavigsDarbs <- as.factor(df$PastavigsDarbs)
+df$VecakiSmeke <- as.factor(df$VecakiSmeke)
+df$Smeke <- as.factor(df$Smeke)
+df$SmekesanasDaudzums <- as.factor(df$SmekesanasDaudzums)
+df$MeginajisAtmest <- as.factor(df$MeginajisAtmest)
+```
+
+
+
+## 1. Vizualizēt pazīmes Dzimums skaitu
+
+Zīmējam joslu diagrammu, kur saskaitīti datu punkti pēc pazīmes *Dzimums*.
+
+```{r pressure, echo=FALSE}
+p<-ggplot(data=df, aes(Dzimums)) +
+  geom_bar() + 
+  theme_bw() +
+  xlab("Pazīmes 'Dzimums' vērtības") + 
+  ylab("Rindu skaits") +
+  scale_x_discrete("Pazīme Dzimums", labels = c("2" = "Sievietes","4" = "Vīrieši")) +
+  theme(axis.text.x = element_text(face="bold", color="#993333", 
+                                   size=14, angle=0))
+p
+```
+
+
+
+## 2. Pārbaudīt vai vīrieši un sievietes atšķiras pēc vecuma
+
+```{r medians}
+femaleBoxNums <- fivenum(df$Vecums[df$Dzimums == 2])
+maleBoxNums <- fivenum(df$Vecums[df$Dzimums == 4])
+
+femaleMd <- femaleBoxNums[3]
+femaleQ1 <- femaleBoxNums[2]
+femaleQ3 <- femaleBoxNums[4]
+
+maleMd <- maleBoxNums[3]
+maleQ1 <- maleBoxNums[2]
+maleQ3 <- maleBoxNums[4]
+```
+
+Manna-Vitnija testā konstatē, ka sieviešu (Md=`r femaleMd`; 
+Q1-Q3: `r femaleQ1`-`r femaleQ3` gadi) 
+un vīriešu vecums (Md=`r maleMd`; Q1-Q3: `r maleQ1`-`r maleQ3` gadi) statistiski nozīmīgi neatšķiras (p=0,13).
+
+
+*Paskaidrot, kāpēc jāizmanto Manna-Vitnija tests.*
+
+
+
+
+## 3. Uzzīmēt Vecums un Tiezīme korelācijas diagrammu un aprēķināt korelāciju
+
+r=0.07234302; p= 0.371. Pīrsona korelācijas koeficienta analīzē 
+starp vecumu un T iezīmi statistiski nozīmīgu 
+korelāciju nekonstatē (p=0,37).
+
+```{r correlation1, echo=FALSE}
+p <- ggplot(df, aes(x=Vecums, y=Tiezime)) + 
+  geom_point() + 
+  theme_bw()
+
+p
+```
+
+
+## 4. Uzzīmēt Vecums un TstavoklisPirms korelācijas diagrammu un aprēķināt korelāciju
+
+```{r correlation2}
+pearsonR <- 0.1993038
+```
+
+r= `r pearsonR`; p= 0.01291. Pīrsona korelācijas koeficienta analīzē 
+starp vecumu un TstavoklisPirms konstatē pozitīvu, 
+vāju un statistiski nozīmīgu korelāciju 
+(r=0,20; 95% TI: 0,04-0,34; p=0,01).
+
+## 5. Uzrakstīt respondentu vecuma aprakstu
+
+Pētījumā piedalījās N=     pacienti, to minimālais vecums min=       gadi,
+maksimālais max=       gadi, vecuma amplitūda          gadi. 
+Respondentu vidējais vecums M=     ; SD=        gadi, 
+vecuma mediāna Md=        gadi. 
+Pirmā vecuma kvartīle Q1=         gadi, trešā Q3=       gadi, 
+vecuma starpkvartīļu izkliedes amplitūda IQR=        gadi. 
+Pārbaudot vecuma atbilstību normālsadalījumam, konstatē, 
+ka tas neatbilst normālsadalījumam (Šapiro-Vilka tests, p=            ). 
+Respondentu vecuma histogramma un kastveida diagramma:
+
+
+## 6. Aprēķināt pētījumā iekļauto sieviešu un vīriešu skaitu un procentuālo attiecību
+
+<!--
+Sievietes                       Vīrieši 
+       88 (56,77%)        67 (43,23%)
+-->
+
+```{r echo=FALSE, results ='asis'}
+library(knitr)
+femaleCount <- nrow(df[df$Dzimums == 2,])
+maleCount <- nrow(df[df$Dzimums == 4,])
+femaleProportion <- femaleCount/(femaleCount + maleCount)
+maleProportion <- maleCount/(femaleCount + maleCount)
+strFemale <- sprintf("%d (%.2f%%)", femaleCount, femaleProportion*100)
+strMale <- sprintf("%d (%.2f%%)", maleCount, maleProportion*100)
+
+table6data <- data.frame(Sievietes = c(strFemale), Viriesi = c(strMale))
+kable(table6data)
+```
+
+## 7. Aprēķināt vai pētījumā iekļauto sieviešu/vīriešu skaits ir vienādās proporcijās ar attiecību statusu
+
+Atbilde: p-value = 0.3935 – nav konstatēta statistiski nozīmīga atšķirība.
+
