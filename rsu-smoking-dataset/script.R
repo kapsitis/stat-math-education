@@ -2,6 +2,10 @@ if (!"haven" %in% installed.packages()) {
   install.packages("tidyverse")
 }
 
+if (!"ggpubr" %in% installed.packages()) {
+  install.packages("ggpubr")
+}
+
 library(haven)
 library(ggplot2)
 library(Cairo)
@@ -62,12 +66,31 @@ fivenum(df$Vecums[df$Dzimums == 2])
 # library("memisc")
 #df <- data.frame(as.data.set(spss.system.file("Smekesana.sav")))
 
-p <- ggplot(df, aes(x=Vecums, y=Tiezime)) + 
-  geom_point() + 
-  theme_bw()
+#p <- ggplot(df, aes(x=Vecums, y=Tiezime)) + 
+#  geom_point() + 
+#  theme_bw()
+#
+#p
 
-p
 
 
+#df_viriesi = df[df$Dzimums == 4,]
+#p <- ggplot(data=df_viriesi, aes(Vecums)) + 
+#  geom_histogram(binwidth = 5, fill="#cccccc", color="black") +
+#  theme_bw()
+#
+#p
 
+
+#require(dplyr)
+#group_by(df,Dzimums) %>%
+#  summarise(
+#    count = n(),
+#    median = median(Vecums, na.rm = TRUE),
+#    IQR = IQR(Vecums, na.rm = TRUE))
+
+res <- wilcox.test(Vecums~ Dzimums, 
+                   data = df,
+                   paired = FALSE)
+res
 
