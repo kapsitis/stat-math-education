@@ -1,0 +1,863 @@
+%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass{article} 
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+
+\newenvironment{uzdevums}[1][\unskip]{%
+\vspace{3mm}
+\noindent
+\textbf{#1 uzdevums:}
+\noindent}
+{}
+
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\usepackage{url}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
+ breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+\renewcommand{\abstractname}{Anotācija}
+\hypersetup{
+ pdfstartview={XYZ null null 1}}
+\begin{document}
+<<setup, include=FALSE, cache=FALSE>>=
+library(knitr)
+# set global chunk options
+opts_chunk$set(fig.path='figure/minimal-', fig.align='center', fig.show='hold')
+options(formatR.arrow=TRUE,width=90)
+@
+
+
+<<external-code0, cache=FALSE, echo=FALSE>>=
+amoNum <- 42
+amoYear <- 2015
+@
+
+\title{\Sexpr{amoNum}.\ AMO rezultāti tabulās un zīmējumos}
+
+\author{}
+\date{}
+
+\maketitle
+
+\begin{abstract}
+Šajā dokumentā apkopoti daži \Sexpr{amoNum}.\ Atklātās matemātikas olimpiādes (\Sexpr{amoYear}.m.g.) rezultātu kop\-sa\-vil\-ku\-mi. Izmantojot izklājlapas, ko publisko LU Neklātienes Matemātikas Skola, aprēķināts dalībnieku skaits, dalības aktivitāte (AMO dalībnieku īpatsvars no visiem attiecīgā vecuma skolēniem), dalība un rezultāti atkarībā no skolēnu \v{g}eogrāfijas, urbanizācijas, valodas, dzimuma. Apkopoti saraksti ar skolotājiem un skolām, kas nodrošinājuši augstu dalību vai ieguvuši lielu punktu kopskaitu. Pārskata nobeigumā minēti dati arī par uzdevumiem --- vidējais punktu skaits un vērtējumu sadalījums, kāda daļa no rēķinātājiem neuzsāka risināt (``mīnusu'' jeb neatrasto risinājumu skaits galavērtējumā), kāda ir konkrētā uzdevuma vērtējumu korelācija ar pārējo uzdevumu vērtējumu summu. 
+\end{abstract}
+
+\section{Dalībnieku aktivitāte}
+
+Šajā sadaļā atbildēsim uz jautājumu, kāda daļa no katrai klasei atbilstošās vecuma grupas skolēniem piedalījās \Sexpr{amoNum}.\ AMO. 
+Dati par skolēnu skaitu pa re\v{g}ioniem, klasēm un mācību valodām ņemti no IZM publiskotās statistikas --- \url{http://izm.gov.lv/lv/publikacijas-un-statistika/statistika-par-visparejo-izglitibu/2014-2015-m-g}. Dati apkopoti par 9 lielajām pilsētām kā arī par re\v{g}ioniem, kuros nav ietvertas lielās pilsētas. Ar {\em re\v{g}ioniem} domāti NUTS 3 re\v{g}ioni --- sk. \url{http://en.wikipedia.org/wiki/Statistical_regions_of_Latvia} - Kurzeme, Latgale, Pierīga Rīga, Vidzeme, Zemgale.
+
+
+\subsection{Dalība olimpiādē}
+
+<<external-code, cache=FALSE, echo=FALSE>>=
+setwd("/home/st/ddgatve-stat/reports/")
+read_chunk('amo-report-helper.R')
+results <- getExtResults(amoNum)
+num.participants <- nrow(results)
+@
+
+%% col1 = region
+%% col2 = participants
+%% col3 = total guys
+%% col4 = percentage participated
+
+<<kable, echo=FALSE>>=
+activityRegion <- c("Liepaja","Ventspils","Cita Kurzeme",
+                    "Daugavpils","Rezekne","Cita Latgale",
+                    "Jurmala","Cita Pieriga",
+                    "Riga",
+                    "Valmiera","Cita Vidzeme",
+                    "Jekabpils","Jelgava","Cita Zemgale")
+ttParticipants <- table(results$Region14)
+activityParticipants <- as.vector(sapply(activityRegion,
+                                         function(rr) {
+                                           ttParticipants[[rr]]
+                                         }))
+activityParticipants <- c(activityParticipants, sum(activityParticipants))
+allPupils <- getAllPupils(2013)
+activityAllPupils <- 
+  as.vector(sapply(activityRegion,
+                   function(rr) {
+                     sum(allPupils[allPupils$Region14==rr,10:17])
+                     }))
+activityAllPupils <- c(activityAllPupils, sum(activityAllPupils))
+activityRegion2 <- c(activityRegion, "*** Visa Latvija")
+activityTable <- 
+  matrix(c(activityParticipants,
+           activityAllPupils,
+           100*activityParticipants/activityAllPupils), 
+         nrow=length(activityParticipants),
+         dimnames = list(activityRegion2,c("Participants","All (Grades 5-12)","Activity %")))
+meanActivity <- 
+  100*activityParticipants[length(activityParticipants)]/
+  activityAllPupils[length(activityAllPupils)]
+kable(activityTable, digits=2)
+@
+
+
+
+<<regional-activity, echo=FALSE, fig.width=6, fig.height=5>>=
+aa <- rev((100*activityParticipants/activityAllPupils)[1:14])
+bb <- rev(activityRegion[1:14])
+old.par <- par(mar = c(5, 6, 4, 2)+0.1)
+barplot(aa, names.arg=bb, horiz=TRUE, las=1, 
+        main="Number of Participants per Region (%)")
+grid(col="black", ny=NA)
+abline(v=meanActivity,lwd=2,lty="dashed",col="red")
+par(old.par)
+@
+
+
+Ir svarīgs ne tikai dalībnieku skaits, bet arī viņu sagatavotības līmenis. Šajā grafikā ikviena olimpiādes dalībnieka rezultātam ir aprēķināta z-normalizētā vērtība jeb {\em z-score}, t.i. no iegūtā punktu skaita jeb {\em raw score} atņem attiecīgās klases aritmētisko vidējo un izdala ar attiecīgās klases standartnovirzi. Pēc tam katrā re\v{g}ionā un katrā klašu grupā atsevišķi rēķina šo z-normalizēto vērtību aritmētisko vidējo. Kā redzams diagrammā, vislabākie vērtējumi olimpiādēs ir Rīgā (sarkanais grafiks) un Latgalē (zilais grafiks).
+
+
+<<averages-per-region, echo=FALSE, fig.width=7, fig.height=5>>=
+# regionColors <- list(
+#   "Liepaja" =  "#0868AC",
+#   "Ventspils" = "#084081",
+#   "Cita Kurzeme" = "#2FBFD5",
+#   "Daugavpils" =  "#C51B7D",
+#   "Rezekne" = "#DE77AE",
+#   "Cita Latgale" = "#3F4FFF", 
+#   "Jurmala" = "#1A9850",
+#   "Cita Pieriga" = "#68FF5F", 
+#   "Riga" = "#FF2F2F", 
+#   "Valmiera" = "#FC4E2A",
+#   "Cita Vidzeme" = "#FF982F",
+#   "Jekabpils" = "#8C510A",
+#   "Jelgava" =  "#543005",  
+#   "Cita Zemgale" = "#D5FF2F"
+# )
+
+regionColors <- list(
+  "Kurzeme" = "#2FBFD5",
+  "Latgale" = "#3F4FFF", 
+  "Pieriga" = "#68FF5F", 
+  "Riga" = "#FF2F2F", 
+  "Vidzeme" = "#FF982F",
+  "Zemgale" = "#D5FF2F"
+)
+activityRegion6 <- c("Kurzeme",
+  "Latgale",
+  "Pieriga",
+  "Riga",
+  "Vidzeme",
+  "Zemgale")
+
+
+gradeMus <- sapply(5:12, function(gg) {
+  mean(results$Summa[results$Grade == gg])
+})
+gradeSigmas <- sapply(5:12, function(gg) {
+  sd(results$Summa[results$Grade == gg])
+})
+gradesPerRegion <- numeric()
+for (actRegion in activityRegion6) {
+  for (actGrade in 5:12) {
+    gpr <- mean(results$Summa[results$Region6==actRegion & 
+                        results$Grade == actGrade])
+    gradesPerRegion <- 
+      c(gradesPerRegion, 
+        (gpr - gradeMus[actGrade - 4])/ gradeSigmas[actGrade - 4])
+    
+  }
+}
+
+gradesMatrix <- matrix(gradesPerRegion, byrow=FALSE,nrow=8)
+nRegions <- length(activityRegion6)
+
+# get the range for the x and y axis 
+xrange <- range(5:12) 
+yrange <- range(gradesPerRegion, na.rm = TRUE) 
+
+old.par <- par(mar = c(5, 4, 4, 8)+0.1, xpd=TRUE, las=1)
+# set up the plot 
+plot(xrange, yrange, type="n", xlab="Grade",
+    ylab="Average Z-Score" ) 
+regionColorVector <- 
+  as.vector(sapply(names(regionColors), function(nn) { regionColors[[nn]]}))
+
+linetype <- 1
+#plotchar <- c(18,18,20,18,18,20,18,20,18,18,20,18,18,20)
+
+# add lines 
+for (i in 1:6) { 
+  lines(5:12, gradesMatrix[,i], type="b", lwd=1.5,
+    lty=linetype, col=regionColorVector[i], pch=18) 
+} 
+
+# add a title and subtitle 
+title("Z-Scores per Region")
+
+#add a legend 
+# legend(xrange[1], yrange[2], 
+#        activityRegion6, cex=0.8, col=regionColorVector,
+#   	pch=18, lty=linetype, title="Region")
+
+legend("topright", legend=activityRegion6, 
+       inset=c(-0.3,0), cex=0.8, 
+       col=regionColorVector, pch=18, lty=linetype, title="Region")
+par(old.par)
+grid(col="black")
+@
+
+
+
+% 1+9+5 aktivitāšu skaitļi pa reģioniem
+% Katram no 15 reģioniem dota dzimumu proporcija
+%% Stabiņi grupās pa 3 - visi/meitenes/zēni. 
+
+% 1+9+5 aktivitāšu skaitļi pa reģioniem - darbi latviešu valodā
+% Katram no 15 reģioniem dota dzimumu proporcija
+
+% 1+9+5 aktivitāšu skaitļi pa reģioniem - darbi krievu valodā
+% Katram no 15 reģioniem dota dzimumu proporcija
+
+<<per-class, echo=FALSE, fig.width=5, fig.height=4>>=
+library(RColorBrewer)
+pieVals <- as.vector(table(results$Grade))
+pie(pieVals, labels=paste0("Grade ",5:12," (",pieVals,")"), col=brewer.pal(8,"RdYlBu"), radius = 1,
+    main="Participants per Grade")
+@
+
+\subsection{Dalība un sociāli-ekonomiskie rādītāji}
+
+% Trīs 14-bumbulīšu diagrammas
+
+Šeit varētu ievietot diagrammas pa novadiem vai novadu grupām, kas parāda divu parametru attiecību (varētu būt runa par burbulīšu diagrammām, ko zīmē divās dimensijās; turklāt burbulīša laukums ir aptuveni proporcionāls skolēnu skaitam olimpiādē).
+
+\begin{itemize}
+\item Sociāli-ekonomisko rādītāju --- bezdarbu, IIN uz 1 iedzīvotāju, pašvaldības izdevumus uz 1 skolēnu vai skolēnu skaitu skolā.
+\item Dalībnieku aktivitāti (dalībnieku attiecību pret visiem skolēniem novadā) kā arī olimpiādes summāro rezultātu (punktu summas attiecību pret visiem skolēniem novadā). 
+\end{itemize}
+
+Šādas diagrammas palīdzētu saprast, kādi sociālie priekšnoteikumi veicina interesi par olimpiādēm, kāda izglītības politika (piemēram, mazo skolu saglabāšana vai slēgšana; lielāki vai mazāki izdevumi par vienu skolēnu) varētu pozitīvi iespaidot olimpiāžu rezultātus. 
+
+\subsection{Dalībnieku struktūra}
+
+
+
+%% Segmenti -- 6 NUTS reģioni
+% http://en.wikipedia.org/wiki/Statistical_regions_of_Latvia
+
+Atklātajā matemātikas olimpiādē sastopami darbi latviešu un krievu valodās. Valodu būtu visprecīzāk noteikt, aplūkojot katru konkrēto darbu.Katras klases joslas iekšpusē iezīmēts balts aplītis, kurš parāda latviešu skolēnu īpatsvaru visu attiecīgās klases audzēkņu vidū. Izņemot 5.\ un 6.\ klasi, latviešu darbu īpatsvars \Sexpr{amoNum}.\ AMO ir nedaudz lielāks nekā skolēnu īpatsvars latviešu plūsmas skolās kopumā. Latvijas vispārizglītojošajās skolās mācības mēdz notikt arī poļu, ukraiņu, baltkrievu, angļu un franču valodās. Šo skolu audzēkņi var izvēlēties rakstīt darbu latviski vai krieviski. Viņu darbi pieskaitīti atkarībā no re\v{g}istrācijā norādītās valodas.
+
+
+%% K/L skaita attiecība pa klasēm 
+<<lang-proportions, echo=FALSE, fig.width=6, fig.height=4>>=
+options(warn=-1)
+lvTotalPupils <- c(14735, 13922, 13256, 13227, 13216, 13022, 13376, 12655, 12367, 7356, 6902, 7689)[5:12]
+totalPupils <- c(20730, 19572, 18696, 18864, 18579, 18141, 18543, 17363, 16898, 10126, 9621, 10730)[5:12]
+totalRatio <- (lvTotalPupils/totalPupils)
+
+
+langtab <- table(results$Grade,results$Language)
+langmat <- matrix(c(langtab[,"L"]/rowSums(langtab),
+langtab[,"K"]/rowSums(langtab)),nrow=2,byrow=TRUE)
+barplot(langmat/colSums(langmat), las=1,
+col=c("darkgreen","red"),
+horiz=TRUE, names.arg=sprintf("G%d",5:12),
+main="Proportions of Olympiad Papers in Latvian and Russian")
+points(x=totalRatio,y=1.2*(1:8)-0.5,pch=19, col="white")
+options(warn=0)
+@
+
+
+
+%% Marimekko diagrammas - dalībnieku dzimumu struktūra pa reģioniem. 
+% https://learnr.wordpress.com/2009/03/29/ggplot2_marimekko_mosaic_chart/
+%% Segmenti -- 4 urbanizācijas tipi (LV-meitenes, LV-zēni, RU-meitenes, RU-zēni)
+
+Dalībnieku demogrāfisko struktūru var attēlot arī dažādām parametru kombinācijām. Šajā zīmējumā redzams dalībnieku sadalījums pa klasēm (vertikālie stabiņi), un katras klases iekšienē --- arī pa darbu valodām un dalībnieku dzimumiem. Skolēna dzimums re\v{g}istrācijas un rezultātu datos nav dots, \Sexpr{amoNum}.\ AMO tos noteicām pēc skolēna vārda. Pasaulē ir matemātikas sacensības, piemēram, EGMO (European Girls' Mathematical Olympiad), kuru nolūks ir veicināt meiteņu pievēršanos eksaktajām un inženierzinātnēm. Kopš olimpiādes pirmsākumiem (2012.\ gadā Kembridžā) EGMO piedalās arī četras vecāko klašu skolnieces no Latvijas. Sk. \url{https://www.egmo.org/}.
+
+Latviešu valodā rakstītajiem darbiem zēnu un meiteņu ir aptuveni vienāds skaits, bet krievu valodā rakstītajiem darbiem meiteņu vecāko klašu grupās ir ievērojami mazāk nekā zēnu.
+
+
+<<demography-segments, echo=FALSE, fig.width=7, fig.height=6>>=
+options(warn=-1)
+library(reshape)
+library(ggplot2)
+
+results <- getExtResults(amoNum)
+pupilsPerGrade <- as.vector(table(results$Grade))
+pupilsPerGradePercent <- 100*pupilsPerGrade/sum(pupilsPerGrade)
+
+AlphaVals <- 100*as.vector(table(results$Grade[
+  results$Dzimums=="Male" & results$Language=="L"]))/pupilsPerGrade
+BetaVals <- 100*as.vector(table(results$Grade[
+  results$Dzimums=="Female" & results$Language=="L"]))/pupilsPerGrade
+GammaVals <- 100*as.vector(table(results$Grade[
+  results$Dzimums=="Male" & results$Language=="K"]))/pupilsPerGrade
+DeltaVals <- 100*as.vector(table(results$Grade[
+  results$Dzimums=="Female" & results$Language=="K"]))/pupilsPerGrade
+
+
+df <- data.frame(
+  segment = 5:12, 
+  segpct = pupilsPerGradePercent, 
+  lv.males = AlphaVals, 
+  lv.females = BetaVals,
+  ru.males = GammaVals, 
+  ru.females = DeltaVals)
+
+df$xmax <- cumsum(df$segpct)
+df$xmin <- df$xmax - df$segpct
+df$segpct <- NULL
+
+dfm <- melt(df, id = c("segment", "xmin", "xmax"))
+
+dfm1 <- ddply(dfm, .(segment), transform, ymax = cumsum(value))
+dfm1 <- ddply(dfm1, .(segment), transform,
+              ymin = ymax - value)
+
+
+dfm1$xtext <- with(dfm1, xmin + (xmax - xmin)/2)
+dfm1$ytext <- with(dfm1, ymin + (ymax - ymin)/2)
+
+p <- ggplot(dfm1, aes(ymin = ymin, ymax = ymax,
+                      xmin = xmin, xmax = xmax, fill = variable))
+
+p1 <- p + geom_rect(colour = I("grey"))
+
+p2 <- p1 + geom_text(
+  aes(x = xtext, y = ytext,
+      label = ifelse(segment == "A", 
+                     paste(variable," - ", value, "%", sep = ""), 
+                     sprintf("%2.1f%%", value))), 
+  size = 3.5)
+
+
+
+p3 <- p2 + geom_text(aes(x = xtext, y = 103,
+                         label = sprintf("G%d", segment)), size = 4)
+
+
+p3 + theme_bw() + 
+  labs(x = NULL, y = NULL,fill = NULL) +  
+  scale_fill_brewer(palette = "Set2") + 
+  theme(legend.position = "bottom",
+       panel.grid.major = element_line(colour = NA),
+       panel.grid.minor = element_line(colour = NA))
+options(warn=0)
+@
+
+\subsection{Dalībnieku valodas lielajās pilsētās}
+
+Šajā diagrammā mazie aplīši parāda olimpiādes darbu valodu proporciju Latvijas lielākajās pilsētās (9 lielās pilsētas kā arī Ogre, Tukums un Cēsis, kurās iedzīvotāju skaits ir tuvu 20 tūkstošiem - t.i. daudz neatšķiras no Valmieras un Jēkabpils iedzīvotāju skaita). Aplīša laukums ir aptuveni proporcionāls dalībnieku skaitam no attiecīgās pilsētas.
+
+<<language-per-city, echo=FALSE, fig.width=7, fig.height=6.5>>=
+if (!"classInt" %in% installed.packages()) install.packages("classInt")
+library(classInt)
+if (!"grid" %in% installed.packages()) install.packages("grid")
+library(grid)
+if (!"gridBase" %in% installed.packages()) install.packages("gridBase")
+library(gridBase)
+if (!"maptools" %in% installed.packages()) install.packages("maptools")
+library(maptools)
+if (!"RColorBrewer" %in% installed.packages()) install.packages("RColorBrewer")
+library(RColorBrewer)
+if (!"RCurl" %in% installed.packages()) install.packages("RCurl")
+library(RCurl)
+
+
+cities<- readShapePoints("maps/lielas_pilsetas.shp")
+
+## DRAW CITIES AS GRAY CROSSES
+#old.par <- par(mar=c(5,4,4,0)+0.1)
+plot(cities, col="white", lwd=2, axes=F)
+#box()
+title(paste ("Participants by Language in Cities"))
+
+## DRAW OUTLINE
+axx <- readShapeLines("maps/robezas_line.shp")
+plot(axx, col="darkblue", lwd=1, add=TRUE)
+
+
+# SET THE NAMES OF BIG CITIES AND THEIR INDICIES IN THE SHAPEFILE
+bigCityNames <- c("Riga", "Daugavpils", "Jelgava", 
+                  "Jekabpils", "Jurmala", "Liepaja", 
+                  "Rezekne", "Valmiera", "Ventspils",
+                  "Ogre","Tukums","Cesis")
+bigMunicipalityNames <- c("Riga", "Daugavpils", "Jelgava", 
+                          "Jekabpils", "Jurmala", "Liepaja", 
+                          "Rezekne", "Valmiera", "Ventspils",
+                          "Ogres novads",
+                          "Tukuma novads",
+                          "Cesu novads")
+
+# Indices of the 9 big cities in the shapefile table
+bigCities <- c(10,25,17,22,12,27,21,2,4,
+               15,13,6)
+# Extract coordinates of these 9 cities. 
+cityLocations <- coordinates(cities[bigCities,])
+
+## PREPARE THE DATA THAT WILL BE DISPLAYED IN DIAGRAMS
+langAll <- as.vector(table(
+  results$Municipality)[bigMunicipalityNames])
+langLV <- as.vector(table(
+  results$Municipality[results$Language=="L"])[bigMunicipalityNames])
+langRU <- as.vector(table(
+  results$Municipality[results$Language=="K"])[bigMunicipalityNames])
+
+langLV[is.na(langLV)] <- 0
+langRU[is.na(langRU)] <- 0
+
+# PREPARE TO DRAW PIE-CHARTS
+oldpar <- par(no.readonly = TRUE)
+vps <- baseViewports()
+pushViewport(vps$inner, vps$figure, vps$plot)
+
+# COMPUTE PIE-CHART SIZES
+# city with 3000 inhabitants would look as a dot on the map
+smallestCity <- 10
+# the largest city is represented as a circle with an inch diameter
+maxpiesize <- unit(1.00, "inches")
+totals <- sqrt(langAll)
+sizemult <- totals/max(totals)
+
+colorScheme <- c("darkgreen","red","gray")
+
+for (i in 1:length(bigCityNames)) {
+  pushViewport(
+    viewport(x = unit(cityLocations[i,1], "native"), 
+             y = unit(cityLocations[i,2], "native"), 
+             width = sizemult[i] * maxpiesize, 
+             height = sizemult[i] * maxpiesize))
+  par(plt = gridPLT(), new = TRUE)
+  pie(c(langLV[i],langRU[i]), 
+      radius = 1, labels = rep("", 2), col=colorScheme)
+  popViewport()
+}
+
+
+#current.vpTree()
+popViewport(3)
+par(oldpar)
+
+SpatialPolygonsRescale(layout.scale.bar(), offset= c(600000,6150000), scale= 50000, fill= c("transparent", "black"), plot.grid= F)
+text(620000,6130000, "40km", cex= 1)
+SpatialPolygonsRescale(layout.north.arrow(1), offset= c(350000,6450000), scale = 30000, plot.grid=F)
+legend(x=400000, y=6200000, 
+       legend=c("Latvian", 
+                "Russian"), fill=colorScheme, bty="n")
+
+#par(old.par)
+
+@
+
+
+
+
+
+\section{Vidējie rezultāti dalībnieku kategorijām}
+
+Zīmējumā dots rezultātu intervāls katrai klasei. ``Kastītes'' kreisā mala atbilst apakšējai kvartilei, labā mala --- augšējai kvartilei, bet platā zilā svītriņa vidū --- mediānai. Ja klases darbus sakārtotu punktu pieaugšanas secībā un sadalītu četrās vienādās daļās, tad viszemāko punktu ieguvēju ceturtdaļa atrastos uz kreisās ūsas, divas vidējās ceturtdaļas --- kastītes iekšpusē, bet augšējā ceturtdaļa --- uz labās ūsas. Šī diagramma parāda, ka atkarībā no klašu grupas, var  atšķirties punktu skaits, kas nepieciešams nonākšanai līdz ``vidusmēram'' vai līdz augšējai ceturtdaļai. 
+
+<<boxplots-per-grade, echo=FALSE, fig.width=7, fig.height=4>>=
+boxplot(Summa ~ Grade, data = results, horizontal=TRUE, range=0, main="Total Points: Ranges and Quartiles per Grade",border="blue",lwd=2,las=1,names=sprintf("G%1.0f",5:12))
+abline(v=5*(0:10),col="lightgray",lty="dotted")
+@
+
+
+
+
+%% Visu dalībnieku darbi, iekrāsotas godalgotās vietas 
+%% Meiteņu un zēnu darbi (Meitenes zīmējam tanī pašā histogrammā)
+%% Meitenes ir sazīmētas apakšā. 
+
+%% Urbaniz. tips. Rīgas, 8 lielo pilsētu, mazpilsētu un lauku darbi
+
+%% Latviešu un krievu valodā rakstītie darbi
+
+%% Latviešu un krievu valodā rakstītie darbi -- tikai 9 lielajās pilsētās
+
+
+\section{Skolas un skolotāji}
+
+<<external-code2, cache=FALSE, echo=FALSE>>=
+upQuartiles <- getUpperQuartiles(results)
+quartileStr <- paste0("$Q_3(Grade",5:12,")=",upQuartiles,"\\;$")
+quartileStr <- paste(quartileStr, sep="; ")
+@
+
+Tabulā apkopoti dati par matemātikas skolotājiem:
+
+\noindent
+{\bf Participants} --- Cik dalībnieku piedalījās olimpiādē.\\
+{\bf Q3} --- Cik no viņiem ir ieguvuši rezultātu savas klases augšējā kvartilē. Punktu skaits, kas nepieciešams iekļūšanai augšējā kvartilē, ir atkarīgs no klases (\Sexpr{quartileStr}.)\\
+{\bf Points} --- Kāda ir attiecīgā skolotāja sagatavoto skolēnu punktu summa.\\
+{\bf School} --- Skolotāja pārstāvētā skola.
+
+<<external-code3, cache=FALSE, echo=FALSE>>=
+numTeachers <- getNumTeachers(results)
+ntCol1 <- names(table(numTeachers))
+ntCol2 <- as.vector(table(numTeachers))
+ntCol1 <- c(ntCol1,"Kopa")
+ntCol2 <- c(ntCol2,sum(ntCol2))
+numTeachersFrame <- data.frame(c1 <- ntCol1, c2 <- ntCol2)
+exactlyOneTeacher <- sprintf("%1.1f\\%%",100*ntCol2[2]/ntCol2[length(ntCol2)])
+@
+
+Tajos gadījumos, kad skolēns norādījis vairākus skolotājus, attiecīgo dalībnieku un viņa punktus pieskaita visiem skolotājiem. Kā redzams tabuliņā, vairums risinātāju (\Sexpr{exactlyOneTeacher}) norādījuši tieši vienu skolotāju. 
+
+
+<<table-teachernum, echo=FALSE>>=
+kable(numTeachersFrame, row.names=FALSE, 
+      col.names=c("Noraditi skolotaji", "Darbu skaits"))
+@
+
+
+
+<<external-code4, cache=FALSE, echo=FALSE>>=
+numAllTeachers <- nrow(getSkoloFrame())
+@
+
+Turpmākajās tabulās doti trīs dažādu veidu reitingi --- pirmie 100 skolotāji (pavisam bija \Sexpr{numAllTeachers} skolotāju, kuru vārdus skolēni norādīja savos darbos). Pirmajā reitingā skolotāji sakārtoti atbilstoši kopīgajam dalībnieku skaitam; otrajā reitingā --- atbilstoši dalībnieku skaitam, kuru rezultāts ir augšējā kvartilē, trešajā reitingā --- atbilstoši visu dalībnieku kopīgajam punktu skaitam. 
+
+{\em Apzināti neveidojām reitingu pēc ``aritmētiskā vidējā rezultāta'', jo arī neliela punktu skaita saņemšana olimpiādē ir pozitīvs sasniegums; nebūtu attaisnojami tādi reitingi, kuros masveidīgāka dalība vilktu skolas vai skolotāja kopvērtējumu lejup.}
+
+
+% Skolas pēc dalībnieku skaita
+
+% Skolas pēc savāktajiem punktiem
+
+%% Skolotāji pēc dalībnieku skaita
+
+\newpage
+{\bf Pirmie 100 skolotāji pēc dalībnieku skaita}\\ \nopagebreak
+<<table-teachers1, echo=FALSE>>=
+options(Encoding="UTF-8")
+skoloFrame <- getSkoloFrame()
+skoloFrame2 <- skoloFrame[ 
+  order(-skoloFrame[,"Participants"], -skoloFrame[,"Q3"], -skoloFrame[,"Points"],skoloFrame[,"Name"]), ]
+skoloFrame2$Num <- 1:nrow(skoloFrame2)
+skoloFrame2 <- skoloFrame2[,c(6,1,2,3,4,5)]
+kable(skoloFrame2[1:50,], row.names=FALSE)
+@
+
+
+<<table-teachers2, echo=FALSE>>=
+kable(skoloFrame2[51:100,], row.names=FALSE)
+@
+
+
+
+\newpage
+{\bf Pirmie 100 skolotāji pēc dalībnieku skaita augšējā kvartilē}\\ \nopagebreak
+<<table-teachers3a, echo=FALSE>>=
+skoloFrame3 <- skoloFrame[ 
+  order(-skoloFrame[,"Q3"], -skoloFrame[,"Participants"], -skoloFrame[,"Points"],skoloFrame[,"Name"]), ]
+skoloFrame3$Num <- 1:nrow(skoloFrame3)
+skoloFrame3 <- skoloFrame3[,c(6,1,2,3,4,5)]
+kable(skoloFrame3[1:50,], row.names=FALSE)
+@
+
+
+<<table-teachers3b, echo=FALSE>>=
+kable(skoloFrame3[51:100,], row.names=FALSE)
+@
+
+
+
+\newpage
+{\bf Pirmie 100 skolotāji pēc visu dalībnieku punktu kopskaita}\\ \nopagebreak
+<<table-teachers4a, echo=FALSE>>=
+skoloFrame4 <- skoloFrame[ 
+  order(-skoloFrame[,"Points"], -skoloFrame[,"Participants"], -skoloFrame[,"Q3"], skoloFrame[,"Name"]), ]
+skoloFrame4$Num <- 1:nrow(skoloFrame4)
+skoloFrame4 <- skoloFrame4[,c(6,1,2,3,4,5)]
+kable(skoloFrame4[1:50,], row.names=FALSE)
+@
+
+
+<<table-teachers4b, echo=FALSE>>=
+kable(skoloFrame4[51:100,], row.names=FALSE)
+@
+
+
+\subsection{``Nevienlīdzība'' un Džini koeficienti}
+
+
+\noindent
+{\bf Lorenca līkne dalībnieku skaita, augšējās kvartiles dalībnieku skaita un punktu summas sadalījumam starp skolotājiem Latvijā:}
+
+<<gini1, echo=FALSE, fig.width=7, fig.height=3>>=
+options(warn=-1)
+library(ineq)
+par(mfrow=c(1,3))
+plot(Lc(skoloFrame$Participants),col="darkred",lwd=2, main="Participants (Latvia)",ylab="",xlab="")
+plot(Lc(skoloFrame$Q3),col="darkred",lwd=2, main="Q3 (Latvia)",ylab="",xlab="")
+plot(Lc(skoloFrame$Points),col="darkred",lwd=2, main="Points (Latvia)",ylab="",xlab="")
+ineqLV1 <- ineq(skoloFrame$Participants,type="Gini")
+ineqLV2 <- ineq(skoloFrame$Q3,type="Gini")
+ineqLV3 <- ineq(skoloFrame$Points,type="Gini")
+options(warn=0)
+@
+
+
+
+<<kable-gini, echo=FALSE, cache=TRUE>>=
+options(warn=-1)
+ineqLG1 <- numeric()
+ineqLG2 <- numeric()
+ineqLG3 <- numeric()
+ineqLen <- numeric()
+for (kk in 1:100) {
+  LGSimulation <- getLookingGlass()
+  ineqLG1 <- c(ineqLG1,ineq(LGSimulation$LGParticipants, type="Gini"))
+  ineqLG2 <- c(ineqLG2,ineq(LGSimulation$LGQ3, type="Gini"))
+  ineqLG3 <- c(ineqLG3,ineq(LGSimulation$LGPoints, type="Gini"))
+  ineqLen <- c(ineqLen,length(LGSimulation$LGParticipants))
+}
+giniTable <- data.frame(Type = c("Participants","Q3","Points"),
+                           Latvija = c(ineqLV1,ineqLV2,ineqLV3))
+kable(giniTable, digits=3, row.names=FALSE,
+      col.names=c("Measurement Type", "Gini for Latvia"))
+pupilsPerTeacher <- sprintf("%1.2f",mean(skoloFrame$Participants))
+meanIneqLen <- sprintf("%1.0f",mean(ineqLen))
+options(warn=0)
+@
+
+
+
+
+\section{Rakstīšanas ilgums un rezultāti}
+
+Daudzās risināšanas telpās dežuranti atzīmēja darba nodošanas laiku. Diemžēl dažām klašu grupām risināšanas laiki protokolā ir atzīmēti diezgan fragmentāri --- tādēļ aicinām šeit minētos rezultātus uztvert ar zināmu skepsi. Vizualizējam rakstīšanas laiku amplitūdas visiem risinātājiem (mērītas minūtēs starp 10:30 un nodošanas laiku). Un atsevišķi --- arī labākajiem risinātājiem, kuriem punktu summa ir augšējā ceturtdaļa (precīzāk: punktu summa sasniedz attiecīgās klases $Q_3$: \Sexpr{quartileStr}).
+
+<<boxplots-minutes1, echo=FALSE, fig.width=7, fig.height=3>>=
+minutesAll <- numeric()
+minutesBest <- numeric()
+minuteGradesAll <- numeric()
+minuteGradesBest <- numeric()
+for (gg in 5:12) {
+  mStringTemp <- getMinuteString(gg,0,results)
+  mBestStringTemp <- getMinuteString(gg,upQuartiles[gg-4],results)
+  minutesAll <- c(minutesAll, mStringTemp)
+  minutesBest <- c(minutesBest, mBestStringTemp)
+  minuteGradesAll <- c(minuteGradesAll, rep(gg, length(mStringTemp)))
+  minuteGradesBest <- c(minuteGradesBest, rep(gg, length(mBestStringTemp)))
+}
+minuteFrameAll <- data.frame(Minutes = minutesAll, Grade = minuteGradesAll)
+minuteFrameBest <- data.frame(Minutes = minutesBest, Grade = minuteGradesBest)
+old.par <- par(mar = c(2, 4, 4, 2)+0.1)
+boxplot(Minutes ~ Grade, data =minuteFrameAll, horizontal=TRUE, range=0, main="Writing Time for All Participants",border="black",lwd=1,las=1,names=sprintf("G%1.0f",5:12), ylim=c(0,350))
+abline(v=50*(0:6),col="gray",lty="dotted", lwd=2)
+par(old.par)
+@
+
+<<boxplots-minutes2, echo=FALSE, fig.width=7, fig.height=3>>=
+old.par <- par(mar = c(2, 4, 4, 2)+0.1)
+boxplot(Minutes ~ Grade, data =minuteFrameBest, horizontal=TRUE, range=0, main="Writing Time for Upper Quartile Participants",border="darkred",lwd=1,las=1,names=sprintf("G%1.0f",5:12), ylim=c(0,350))
+abline(v=50*(0:6),col="gray",lty="dotted", lwd=2)
+par(old.par)
+@
+
+
+\section{Dati par atsevišķajiem uzdevumiem}
+
+\subsection{Vidējais vērtējums}
+
+Ikviena uzdevuma vērtējums ir skaitlis no 0 līdz 10. Šajā tabulā apkopoti visu uzdevumu vidējie vērtējumi katrā no klašu grupām.
+
+% Vidējais rezultāts pa uzdevumiem
+<<kable2, echo=FALSE>>=
+meanGrades <- numeric(0)
+corrGrades <- numeric(0)
+genderGrades <- numeric(0)
+entropyGrades <- numeric(0)
+biserialGenderGrades <- numeric(0)
+probNames <- c("Uzd1","Uzd2","Uzd3","Uzd4","Uzd5")
+for (gg in 5:12) {
+  vectList <- list()
+  for (ii in 1:length(probNames)) {
+    options(warn=-1)
+    theVect <- as.numeric(
+      results[results$Grade==gg,probNames[ii]])
+    theVectMales <- as.numeric(
+      results[results$Grade==gg & results$Dzimums=="Male",probNames[ii]])
+    theVectFemales <- as.numeric(
+      results[results$Grade==gg & results$Dzimums=="Female",probNames[ii]])
+    options(warn=0)
+    theVect[is.na(theVect)] <- 0
+    theVectMales[is.na(theVectMales)] <- 0
+    theVectFemales[is.na(theVectFemales)] <- 0
+    vectList[[probNames[ii]]] <- theVect
+    meanGrades <- c(meanGrades,mean(theVect))
+    genderGrades <- c(genderGrades,(mean(theVectMales) - mean(theVectFemales)))
+    
+    myFreqs <- table(theVect)/length(theVect)
+    myvec <- as.data.frame(myFreqs)[,2]
+    entropyGrades <- c(entropyGrades, -sum(myvec * log2(myvec)))
+    
+    genderData <- data.frame(
+      points = c(theVectMales, theVectFemales), 
+      gender = c(rep(1,length(theVectMales)), 
+                 rep(0,length(theVectFemales))))
+    genderDataCorTest <- 
+      cor.test(genderData$points, genderData$gender)
+    biserialGenderGrades <- 
+      c(biserialGenderGrades, 
+        as.numeric(genderDataCorTest$estimate))
+  }
+  for (jj in 1:length(probNames)){
+    vectA <- vectList[[probNames[jj]]]
+    vectB <- rep(0,length(vectA))
+    for (kk in probNames[-jj]) {
+      vectB <- vectB + vectList[[kk]]
+    }
+    corrGrades <- c(corrGrades,cor(vectA,vectB))
+  }  
+}
+
+meanTable <- 
+  matrix(sprintf("%1.2f", meanGrades), 
+         nrow=length(5:12),byrow=TRUE,
+         dimnames = list(
+           sprintf("G%1.0f",5:12),probNames))
+kable(meanTable)
+@
+
+\noindent
+
+\begin{uzdevums}[7.1 (visaugstākais vērtējums)]
+Deviņas vienādas cepures kopā maksā mazāk nekā 10 eiro, bet desmit
+tādas pašas vienādas cepures maksā vairāk nekā 11 eiro. Cik maksā
+viena cepure?
+\end{uzdevums}
+
+
+\begin{uzdevums}[6.4 (viszemākais vērtējums)]
+Pierādi, ka naturāla skaitļa kvadrāts nevar
+sastāvēt tikai no sešiniekiem un nullēm!
+(Skaitļa kvadrāts ir skaitļa reizinājums
+pašam ar sevi).
+\end{uzdevums}
+
+
+
+
+
+
+\subsection{Šenona entropija}
+
+Entropiju uzdevuma $X$ vērtējumiem aprēķina pēc formulas:
+
+\[ H(X) = - \sum_{i = 0}^{10}{p_i}\cdot \log_2{p_i}, \]
+
+\noindent
+kur $p_i$ ir varbūtība saņemt par uzdevumu $X$ vērtējumu $i$. 
+
+<<kable5, echo=FALSE>>=
+entropyTable <- 
+  matrix(sprintf("%1.2f", entropyGrades), 
+         nrow=length(5:12),byrow=TRUE,
+         dimnames = list(
+           sprintf("G%1.0f",5:12),probNames))
+kable(entropyTable)
+@
+
+Viegli redzēt, ka visaugstākā entropija ir bijusi uzdevumiem, par kuriem vidējais vērtējums ir samērā augsts, savukārt viszemākā - par visgrūtākajiem uzdevumiem, kuru vidējais vērtējums ir zems (sal. ar iepriekšējo apakšnodaļu). Lai entropiju varētu izmantot vērtēšanas sistēmas struktūras sarež\v{g}ītības salīdzināšanai, droši vien jāņem vērā vidējais punktu skaits par attiecīgo uzdevumu. Ir neiespējami ieviest niansētus vērtēšanas kritērijus, ja vairumā darbu uzdevums nav pat sākts risināt. 
+
+
+
+\subsection{Uzdevuma korelācija ar pārējo vērtējumu summu}
+
+Šo korelāciju aprēķina kā Pīrsona korelācijas koeficientu $\mbox{cor}(X,Y)$, kur $X = (x_i)$ ir vērtējumi par uzdevumu $X$, $Y = (y_i)$ ir summa par visiem 4 atlikušajiem uzdevumiem. Katram olimpiādes dalībniekam atrodam $x_i$ un $y_i$ un nosakām, kādā mērā viens lielums iespaido otru. Korelāciju koeficienti vienmēr ir intervālā $[-1,1]$.
+
+<<kable3, echo=FALSE>>=
+corrTable <- 
+  matrix(sprintf("%1.2f", corrGrades), 
+         nrow=length(5:12),byrow=TRUE,
+         dimnames = list(
+           sprintf("G%1.0f",5:12),probNames))
+kable(corrTable)
+@
+
+
+Salīdzinoši augstas korelācijas ar pārējo uzdevumu komplektu ir vērojamas 7.klasei. Zemas korelācijas - 10.klasei. 
+Augstas korelācijas nozīmē, ka komplektā ikviens uzdevums mēra līdzīgas prasmes (olimpiādes komplekts ir iekšēji konsekvents, bet nav sevišķi daudzpusīgs). Zemas korelācijas nozīmē, ka ikviens uzdevums komplektā mēra citādas prasmes (uzdevumu un/vai vērtēšanas kritēriju daudzveidība ir liela, bet dalībniekiem var būt grūtāk šādai olimpiādei sagatavoties, apgūstot noteiktas tēmas un uzdevumu risināšanas stilu).
+
+\begin{uzdevums}[7.3 (augsta korelācija ar komplektu)]
+(a) Atrast tādu naturālu skaitli, kura ciparu summa ir 13, pēdējie divi cipari ir 13 un kurš dalās ar 13.\\
+(b) Vai var atrast tādu naturālu skaitli, kura ciparu summa ir 11, pēdējie divi cipari ir 11 un kurš dalās ar 11?
+\end{uzdevums}
+
+
+\begin{uzdevums}[10.4 (zema/negatīva korelācija ar komplektu)]
+Uz vienādsānu trijstūra $ABC$ pamata $AC$ atlikts iekšējs punkts $D$, bet uz $AC$ pagarinājuma –-- punkts $E$ ($C$ atrodas starp $D$ un $E$) tā, ka $AD = CE$. Pierādīt, ka $BD + BE > 2BC$.
+\end{uzdevums}
+
+
+
+
+
+
+
+\subsection{Vērtējumu atšķirības zēniem un meitenēm}
+
+Tabulā apkopota AMO uzdevuma punktu starpība $\Delta_{\mbox{gender}}(X)$ atkarībā no risinātāja dzimuma (pozitīvs skaitlis nozīmē to, ka zēnu vērtējums bija augstāks, negatīvs skaitlis --- to, ka meiteņu vērtējums bija augstāks).
+
+\[ \Delta_{\mbox{gender}}(X) = E\left(X_{\mbox{male}}\right) - E\left(X_{\mbox{female}}\right), \]
+
+<<kable4, echo=FALSE>>=
+genderDiffTable <- 
+  matrix(sprintf("%1.2f", genderGrades), 
+         nrow=length(5:12),byrow=TRUE,
+         dimnames = list(
+           sprintf("G%1.0f",5:12),probNames))
+kable(genderDiffTable)
+@
+
+{\em Punktu-biseriālo korelācijas koeficientu} katram no uzdevumiem aprēķina kā Pīrsona korelāciju starp diviem skaitļu vektoriem: $X = \{x_i\}$ (punktu vērtējumi konkrētajam uzdevumam, $x_i \in \{1,\ldots,10\}$) un $\chi^{\mbox{male}}_i$ (raksturfunkcija, kas pieņem vērtību 1 zēniem un vērtību 0 meitenēm). Pozitīvs korelācijas koeficients nozīmē priekšrocības zēniem, negatīvs - meitenēm. Koeficienta kvadrāts $r_{\mbox{pb}}^2$ raksturo to daļu, par kuru uzdevuma vērtējuma atšķirības ir atkarīgas no risinātāja dzimuma.
+
+\[ r_{\mbox{pb}} = \mbox{cor}\left(X, \chi^{\mbox{male}}\right) \]
+
+<<kable6, echo=FALSE>>=
+genderCorrTable <- 
+  matrix(sprintf("%1.2f", biserialGenderGrades), 
+         nrow=length(5:12),byrow=TRUE,
+         dimnames = list(
+           sprintf("G%1.0f",5:12),probNames))
+kable(genderCorrTable)
+@
+
+Pat lielākās no korelācijām ir salīdzinoši nelielas ($r_{\mbox{pb}} = 0.15$), t.i. risinātāja dzimums reti kad izskaidro vairāk kā aptuveni 2\% no atšķirībām vērtējumā. Atrodot (pēc absolūtās vērtības) lielākās korelācijas, dzimumu atšķirības visvairāk izpaudās \v{g}eometriska satura uzdevumos.
+
+\begin{uzdevums}[9.2 (labāk risināja zēni)]
+Tornis ir salikts no vienības kubiņiem, kur katra kubiņa izmērs ir
+$1 \times 1 \times 1$. Apakšējā slānī ir $7 \times 7$ kubiņi. 
+Otrs slānis ir novietots virs pirmā slāņa centrālās daļās, tajā ir
+$5 \times 5$ kubiņi. Trešajā slānī, kurš novietots apakšējās daļas centrā, ir $3 \times 3$ kubiņi un augšā centrā ir 1 vienības kubiņš (sk. attēlu). Vai šo torni var salikt no blokiem ar izmēriem
+$1 \times 1 \times 3$?\\
+\includegraphics[width=60mm]{amo42-9-2-pyramid.png}
+\end{uzdevums}
+
+
+\begin{uzdevums}[10.4 (labāk risināja zēni)]
+Uz vienādsānu trijstūra $ABC$ pamata $AC$ atlikts iekšējs punkts $D$, bet uz $AC$ pagarinājuma –-- punkts $E$ ($C$ atrodas starp $D$ un $E$) tā, ka $AD = CE$. Pierādīt, ka $BD + BE > 2BC$.
+\end{uzdevums}
+
+\begin{uzdevums}[8.2 (labāk risināja meitenes)]
+Vai taisnstūri ar izmēriem $10 \times 9$ rūtiņas var pārklāt ar attēlā
+redzamajām figūrām? Taisnstūrim jābūt pilnībā pārklātam. Figūras
+nedrīkst iziet ārpus taisnstūra, nedrīkst pārklāties, tās drīkst būt
+pagrieztas vai apgrieztas spoguļattēlā.\\
+\includegraphics[width=80mm]{amo42-8-2-shapes.png}
+\end{uzdevums}
+
+\begin{uzdevums}[7.4 (labāk risināja meitenes)]
+Vienādsānu trijstūrī $ABC$ uz pamata malas $BC$ atzīmēts iekšējs punkts $D$ tā, ka arī trijstūri $ABD$ un $ACD$ ir vienādsānu. Aprēķini trijstūra $ABC$ leņķus! {\em Atrodi visus gadījumus un pamato, ka citu nav!}
+\end{uzdevums}
+
+
+\end{document}

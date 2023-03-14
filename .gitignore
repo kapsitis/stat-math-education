@@ -10,3 +10,4 @@ rsu-smoking-dataset/*.sav
 .RData
 rsu-smoking-dataset/report-main.docx
 rsu-smoking-dataset/Uzdevumi_R.docx
+.DS_Store
